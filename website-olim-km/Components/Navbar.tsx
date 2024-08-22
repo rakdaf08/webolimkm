@@ -2,6 +2,8 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { NAV_LINKS } from "@/constants";
+import Sidebar from "./Sidebar";
+import { useState } from "react";
 
 const Navbar = () => {
   return (
@@ -21,7 +23,6 @@ const Navbar = () => {
           </Link>
         ))}
       </ul>
-
       <Image
         src="menu.svg"
         alt="menu"
