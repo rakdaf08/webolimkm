@@ -14,3 +14,10 @@ export const Himpunan = [
   {href: '#', key: 'hmpg', label: 'HMPG'},
   {href: '#', key: 'hms', label: 'HMS'},
 ]
+
+//Medals
+export const Medals = [
+  {key: 'hmif', label: 'HMIF', gold: '#', silver: '#', bronze: '#'},
+  {key: 'hmt', label: 'HMT', gold: '#', silver: '#', bronze: '#'},
+  {key: 'mti', label: 'MTI', gold: '#', silver: '#', bronze: '#'}
+]
