@@ -8,11 +8,11 @@ const Page = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="justify-center">
-      <h1>PLAYER LIST</h1>
+    <div className="grid justify-items-center">
+      <h1 className="font-bold">PLAYER LIST</h1>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="bg-gray-500 text-white hover:bg-gray-700 rounded-lg font-medium text-sm px-10 py-1 text-center inline-flex items-center border-gray-90 border-2 focus:ring-2 focus:outline-none focus:ring-gray-600"
+        className="bg-white text-black hover:bg-gray-10 rounded-lg font-medium text-sm px-10 py-1 text-center inline-flex items-center border-gray-90 border-2 focus:ring-2 focus:outline-none focus:ring-gray-100"
       >
         Pilih Himpunan
         <svg
@@ -40,7 +40,7 @@ const Page = () => {
                 <Link
                   href={link.href}
                   key={link.key}
-                  className="block px-4 py-2 hover:bg-gray-600"
+                  className="block px-4 py-2 hover:bg-gray-200 text-black"
                 >
                   {link.label}
                 </Link>
