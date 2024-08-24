@@ -6,17 +6,17 @@ import Sidebar from "./Sidebar";
 
 const Navbar = () => {
   return (
-    <nav className="flexBetween max-container padding-container relative z-30 py-5">
+    <nav className="flex justify-between items-center max-container padding-container relative m-8">
       <Link href="/">
         <Image src="/logo-olim-km.ico" alt="logo" width={74} height={29} />
       </Link>
 
-      <ul className="hidden h-full gap-12 lg:flex">
+      <ul className="hidden h-full gap-12 lg:flex mx-3">
         {NAV_LINKS.map((link) => (
           <Link
             href={link.href}
             key={link.key}
-            className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold"
+            className="text-base text-gray-50 cursor-pointer pb-1.5 transition-all hover:font-bold"
           >
             {link.label}
           </Link>
