@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -11,7 +13,7 @@ const Navbar = () => {
         <Image src="/logo-olim-km.ico" alt="logo" width={74} height={29} />
       </Link>
 
-      <ul className="hidden h-full gap-12 lg:flex mx-3">
+      <ul className="xs:hidden lg:flex h-full gap-12 mx-3">
         {NAV_LINKS.map((link) => (
           <Link
             href={link.href}
@@ -22,13 +24,7 @@ const Navbar = () => {
           </Link>
         ))}
       </ul>
-      <Image
-        src="menu.svg"
-        alt="menu"
-        width={32}
-        height={32}
-        className="inline-block cursor-pointer lg:hidden"
-      />
+      <Sidebar />
     </nav>
   );
 };
