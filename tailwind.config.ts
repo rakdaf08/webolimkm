@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        splither:["Splither", "serif"],
+        bonjour:["Bonjour", "sans-serif"],
+        magical:["Magical", "serif"]
+      },
       colors: {
         green: {
           50: '#30AF5B',

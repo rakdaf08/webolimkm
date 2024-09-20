@@ -8,7 +8,7 @@ import Sidebar from "./Sidebar";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center max-container padding-container relative m-8">
+    <nav className="flex justify-between items-center max-container padding-container px-4 py-2 relative z-30 bg-white">
       <Link href="/">
         <Image src="/logo-olim-km.ico" alt="logo" width={74} height={29} />
       </Link>
@@ -18,7 +18,7 @@ const Navbar = () => {
           <Link
             href={link.href}
             key={link.key}
-            className="text-base text-gray-50 cursor-pointer pb-1.5 transition-all hover:font-bold"
+            className="text-base font-bonjour text-gray-50 cursor-pointer pb-1.5 transition-all hover:font-bold"
           >
             {link.label}
           </Link>

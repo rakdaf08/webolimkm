@@ -1,8 +1,12 @@
 import Footer from "@/Components/Footer";
 import Navbar from "@/Components/Navbar";
-import MainPage from "./Home/page";
+import MainPage from "./Home/MainPage";
 import Sidebar from "@/Components/Sidebar";
 
 export default function Home() {
-  return <div></div>;
+  return(
+  <main>
+    <MainPage/>
+  </main>
+  );
 }
