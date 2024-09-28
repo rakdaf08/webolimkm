@@ -30,14 +30,14 @@ const page = () => {
     alt="Ornament"
     width={20}
     height={20}
-    className="absolute  xs:w-[300px] sm:w-[400px] md:w-[550px] lg:w-[650px] bottom-[164px] sm:bottom-[150px] md:bottom-[130px] lg:bottom-[117px] -left-[80px] sm:-left-[100px] md:-left-[160px] lg:-left-[170px] -rotate-2 z-[1]"
+    className="absolute  xs:w-[300px] sm:w-[400px] md:w-[550px] lg:w-[650px] bottom-[124px] sm:bottom-[111px] md:bottom-[92px] lg:bottom-[77px] -left-[80px] sm:-left-[100px] md:-left-[160px] lg:-left-[170px] -rotate-2 z-[1]"
     />
     <Image 
     src="/Schedule/Bottom Right.svg"
     alt="Ornament"
     width={20}
     height={20}
-    className="absolute xs:w-[250px] sm:w-[300px] md:w-[450px] lg:w-[500px] bottom-[202px] sm:bottom-[202px] md:bottom-[202px] lg:bottom-[201px] right-[0px] z-[1]"
+    className="absolute xs:w-[250px] sm:w-[300px] md:w-[450px] lg:w-[500px] bottom-[163px] sm:bottom-[163px] lg:bottom-[162px] right-[0px] z-[1]"
     />
 
     <div className="absolute h-3/5 inset-0 flex justify-center items-center z-20">
@@ -47,14 +47,14 @@ const page = () => {
           alt="Title"
           width={20}
           height={20}
-          className="w-[300px] sm:w-[300px] md:w-[400px] lg:w-[650px] order-2 lg:order-1 relative top-20 md:top-16 lg:top-24 lg:left-0"
+          className="w-[300px] sm:w-[300px] md:w-[400px] lg:w-[650px] order-2 lg:order-1 relative top-8 md:-top-2 lg:top-24 lg:left-0"
         />
         <Image
           src="/Schedule/Ballracket.svg"
           alt="Title"
           width={20}
           height={20}
-          className="w-[250px] sm:w-[250px] md:w-[350px] lg:w-[400px] order-1 lg:order-2 top-20 relative lg:top-24 lg:right-0 "
+          className="w-[250px] sm:w-[250px] md:w-[350px] lg:w-[450px] order-1 lg:order-2 top-28 relative md:top-[120px] lg:top-40 lg:right-2 "
         />
       </div>
     </div>
