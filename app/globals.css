@@ -42,3 +42,22 @@ body {
   font-family: 'MagicalStylish', sans-serif;
 }
 
+.bonjour-font {
+  font-family: 'BonjourDeJongSans', sans-serif;
+}
+
+.border-bottom-center {
+  position: relative;
+  text-align: left;
+}
+
+.border-bottom-center::after {
+  content: '';
+  display: block;
+  width: 96%; /* Set the width of the border */
+  margin: 100; /* Center the border */
+  border-bottom: 2px solid black; /* Style the border */
+  position: absolute;
+  left: 2%;
+  bottom: 0; /* Align it to the bottom */
+}

@@ -1,56 +1,318 @@
-"use client";
+'use client'
+import { useState, useEffect, useRef } from 'react';
+import { teams } from '@/constants/index';
+import Image from 'next/image';
+import Bg from "@/public/playerbg.png"
+import TenisMeja from "@/public/tenismeja.svg"
+import Catur from "@/public/catur.svg"
+import Futsal from "@/public/futsal.svg"
+import Voli from "@/public/voli.svg"
+import Basket from "@/public/basket.svg"
+import Renang from "@/public/renang.svg"
+import Badminton from "@/public/badminton.svg"
+import Atletik from "@/public/atletik.svg"
+import TenisMeja2 from "@/public/tenismeja2.svg"
+import Atletik2 from "@/public/atletik2.svg"
+import Badminton2 from "@/public/badminton2.svg"
+import Basket2 from "@/public/basket2.svg"
+import Catur2 from "@/public/catur2.svg"
+import Futsal2 from "@/public/futsal2.svg"
+import Renang2 from "@/public/renang2.svg"
+import Voli2 from "@/public/voli2.svg"
+import BgPop from "@/public/bgpop.svg"
 
-import { Himpunan } from "@/constants";
-import Link from "next/link";
-import React, { useState } from "react";
+const page = () => {
+  const [searchTerm, setSearchTerm] = useState('');
+  const [selectedTeam, setSelectedTeam] = useState(null as any);
+  const [showDropdown, setShowDropdown] = useState(false); // State to control dropdown visibility
+  const [showSport, setShowSport] = useState<null | { sportName: string; players: string[] }>(null);
 
-const Page = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  // Filtered teams based on search term
+  const filteredTeams = teams.filter((team) =>
+    team.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        inputRef.current && 
+        dropdownRef.current &&
+        !inputRef.current.contains(event.target as Node) && 
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
+        setShowDropdown(false);
+      }
+    };
+
+    // Add event listener for click events on the document
+    document.addEventListener('mousedown', handleClickOutside);
+
+    return () => {
+      // Cleanup the event listener on component unmount
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [dropdownRef]);
 
   return (
-    <div className="grid justify-items-center">
-      <h1 className="font-bold">PLAYER LIST</h1>
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="bg-white text-black hover:bg-gray-10 rounded-lg font-medium text-sm px-10 py-1 text-center inline-flex items-center border-gray-90 border-2 focus:ring-2 focus:outline-none focus:ring-gray-100"
-      >
-        Pilih Himpunan
-        <svg
-          className="w-2.5 h-2.5 ms-3"
-          aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 10 6"
-        >
-          <path
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="m1 1 4 4 4-4"
+    <section>
+      <div className="min-h-screen h-full bg-[#F9F3BA]">
+        <Image 
+          src={Bg}
+          alt="Bg"
+          className='w-full pb-10'
+        />
+        {/* Search Bar */}
+        <div className="mx-auto w-[90%] relative">
+          <input
+            ref={inputRef}
+            type="text"
+            placeholder="CARI HIMPUNAN MAHASISWA JURUSAN/PROGRAM STUDI"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            onFocus={() => setShowDropdown(true)} // Show dropdown when input is focused
+            className="w-full p-3  rounded-lg bg-[#F6E091] text-black bonjour-font text-lg"
           />
-        </svg>
-      </button>
-
-      {isOpen && (
-        <div className="z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
-          <ul className="py-2 text-sm text-gray-700">
-            {Himpunan.map((link) => (
-              <li>
-                <Link
-                  href={link.href}
-                  key={link.key}
-                  className="block px-4 py-2 hover:bg-gray-200 text-black"
+          {showDropdown && (
+            <div ref={dropdownRef} className="absolute top-12 w-full bg-[#F6E091] rounded-lg max-h-36 overflow-y-auto mt-2 overflow-x-hidden z-[20]">
+              {/* Display all teams but only show 3 at a time with scroll */}
+              {filteredTeams.map((team, index) => (
+                <div
+                  key={index}
+                  className="p-3 hover:bg-gray-200 cursor-pointer bonjour-font border-bottom-center flex gap-3"
+                  onClick={() => {
+                    setSelectedTeam(team);
+                    setShowDropdown(false); // Hide dropdown when team is selected
+                    setSearchTerm(''); // Reset search term
+                  }}
                 >
-                  {link.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
+                  <Image 
+                   src={team.image}
+                   alt="Logo"
+                   width={40}
+                   height={40}
+                  />
+                  {team.name}
+                </div>
+              ))}
+            </div>
+          )}
         </div>
-      )}
-    </div>
-  );
-};
 
-export default Page;
+        {/* Selected Team */}
+        {selectedTeam && (
+          <div className="mt-10 pb-8 w-[90%] mx-auto">
+            <div className='flex gap-5 mb-5'>
+              <Image 
+                src={selectedTeam.image}
+                alt="Logo"
+                width={60}
+                height={60}
+              />
+              <p className='bonjour-font text-2xl sm:text-4xl font-semibold'> {selectedTeam.name} </p>
+            </div>
+            <div className="grid gap-4 grid-cols-2 md:grid-cols-3">
+              {selectedTeam.sports.map((sport: any, index: number) => (
+                <div key={index} className="rounded-xl relative bg-[#F6E091] pb-5">
+                  {sport.sportName == "Tenis Meja" && (
+                    <Image 
+                      src={TenisMeja}
+                      alt="Logo"
+                      width={20}
+                      height={20}
+                      className='w-full rounded-xl'
+                    />
+                  )}
+                  {sport.sportName == "Catur" && (
+                    <Image 
+                      src={Catur}
+                      alt="Logo"
+                      width={20}
+                      height={20}
+                      className='w-full rounded-xl'
+                    />
+                  )}
+                  {sport.sportName == "Futsal" && (
+                    <Image 
+                      src={Futsal}
+                      alt="Logo"
+                      width={20}
+                      height={20}
+                      className='w-full rounded-xl'
+                    />
+                  )}
+                  {sport.sportName == "Voli" && (
+                    <Image 
+                      src={Voli}
+                      alt="Logo"
+                      width={20}
+                      height={20}
+                      className='w-full rounded-xl'
+                    />
+                  )}
+                  {sport.sportName == "Basket" && (
+                    <Image 
+                      src={Basket}
+                      alt="Logo"
+                      width={20}
+                      height={20}
+                      className='w-full rounded-xl'
+                    />
+                  )}
+                  {sport.sportName == "Renang" && (
+                    <Image 
+                      src={Renang}
+                      alt="Logo"
+                      width={20}
+                      height={20}
+                      className='w-full rounded-xl'
+                    />
+                  )}
+                  {sport.sportName == "Badminton" && (
+                    <Image 
+                      src={Badminton}
+                      alt="Logo"
+                      width={20}
+                      height={20}
+                      className='w-full rounded-xl'
+                    />
+                  )}
+                  {sport.sportName == "Atletik" && (
+                    <Image 
+                      src={Atletik}
+                      alt="Logo"
+                      width={20}
+                      height={20}
+                      className='w-full rounded-xl'
+                    />
+                  )}
+                  <ul className='mx-auto w-[90%] -mt-5 md:-mt-11 lg:-mt-[4.5rem]'>
+                    {sport.players.slice(0, 5).map((player: string, i: number) => (
+                      <li key={i} className='bg-[#F2A845] rounded-full p-2 bonjour-font text-black mb-2 text-xs xs:text-base'> <span className='rounded-full bg-[#F9F3BA] py-1 px-2 mr-3'> {i+1} </span>{player}</li>
+                    ))} 
+                  </ul>
+                  {sport.players.length > 5 && (
+                    <div className='mx-auto w-[90%]'>
+                      <button
+                        className="text-black bg-[#F6C765] hover:bg-[#b99649] rounded-full text-center bonjour-font w-full p-2 text-xs xs:text-base"
+                        onClick={() => setShowSport(sport)}
+                      >
+                        See More
+                      </button>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Modal for "See More" */}
+        {showSport && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+            <div className="bg-[#F6E091] rounded-xl shadow-lg w-[90%] lg:max-w-[80%] h-fit relative pb-10">
+              <Image 
+                src={BgPop}
+                alt="Bg"
+                width={20}
+                height={20}
+                className='w-full rounded-xl absolute top-0'
+              />
+
+              {/* {showSport.sportName == } */}
+              {showSport.sportName == "Tenis Meja" && (
+                    <Image 
+                      src={TenisMeja2}
+                      alt="Logo"
+                      width={20}
+                      height={20}
+                      className='w-[80%] rounded-xl mx-auto'
+                    />
+                  )}
+                  {showSport.sportName == "Catur" && (
+                    <Image 
+                      src={Catur2}
+                      alt="Logo"
+                      width={20}
+                      height={20}
+                      className='w-[80%] rounded-xl mx-auto'
+                    />
+                  )}
+                  {showSport.sportName == "Futsal" && (
+                    <Image 
+                      src={Futsal2}
+                      alt="Logo"
+                      width={20}
+                      height={20}
+                      className='w-[80%] rounded-xl mx-auto'
+                    />
+                  )}
+                  {showSport.sportName == "Voli" && (
+                    <Image 
+                      src={Voli2}
+                      alt="Logo"
+                      width={20}
+                      height={20}
+                      className='w-[80%] rounded-xl mx-auto'
+                    />
+                  )}
+                  {showSport.sportName == "Basket" && (
+                    <Image 
+                      src={Basket2}
+                      alt="Logo"
+                      width={20}
+                      height={20}
+                      className='w-[80%] rounded-xl mx-auto'
+                    />
+                  )}
+                  {showSport.sportName == "Renang" && (
+                    <Image 
+                      src={Renang2}
+                      alt="Logo"
+                      width={20}
+                      height={20}
+                      className='w-[80%] rounded-xl mx-auto'
+                    />
+                  )}
+                  {showSport.sportName == "Badminton" && (
+                    <Image 
+                      src={Badminton2}
+                      alt="Logo"
+                      width={20}
+                      height={20}
+                      className='w-[80%] rounded-xl mx-auto'
+                    />
+                  )}
+                  {showSport.sportName == "Atletik" && (
+                    <Image 
+                      src={Atletik2}
+                      alt="Logo"
+                      width={20}
+                      height={20}
+                      className='w-[80%] rounded-xl mx-auto'
+                    />
+                  )}
+              <div className="grid grid-cols-2 gap-2 px-5 md:px-16 -mt-5 md:-mt-16">
+                {showSport.players.map((player: string, index: number) => (
+                  <div key={index} className=" text-black bonjour-font flex bg-[#F2A845] rounded-full p-1 md:p-2 bonjour-font items-center text-sm md:text-base">
+                    <span className='rounded-full bg-[#F9F3BA] px-2 py-[0.15rem] md:py-0 mr-3 text-xs sm:text-sm'> {index+1} </span>{player}
+                  </div>
+                ))}
+                <button
+                className="bg-[#EB5327] text-white py-2 text-center rounded-xl col-span-2 bonjour-font cursor-pointer z-[20] hover:bg-[#983419]"
+                onClick={() => setShowSport(null)}
+              >
+                Close
+              </button>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+    </section>
+  )
+}
+
+export default page
