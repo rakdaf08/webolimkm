@@ -1,9 +1,9 @@
 //Navigation
 export const NAV_LINKS = [
-  {href: '/Schedule', key: 'schedule', label: 'Schedule'},
-  {href: '/Leaderboard', key: 'leaderboard', label: 'Leaderboard'},
-  {href: '/Players', key: 'players', label: 'Players'},
-  {href: '/AboutUs', key: 'aboutus', label: 'About Us'},
+  {href: '/Schedule', key: 'schedule', label: 'SCHEDULE'},
+  {href: '/Leaderboard', key: 'leaderboard', label: 'LEADERBOARD'},
+  {href: '/Players', key: 'players', label: 'PLAYERS'},
+  {href: '/AboutUs', key: 'aboutus', label: 'ABOUT US'},
 ];
 
 //Himpunan

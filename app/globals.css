@@ -12,3 +12,33 @@
 body {
   font-family: Inter;
 }
+
+@font-face {
+  font-family: 'BonjourDeJongSans';
+  src: url('../public/fonts/BonjourDeJongSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MagicalStylish';
+  src: url('../public/fonts/Magical-Stylish-Sans-Serif-Demo.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Splither';
+  src: url('../public/fonts/SplitherNormal-aoM9.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.splither-font {
+  font-family: 'Splither', sans-serif;
+}
+
+.magical-stylish-font {
+  font-family: 'MagicalStylish', sans-serif;
+}
+
