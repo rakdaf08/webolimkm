@@ -3,13 +3,13 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <div className="h-screen z-20">
+    <div className="h-[60vh] w-screen z-20">
     <Image 
     src="/Schedule/Background.svg"
     alt="Background Image" 
     width={20}
     height={20} 
-    className="relative z-0 h-3/5 w-full object-cover"/>
+    className="relative z-0 h-full w-full object-cover"/>
     
     <Image 
     src="/Schedule/Top Left.svg"
@@ -30,14 +30,14 @@ const page = () => {
     alt="Ornament"
     width={20}
     height={20}
-    className="absolute  xs:w-[300px] sm:w-[400px] md:w-[550px] lg:w-[650px] bottom-[124px] sm:bottom-[111px] md:bottom-[92px] lg:bottom-[77px] -left-[80px] sm:-left-[100px] md:-left-[160px] lg:-left-[170px] -rotate-2 z-[1]"
+    className="absolute  xs:w-[300px] sm:w-[400px] md:w-[550px] lg:w-[650px] bottom-[124px] sm:bottom-[111px] md:bottom-[92px] lg:bottom-[77px] xl:bottom-[116px] -left-[80px] sm:-left-[100px] md:-left-[160px] lg:-left-[170px] -rotate-2 z-[1]"
     />
     <Image 
     src="/Schedule/Bottom Right.svg"
     alt="Ornament"
     width={20}
     height={20}
-    className="absolute xs:w-[250px] sm:w-[300px] md:w-[450px] lg:w-[500px] bottom-[163px] sm:bottom-[163px] lg:bottom-[162px] right-[0px] z-[1]"
+    className="absolute xs:w-[250px] sm:w-[300px] md:w-[450px] lg:w-[500px] bottom-[163px] sm:bottom-[163px] lg:bottom-[162px] xl:bottom-[201px] right-[0px] z-[1]"
     />
 
     <div className="absolute h-3/5 inset-0 flex justify-center items-center z-20">
