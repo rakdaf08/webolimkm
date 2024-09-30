@@ -8,25 +8,27 @@ import Sidebar from "./Sidebar";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center max-container padding-container px-4 py-2 relative z-30 bg-white">
-      <Link href="/">
+    <nav className="flex justify-between items-center w-full max-container padding-container relative bg-[#7500A4] h-[90px]">
+      <Link href="/" className="pl-4 md:pl-8 ml-10">
         <Image src="/logo-olim-km.ico" alt="logo" width={74} height={29} />
       </Link>
-
-      <ul className="hidden lg:flex h-full gap-12 mx-3">
+      <ul className="hidden md:flex h-full gap-6 lg:gap-12 mx-3 pr-4 md:pr-[72px] items-center">
         {NAV_LINKS.map((link) => (
           <Link
             href={link.href}
             key={link.key}
-            className="text-base font-bonjour text-gray-50 cursor-pointer pb-1.5 transition-all hover:font-bold"
+            className="text-[#f2eff4] text-lg lg:text-2xl cursor-pointer pb-1.5 transition-all hover:font-bold splither-font"
           >
             {link.label}
           </Link>
         ))}
       </ul>
-      <Sidebar />
+      <div className="md:hidden pr-4">
+        <Sidebar />
+      </div>
     </nav>
   );
 };
 
 export default Navbar;
+

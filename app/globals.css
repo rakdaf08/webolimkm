@@ -31,3 +31,52 @@
 body {
   font-family: Inter;
 }
+
+@font-face {
+  font-family: 'BonjourDeJongSans';
+  src: url('../public/fonts/BonjourDeJongSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MagicalStylish';
+  src: url('../public/fonts/Magical-Stylish-Sans-Serif-Demo.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Splither';
+  src: url('../public/fonts/SplitherNormal-aoM9.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.splither-font {
+  font-family: 'Splither', sans-serif;
+}
+
+.magical-stylish-font {
+  font-family: 'MagicalStylish', sans-serif;
+}
+
+.bonjour-font {
+  font-family: 'BonjourDeJongSans', sans-serif;
+}
+
+.border-bottom-center {
+  position: relative;
+  text-align: left;
+}
+
+.border-bottom-center::after {
+  content: '';
+  display: block;
+  width: 96%; /* Set the width of the border */
+  margin: 100; /* Center the border */
+  border-bottom: 2px solid black; /* Style the border */
+  position: absolute;
+  left: 2%;
+  bottom: 0; /* Align it to the bottom */
+}
