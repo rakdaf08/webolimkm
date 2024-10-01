@@ -59,13 +59,72 @@ const page = () => {
   return (
     <section>
       <div className="min-h-screen h-full bg-[#F9F3BA]">
+        <div className='h-[60vh] w-full relative overflow-hidden'>
         <Image 
-          src={Bg}
-          alt="Bg"
-          className='w-full pb-10'
+        src="/Players/Background.svg"
+        alt="Background Image" 
+        width={20}
+        height={20} 
+        className="absolute z-0 h-full w-full object-cover"/>
+        
+        <Image 
+        src="/Players/Top Left.svg"
+        alt="Ornament"
+        width={20}
+        height={20}
+        className="absolute w-[130px] md:w-[220px] top-0 z-[2]"
         />
+        <Image 
+        src="/Players/Top Right.svg"
+        alt="Ornament"
+        width={20}
+        height={20}
+        className="absolute w-[600px] md:w-[800px] top-0 right-[0px] z-[2]"
+        />
+        {/* <Image  
+        src="/Players/Left.svg"
+        alt="Ornament"
+        width={20}
+        height={20}
+        className="absolute w-[700px] md:w-[900px] bottom-0 z-[1]"
+        /> */}
+        <Image  
+        src="/Players/Bottom Left.svg"
+        alt="Ornament"
+        width={20}
+        height={20}
+        className="absolute w-[450px] md:w-[600px] bottom-0 z-[1]"
+        />
+        <Image 
+        src="/Players/Bottom Right.svg"
+        alt="Ornament"
+        width={20}
+        height={20}
+        className="absolute w-[400px] lg:w-[600px] bottom-0 right-0 z-[1]"
+        />
+
+        <div className="absolute h-full w-screen flex justify-center items-center z-20">
+          <div className="flex flex-col lg:flex-row items-center justify-evenly">
+            <Image
+              src="/Players/PLAYERS.svg"
+              alt="Title"
+              width={20}
+              height={20}
+              className="w-[300px] md:w-[400px] lg:w-[550px] top-0 -translate-y-12  md:-translate-y-20 order-2 lg:order-1 lg:top-0 lg:translate-x-16 lg:-translate-y-4"
+            />
+            <Image
+              src="/Players/Ball.svg"
+              alt="Title"
+              width={20}
+              height={20}
+              className="w-[400px] md:w-[550px] lg:w-[700px] order-1 lg:order-2"
+            />
+          </div>
+        </div>
+        </div>
         {/* Search Bar */}
-        <div className="mx-auto w-[90%] relative">
+
+        <div className="mx-auto w-[90%] relative pt-4">
           <input
             ref={inputRef}
             type="text"

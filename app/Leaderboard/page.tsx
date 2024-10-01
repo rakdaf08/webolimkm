@@ -2,87 +2,93 @@ import { Medals } from "@/constants";
 import React from "react";
 import Image from "next/image";
 import leaderboardData from "./leaderboardData"; // Adjust the path according to your file structure
-
+import Gold from "@/public/gold.svg"
+import Silver from "@/public/silver.svg"
+import Bronze from "@/public/bronze.svg"
+import Total from "@/public/total.svg"
 
 const page = () => {
+const sortedLeaderboard = [...leaderboardData].sort((a, b) => b.score - a.score);
+
   return (
     <div className="bg-[#F9F3BA]">
-      <div className="h-[60vh] w-screen z-20">
+      <div className="h-[60vh] w-screen relative overflow-hidden z-0">
         <Image 
         src="/Leaderboard/Background.svg"
         alt="Background Image" 
         width={20}
         height={20} 
-        className="relative z-0 h-full w-full object-cover"/>
+        className="absolute z-0 h-full w-full object-cover"/>
         
         <Image 
         src="/Leaderboard/Top Left.svg"
         alt="Ornament"
         width={20}
         height={20}
-        className="absolute w-[350px] md:w-[350px] lg:w-[400px] top-[90px] z-[1]"
+        className="absolute w-[400px] md:w-[550px] top-0 z-[1]"
         />
         <Image 
         src="/Leaderboard/Top Right.svg"
         alt="Ornament"
         width={20}
         height={20}
-        className="absolute xs:w-[600px] sm:w-[700px] md:w-[800px] lg:w-[700px] top-[90px] sm:top-[90px] md:top-[90px] lg:top-[90px] -right-[0px] z-[2]"
+        className="absolute w-[600px] md:w-[800px] top-0 right-[0px] z-[2]"
         />
         <Image  
         src="/Leaderboard/Bottom Left.svg"
         alt="Ornament"
         width={20}
         height={20}
-        className="absolute  xs:w-[300px] sm:w-[400px] md:w-[550px] lg:w-[650px] bottom-[162px] xl:bottom-[201px] z-[1]"
+        className="absolute w-[400px] md:w-[650px] bottom-0 z-[1]"
         />
         <Image 
         src="/Leaderboard/Bottom Right.svg"
         alt="Ornament"
         width={20}
         height={20}
-        className="absolute w-[400px] sm:w-[450px] md:w-[500px] lg:w-[600px] bottom-[163px] sm:bottom-[163px] lg:bottom-[162px] xl:bottom-[201px] right-[0px] z-[1]"
+        className="absolute w-[400px] md:w-[600px] bottom-0 right-0 z-[1]"
         />
 
-        <div className="absolute h-3/5 inset-0 flex justify-center items-center z-20">
-          <div className="flex flex-col lg:flex-row items-center">
+        <div className="absolute h-full w-screen flex justify-center items-center z-20">
+          <div className="flex flex-col lg:flex-row items-center justify-evenly">
             <Image
               src="/Leaderboard/LEADER BOARD.svg"
               alt="Title"
               width={20}
               height={20}
-              className="w-[200px] sm:w-[230px] md:w-[250px] lg:w-[450px] order-2 lg:order-1 relative top-16 sm:top-20 md:top-12 lg:top-24 lg:left-0"
+              className="w-[200px] md:w-[250px] lg:w-[450px] order-2 lg:order-1 "
             />
             <Image
               src="/Leaderboard/Trophy.svg"
               alt="Title"
               width={20}
               height={20}
-              className="w-[200px] sm:w-[200px] md:w-[220px] lg:w-[350px] order-1 lg:order-2  relative top-20 sm:top-24 md:top-[80px] lg:top-24 lg:right-2 "
+              className="w-[200px] md:w-[220px] lg:w-[350px] order-1 lg:order-2"
             />
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-4 py-8">
-        <div className="space-y-4 font-bonjour text-xl">
-          <div className="bg-[#EB5327] text-[#F9F3BA] rounded-lg p-4">
-            <div className="grid grid-cols-6 gap-4">
+      <div className="container py-8 w-screen mx-auto flex flex-col items-center justify-center z-30">
+        <div className="space-y-2 md:space-y-4 w-[85%] bonjour-font text-xs xs:text-base sm:text-lg md:text-xl lg:text-2xl relative z-10">
+          <div className="bg-[#EB5327] text-[#F9F3BA] rounded-xl">
+            <div className="grid grid-cols-7 items-center pl-5 md:pl-10 py-1 md:py-2">
               <div className="">Urutan</div>
-              <div className="">Himpunan</div>
-              <div className="">Gold</div>
-              <div className="">Silver</div>
-              <div className="">Bronze</div>
-              <div className="">Score</div>
+              <div className="col-span-2 ml-1 sm:ml-0">Himpunan</div>
+              <div className="flex"><div className="bg-[#F6C765] rounded-full px-3 -mx-3 text-white">G</div></div>
+              <div className="flex"><div className="bg-[#BDBDBD] rounded-full px-3 -mx-3 text-white">S</div></div>
+              <div className="flex"><div className="bg-[#C97632] rounded-full px-3 -mx-3 text-white">B</div></div>
+              <div><Image alt="Total" src={Total} width={70} height={70} className="-my-3 -ml-7" /></div>
             </div>
           </div>
-          {leaderboardData.map((row, index) => (
-            <div
-              key={index}
-              className="bg-[#F6E091] rounded-lg p-4 shadow-md border border-gray-300"
-            >
-              <div className="grid grid-cols-6 gap-4">
-                <div>{row.urutan}</div>
-                <div>{row.himpunan}</div>
+
+          {sortedLeaderboard.map((row, index) => (
+            <div key={index} className="bg-[#F6E091] rounded-xl py-3 md:py-4 shadow-md border border-gray-300 w-full">
+              <div className="grid grid-cols-7 items-center pl-5 md:pl-10">
+                <div className="pl-5">{index + 1}</div> {/* Rank based on sorted order */}
+                <div className="flex gap-1 sm:gap-2 col-span-2">
+                  <Image src={row.image} alt="Logo" width={40} height={40} className="w-[20px] sm:w-[30px] md:w-[40px]" /> 
+                  {row.himpunan}
+                </div>
                 <div>{row.gold}</div>
                 <div>{row.silver}</div>
                 <div>{row.bronze}</div>
@@ -92,8 +98,8 @@ const page = () => {
           ))}
         </div>
       </div>
-      
-    
+
+
     </div>
   );
 };
