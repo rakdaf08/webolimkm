@@ -1,50 +1,63 @@
 import React from "react";
+import Image from "next/image";
+import Bg from "@/public/ABOUT_US.png";
 
-const page = () => {
+const Page = () => {
   return (
-    <div className="grid justify-center">
-      <h1 className="font-bold text-black grid text-center">ABOUT US</h1>
-      <div>
-        <div
-          role="status"
-          className="max-w-sm p-4 m-2 border border-gray-200 rounded shadow animate-pulse md:p-6"
-        >
-          <div className="flex items-center justify-center h-48 mb-4 bg-gray-300 rounded">
-            <svg
-              className="w-10 h-10 text-gray-200 dark:text-gray-600"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              viewBox="0 0 16 20"
-            >
-              <path d="M14.066 0H7v5a2 2 0 0 1-2 2H0v11a1.97 1.97 0 0 0 1.934 2h12.132A1.97 1.97 0 0 0 16 18V2a1.97 1.97 0 0 0-1.934-2ZM10.5 6a1.5 1.5 0 1 1 0 2.999A1.5 1.5 0 0 1 10.5 6Zm2.221 10.515a1 1 0 0 1-.858.485h-8a1 1 0 0 1-.9-1.43L5.6 10.039a.978.978 0 0 1 .936-.57 1 1 0 0 1 .9.632l1.181 2.981.541-1a.945.945 0 0 1 .883-.522 1 1 0 0 1 .879.529l1.832 3.438a1 1 0 0 1-.031.988Z" />
-              <path d="M5 5V.13a2.96 2.96 0 0 0-1.293.749L.879 3.707A2.98 2.98 0 0 0 .13 5H5Z" />
-            </svg>
+    <main className="flex flex-col">
+      <div className="flex">
+        <Image 
+          src={Bg}
+          alt="Background Image"
+          className="w-full h-auto"
+        />
+      </div>
+      
+      <div className="flex flex-row md:flex-row justify-between bg-[#F9F3BA] pt-4 pb-4">
+        <div className="flex items-center ">
+          <Image 
+            src="/Aboutus/IMG_8187.png" 
+            alt="Image 1"
+            className="max-w-32 md:max-w-lg justify-start" 
+            width={200} 
+            height={100}
+          />
+        </div>
+
+        <div className="flex flex-col gap-10 splither-font text-[#007559] px-4">
+          <div>
+            <h1 className="font-medium text-3xl md:text-5xl lg:text-6xl">
+              Lorem Ipsum
+            </h1>
+            <p className="font-medium text-lg md:text-2xl lg:text-3xl">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nulla facilisi. Nullam ac arcu in erat fermentum tristique. Maecenas condimentum quam a urna malesuada, eget feugiat nulla laoreet. Praesent dictum vehicula lacus. Aenean vitae urna sit amet nunc efficitur egestas. Integer at orci nec elit ullamcorper pulvinar id non augue. Sed tincidunt dolor sit amet lectus vulputate, ac sodales nisl tempor. Vestibulum non dolor eget nisi consectetur fermentum.
+            </p>
           </div>
-          <div className="h-2.5 bg-gray-200 rounded-full"></div>
-          <div className="h-2 bg-gray-200 rounded-full"></div>
-          <div className="h-2 bg-gray-200 rounded-full"></div>
-          <div className="h-2 bg-gray-200 rounded-full"></div>
-          <div className="flex items-center mt-4">
-            <svg
-              className="w-10 h-10 me-3 text-gray-200 dark:text-gray-700"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-            >
-              <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z" />
-            </svg>
-            <div>
-              <div className="h-2.5 bg-gray-200 rounded-full"></div>
-              <div className="w-48 h-2 bg-gray-200 rounded-full"></div>
-            </div>
+          <div className="flex flex-col">
+            <h1 className="font-medium text-3xl md:text-5xl lg:text-6xl flex justify-end">
+              Lorem Ipsum
+            </h1>
+            <p className="font-medium text-lg md:text-2xl lg:text-3xl flex justify-end">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nulla facilisi. Nullam ac arcu in erat fermentum tristique. Maecenas condimentum quam a urna malesuada, eget feugiat nulla laoreet. Praesent dictum vehicula lacus. Aenean vitae urna sit amet nunc efficitur egestas. Integer at orci nec elit ullamcorper pulvinar id non augue. Sed tincidunt dolor sit amet lectus vulputate, ac sodales nisl tempor. Vestibulum non dolor eget nisi consectetur fermentum.
+            </p>
           </div>
-          <span className="sr-only">Loading...</span>
+        </div>
+
+
+        <div className="flex items-center justify-end">
+          <Image 
+            src="/Aboutus/No_border.png" 
+            alt="Image 2"
+            className="max-w-32 md:max-w-lg" // Adjust width for responsiveness
+            width={200} 
+            height={100}
+          />
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 
-export default page;
+export default Page;
+
+
