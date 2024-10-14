@@ -4,5 +4,9 @@ import MainPage from "./Home/page";
 import Sidebar from "@/Components/Sidebar";
 
 export default function Home() {
-  return <div></div>;
+  return(
+  <main>
+    <MainPage/>
+  </main>
+  );
 }

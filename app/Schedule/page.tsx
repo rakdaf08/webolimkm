@@ -1,46 +1,65 @@
 import React from "react";
+import Image from "next/image";
 
 const page = () => {
   return (
-    <div className="grid justify-center">
-      <h1 className="font-bold text-gray-800 grid text-center">SCHEDULE</h1>
-      <div
-        role="status"
-        className="max-w-sm p-4 m-2 border border-gray-200 rounded shadow animate-pulse md:p-6"
-      >
-        <div className="flex items-center justify-center h-48 mb-4 bg-gray-300 rounded">
-          <svg
-            className="w-10 h-10 text-gray-200 dark:text-gray-600"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
-            viewBox="0 0 16 20"
-          >
-            <path d="M14.066 0H7v5a2 2 0 0 1-2 2H0v11a1.97 1.97 0 0 0 1.934 2h12.132A1.97 1.97 0 0 0 16 18V2a1.97 1.97 0 0 0-1.934-2ZM10.5 6a1.5 1.5 0 1 1 0 2.999A1.5 1.5 0 0 1 10.5 6Zm2.221 10.515a1 1 0 0 1-.858.485h-8a1 1 0 0 1-.9-1.43L5.6 10.039a.978.978 0 0 1 .936-.57 1 1 0 0 1 .9.632l1.181 2.981.541-1a.945.945 0 0 1 .883-.522 1 1 0 0 1 .879.529l1.832 3.438a1 1 0 0 1-.031.988Z" />
-            <path d="M5 5V.13a2.96 2.96 0 0 0-1.293.749L.879 3.707A2.98 2.98 0 0 0 .13 5H5Z" />
-          </svg>
-        </div>
-        <div className="h-2.5 bg-gray-200 rounded-full"></div>
-        <div className="h-2 bg-gray-200 rounded-full"></div>
-        <div className="h-2 bg-gray-200 rounded-full"></div>
-        <div className="h-2 bg-gray-200 rounded-full"></div>
-        <div className="flex items-center mt-4">
-          <svg
-            className="w-10 h-10 me-3 text-gray-200 dark:text-gray-700"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-          >
-            <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z" />
-          </svg>
-          <div>
-            <div className="h-2.5 bg-gray-200 rounded-full"></div>
-            <div className="w-48 h-2 bg-gray-200 rounded-full"></div>
-          </div>
-        </div>
-        <span className="sr-only">Loading...</span>
+    <div className="min-h-[60vh] w-screen relative overflow-hidden m-0 z-20">
+    <Image 
+    src="/Schedule/Background.svg"
+    alt="Background Image" 
+    layout="fill"
+    objectFit="cover"
+    className="absolute scale-105 z-0 h-full w-full object-cover "/>
+    
+    <Image 
+    src="/Schedule/Top Left.svg"
+    alt="Ornament"
+    width={20}
+    height={20}
+    className="absolute w-[500px] md:w-[600px] top-0"
+    />
+    <Image 
+    src="/Schedule/Top Right.svg"
+    alt="Ornament"
+    width={20}
+    height={20}
+    className="absolute w-[700px] md:w-[800px] top-0 right-0"
+    />
+    <Image  
+    src="/Schedule/Bottom Left.svg"
+    alt="Ornament"
+    width={20}
+    height={20}
+    className="absolute w-[400px] md:w-[550px] bottom-0 left-0"
+    />
+    <Image 
+    src="/Schedule/Bottom Right.svg"
+    alt="Ornament"
+    width={20}
+    height={20}
+    className="absolute w-[400px] md:w-[500px] bottom-0 right-[0px] z-[1]"
+    />
+
+    <div className="absolute h-3/5 inset-0 flex justify-center items-center z-20">
+      <div className="flex flex-col lg:flex-row items-center">
+        <Image
+          src="/Schedule/Title.svg"
+          alt="Title"
+          width={20}
+          height={20}
+          className="w-[300px] sm:w-[300px] md:w-[400px] lg:w-[650px] order-2 lg:order-1 relative top-8 md:-top-2 lg:top-24 lg:left-0"
+        />
+        <Image
+          src="/Schedule/Ballracket.svg"
+          alt="Title"
+          width={20}
+          height={20}
+          className="w-[250px] sm:w-[350px] md:w-[450px] order-1 lg:order-2 top-28 relative md:top-[120px] lg:top-40 lg:right-2 "
+        />
       </div>
+    </div>
+    tests
+
     </div>
   );
 };

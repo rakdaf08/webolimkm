@@ -21,3 +21,80 @@ export const Medals = [
   {key: 'hmt', label: 'HMT', gold: '#', silver: '#', bronze: '#'},
   {key: 'mti', label: 'MTI', gold: '#', silver: '#', bronze: '#'}
 ]
+
+// src/data/index.ts
+
+export const teams = [
+  {
+    name: 'HIMPUNAN MAHASISWA INFORMATIKA (HMIF)',
+    image: 'HMIF.svg',
+    sports: [
+      {
+        sportName: 'Atletik',
+        players: ['Player 1', 'Player 2', 'Player 3', 'Player 4', 'Player 5', 'Player 6', 'Player 7', 'Player 8'],
+      },
+      {
+        sportName: 'Badminton',
+        players: ['Player 1', 'Player 2', 'Player 3', 'Player 4', 'Player 5', 'Player 6', 'Player 7'],
+      },
+      {
+        sportName: 'Basket',
+        players: ['Player 1', 'Player 2', 'Player 3', 'Player 4', 'Player 5', 'Player 6', 'Player 7', 'Player 8'],
+      },
+      {
+        sportName: 'Catur',
+        players: ['Player 1', 'Player 2', 'Player 3', 'Player 4', 'Player 5', 'Player 6', 'Player 7'],
+      },
+      {
+        sportName: 'Futsal',
+        players: ['Player 1', 'Player 2', 'Player 3', 'Player 4', 'Player 5', 'Player 6', 'Player 7'],
+      },
+      {
+        sportName: 'Renang',
+        players: ['Player 1', 'Player 2', 'Player 3', 'Player 4', 'Player 5', 'Player 6', 'Player 7'],
+      },
+      {
+        sportName: 'Tenis Meja',
+        players: ['Player 1', 'Player 2', 'Player 3', 'Player 4', 'Player 5', 'Player 6', 'Player 7','Player 1', 'Player 2', 'Player 3', 'Player 4', 'Player 5', 'Player 6', 'Player 7'],
+      },
+      {
+        sportName: 'Voli',
+        players: ['Player 1', 'Player 2', 'Player 3', 'Player 4', 'Player 5', 'Player 6', 'Player 7'],
+      },
+    ],
+  },
+  {
+    name: 'HIMPUNAN MAHASISWA ELEKTRONIK (HME)',
+    image: 'HMIF.svg',
+    sports: [
+      {
+        sportName: 'Soccer',
+        players: ['Player 1', 'Player 2', 'Player 3', 'Player 4', 'Player 5', 'Player 6'],
+      },
+      {
+        sportName: 'Tennis',
+        players: ['Player 1', 'Player 2'],
+      },
+    ],
+  },
+  {
+    name: 'HIMPUNAN MAHASISWA MESIN',
+    image: 'HMIF.svg',
+    sports: [
+      {
+        sportName: 'Volleyball',
+        players: ['Player 1', 'Player 2', 'Player 3', 'Player 4', 'Player 5'],
+      },
+    ],
+  },
+  {
+    name: 'Team D ',
+    image: 'HMIF.svg',
+    sports: [
+      {
+        sportName: 'Volleyball',
+        players: ['Player 1', 'Player 2', 'Player 3', 'Player 4', 'Player 5'],
+      },
+    ],
+  },
+];
