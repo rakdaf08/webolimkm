@@ -5,53 +5,48 @@ import Bg from "@/public/ABOUT_US.png";
 const Page = () => {
   return (
     <main className="flex flex-col">
-      <div className="flex">
-        <Image 
+      <div className="w-full h-auto">
+        <Image
           src={Bg}
           alt="Background Image"
           className="w-full h-auto"
         />
       </div>
-      
-      <div className="flex flex-row md:flex-row justify-between bg-[#F9F3BA] pt-4 pb-4">
-        <div className="flex items-center ">
-          <Image 
-            src="/Aboutus/IMG_8187.png" 
-            alt="Image 1"
-            className="max-w-32 md:max-w-lg justify-start" 
-            width={200} 
-            height={100}
-          />
-        </div>
 
-        <div className="flex flex-col gap-10 splither-font text-[#007559] px-4">
-          <div>
-            <h1 className="font-medium text-3xl md:text-5xl lg:text-6xl">
-              Lorem Ipsum
-            </h1>
-            <p className="font-medium text-lg md:text-2xl lg:text-3xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nulla facilisi. Nullam ac arcu in erat fermentum tristique. Maecenas condimentum quam a urna malesuada, eget feugiat nulla laoreet. Praesent dictum vehicula lacus. Aenean vitae urna sit amet nunc efficitur egestas. Integer at orci nec elit ullamcorper pulvinar id non augue. Sed tincidunt dolor sit amet lectus vulputate, ac sodales nisl tempor. Vestibulum non dolor eget nisi consectetur fermentum.
-            </p>
+      <div className="flex flex-col md:flex-row justify-center items-center bg-[#F9F3BA] p-6 md:p-12">
+        <div className="splither-font text-[#3E8C72] text-center md:text-left">
+          <div className="">
+          <Image
+              src="/Aboutus/OLIMPIADE_XII_KM_ITB.svg"
+              alt="Mascot Image"
+              width={200}
+              height={200}
+              className="w-full h-auto mx-auto"
+            />
           </div>
-          <div className="flex flex-col">
-            <h1 className="font-medium text-3xl md:text-5xl lg:text-6xl flex justify-end">
-              Lorem Ipsum
-            </h1>
-            <p className="font-medium text-lg md:text-2xl lg:text-3xl flex justify-end">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nulla facilisi. Nullam ac arcu in erat fermentum tristique. Maecenas condimentum quam a urna malesuada, eget feugiat nulla laoreet. Praesent dictum vehicula lacus. Aenean vitae urna sit amet nunc efficitur egestas. Integer at orci nec elit ullamcorper pulvinar id non augue. Sed tincidunt dolor sit amet lectus vulputate, ac sodales nisl tempor. Vestibulum non dolor eget nisi consectetur fermentum.
+          <div className="flex flex-col gap-4 text-[16px] md:text-[20px] lg:text-[32px]">
+            <p>
+              Dengan semangat membara, para atlet dari penjuru kampus akan segera bertarung dalam ajang paling begengsi di bumi Ganesha.
+            </p>
+            <p>
+              Edisi kali ini menghadirkan 12 mata lomba yang meliputi olahraga, e-sports, dan pentas kesenian. Dilengkapi juga dengan event Fun Run, Olimpidio, dan ITBerjersey yang bisa kamu ikuti untuk meramaikan euforia karnival tahun ini!
+            </p>
+            <p>
+              Ayo ramaikan karnival penuh kelap kelip, dengan daftarkan tim kamu dan raih juara demi kebanggan HMPS!
             </p>
           </div>
         </div>
 
-
-        <div className="flex items-center justify-end">
-          <Image 
-            src="/Aboutus/No_border.png" 
-            alt="Image 2"
-            className="max-w-32 md:max-w-lg" // Adjust width for responsiveness
-            width={200} 
-            height={100}
-          />
+        <div className="hidden md:flex justify-center items-center mt-8 md:mt-0">
+          <div className="xs:w-[200px] md:w-[300px] lg:w-[400px]">
+            <Image
+              src="/Aboutus/Group_33.png"
+              alt="Mascot Image"
+              width={500}
+              height={500}
+              className="w-full h-auto mx-auto"
+            />
+          </div>
         </div>
       </div>
     </main>
@@ -59,5 +54,3 @@ const Page = () => {
 };
 
 export default Page;
-
-

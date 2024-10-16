@@ -22,35 +22,41 @@ const Sidebar = () => {
     <div className="mr-1 xs:flex lg:hidden">
       {/* Hamburger Menu Icon */}
       <div className="flex justify-center">
-        <Image
-          src="/menu.svg"
-          alt="menu"
-          width={32}
-          height={32}
-          className="cursor-pointer"
+        <div
+          className="w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
           onClick={toggleSidebar}
-        />
+        >
+          <Image
+            src="/menu.svg"
+            alt="menu"
+            width={24}
+            height={24}
+            className="cursor-pointer"
+          />
+        </div>
       </div>
 
       {/* Sidebar Content */}
       {isMounted && (
         <div
-          className={`fixed top-0 left-0 w-full z-40 bg-[#7500A4] overflow-hidden transition-all duration-500 ease-in-out ${
-            isOpen ? "opacity-100 max-h-screen" : "opacity-0 max-h-0"
+          className={`fixed top-0 right-0 h-screen w-[250px] z-40 bg-[#7500A4] overflow-hidden transition-all duration-500 ease-in-out ${
+            isOpen ? "transform translate-x-0" : "transform translate-x-full"
           }`}
-          style={{ maxHeight: isOpen ? "100vh" : "0", opacity: isOpen ? "1" : "0" }}
         >
           <div className="p-4">
             {/* Close Menu Icon */}
             <div className="flex justify-end items-center pt-4 pr-1">
-              <Image
-                src="/backmenu.svg"
-                alt="close-menu"
-                width={25}
-                height={20}
-                className="cursor-pointer"
+              <div
+                className="w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
                 onClick={toggleSidebar}
-              />
+              >
+                <Image
+                  src="/backmenu.svg"
+                  alt="close-menu"
+                  width={18}
+                  height={18}
+                />
+              </div>
             </div>
 
             {/* Navigation Links */}
@@ -75,8 +81,3 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
-
-
-
-  
-

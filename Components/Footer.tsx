@@ -31,7 +31,7 @@ const Footer = () => {
       </div>
 
       {/* Right Side: Footer Image */}
-      <div className="absolute bottom-0 right-0 z-0">
+      <div className="hidden md:flex absolute bottom-0 right-0 z-0">
         <Image
           src="/Footer.png"
           alt="footer"
