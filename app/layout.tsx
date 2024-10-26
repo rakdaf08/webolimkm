@@ -15,9 +15,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <head>
+        {/* Link to the favicon */}
+        <link rel="icon" href="/logo-olim-km.ico" />
+        </head>
+      <body className="overflow-x-hidden">
         <Navbar />
-        {children}
+        <div className="">
+          {children}
+        </div>
         <Footer />
       </body>
     </html>

@@ -10,6 +10,7 @@ import Total from "@/public/total.svg"
 import Link from "next/link";
 
 const MainPage = () => {
+  const sortedLeaderboard = [...leaderboardData].sort((a, b) => b.score - a.score);
   return(
   <section>
     <div className="flex flex-col min-h-screen h-full overflow-hidden w-full bg-[#F9F3BA] relative">
@@ -86,7 +87,7 @@ const MainPage = () => {
       className="right-0 lg:top-20 xl:top-10 absolute w-[400px] lg:w-[500px] xl:w-[600px] z-0"
     />  
 
-<div className="container py-8 w-[90%] md:w-[75%] lg:w-[65%]">
+    <div className="container py-8 w-[90%] md:w-[75%] lg:w-[65%]">
         <div className="space-y-2 md:space-y-4 bonjour-font text-xs xs:text-base sm:text-lg md:text-xl lg:text-2xl relative z-10">
           <div className="bg-[#EB5327] text-[#F9F3BA] rounded-xl">
             <div className="grid grid-cols-7 items-center pl-5 md:pl-10 py-1 md:py-2">
@@ -98,22 +99,23 @@ const MainPage = () => {
               <div className=""><Image alt="Total" src={Total} width={70} height={70} className="-my-3 -ml-7"/></div>
             </div>
           </div>
-          {leaderboardData.slice(0, 3).map((row, index) => (
+          {sortedLeaderboard.slice(0, 3).map((row, index) => (
             <div
               key={index}
-              className="bg-[#F6E091] rounded-xl py-3 md:py-4 shadow-md border border-gray-300"
+              className="bg-[#F9F3BA] rounded-xl py-3 md:py-4 shadow-md border  border-gray-300"
             >
-              <div className="grid grid-cols-7 items-center pl-5 md:pl-10">
-                <div>{row.urutan}</div>
-                <div className="flex gap-1 sm:gap-2 col-span-2"> <Image src={row.image} alt="Logo" width={40} height={40} className="w-[20px] sm:w-[30px] md:w-[40px]"/> {row.himpunan}</div>
-                <div>{row.gold}</div>
-                <div>{row.silver}</div>
-                <div>{row.bronze}</div>
-                <div>{row.score}</div>
+              <div className="grid grid-cols-7 items-center pl-5 md:pl-10 ">
+                <div className="pl-5 text-black">{index + 1}</div> {/* Rank based on sorted order */}
+                <div className="flex gap-1 sm:gap-2 col-span-2"> 
+                  <Image src={row.image} alt="Logo" width={40} height={40} className="w-[20px] sm:w-[30px] md:w-[40px]"/> <div className="text-[#D2432E]">{row.himpunan} </div></div>
+                <div className="text-[#D2432E]">{row.gold}</div>
+                <div className="text-[#D2432E]">{row.silver}</div>
+                <div className="text-[#D2432E]">{row.bronze}</div>
+                <div className="text-[#D2432E]">{row.score}</div>
               </div>
             </div>
           ))}
-          <div className="bg-[#F6E091] bonjour-font text-center py-2 md:py-4 rounded-xl cursor-pointer hover:bg-[#cdbb79]"> <Link href="/Leaderboard">See More</Link></div>
+          <div className="bg-[#F9F3BA] bonjour-font text-center py-2 md:py-4 rounded-xl cursor-pointer hover:bg-[#F6E091] text-[#D2432E]"> <Link href="/Leaderboard">See More</Link></div>
         </div>
       </div>
 
