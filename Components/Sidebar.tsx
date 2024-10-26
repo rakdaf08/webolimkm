@@ -1,55 +1,78 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import { NAV_LINKS } from "@/constants";
 import Link from "next/link";
 import Image from "next/image";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
+
+  // Ensure the component is mounted on the client before rendering the sidebar
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  const toggleSidebar = useCallback(() => {
+    setIsOpen((prevState) => !prevState);
+  }, []);
+
   return (
-    <div className="transition-all xs:flex lg:hidden">
+    <div className="mr-1 xs:flex lg:hidden">
+      {/* Hamburger Menu Icon */}
       <div className="flex justify-center">
-        <div className="">
+        <div
+          className="w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+          onClick={toggleSidebar}
+        >
           <Image
             src="/menu.svg"
             alt="menu"
-            width={32}
-            height={32}
-            className="inline-block cursor-pointer"
-            onClick={() => setIsOpen(!isOpen)}
+            width={24}
+            height={24}
+            className="cursor-pointer"
           />
         </div>
       </div>
 
-      {isOpen && (
-        <div>
-          <div className="fixed top-0 right-0 z-10 h-screen p-4 overflow-y-auto transition ease-in-out duration-100 bg-white border border-black">
-            <div className="flex justify-between items-center">
-              <span className="text-base font-semibold text-gray-600">
-                MENU
-              </span>
-              <span
-                onClick={() => setIsOpen(!isOpen)}
-                className="cursor-pointer font-bold text-xl"
+      {/* Sidebar Content */}
+      {isMounted && (
+        <div
+          className={`fixed top-0 right-0 h-screen w-[250px] z-40 bg-[#7500A4] overflow-hidden transition-all duration-500 ease-in-out ${
+            isOpen ? "transform translate-x-0" : "transform translate-x-full"
+          }`}
+        >
+          <div className="p-4">
+            {/* Close Menu Icon */}
+            <div className="flex justify-end items-center pt-4 pr-1">
+              <div
+                className="w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
+                onClick={toggleSidebar}
               >
-                x
-              </span>
+                <Image
+                  src="/backmenu.svg"
+                  alt="close-menu"
+                  width={18}
+                  height={18}
+                />
+              </div>
             </div>
 
-            <div className="py-4">
-              <ul className="grid gap-4">
-                {NAV_LINKS.map((link) => (
+            {/* Navigation Links */}
+            <ul className="pt-7 grid gap-5 mt-4">
+              {NAV_LINKS.map((link) => (
+                <li key={link.key}>
                   <Link
                     href={link.href}
-                    key={link.key}
-                    className="text-base text-gray-50 cursor-pointer pb-1.5 transition-all hover:font-bold"
+                    className="text-2xl text-white hover:font-bold splither-font"
+                    onClick={() => setIsOpen(false)}
                   >
                     {link.label}
                   </Link>
-                ))}
-              </ul>
-            </div>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       )}
