@@ -116,9 +116,7 @@ const SchedulePage: React.FC = () => {
         </div>
       </section>
     );
-=======
-import React from "react";
-import Image from "next/image";
+}
 
 const page = () => {
   return (
