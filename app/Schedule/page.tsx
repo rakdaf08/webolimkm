@@ -116,10 +116,7 @@ const SchedulePage: React.FC = () => {
         </div>
       </section>
     );
-=======
-import React from "react";
-import Image from "next/image";
-
+  }
 const page = () => {
   return (
     <div className="min-h-[60vh] w-screen relative overflow-hidden m-0 z-20">
