@@ -818,7 +818,7 @@ export const schedule = [
             image1: "/HME_ITB.png",
             skor1: 0,
             tim2: "Ikatan Mahasiswa Kewirausahaan \"Artha\"",
-            image2: "/IMK_ARTHA_ITB.jfif",
+            image2: "/IMK_ARTHA_ITB.png",
             skor2: 0
         },
         {
@@ -854,7 +854,7 @@ export const schedule = [
             sportName: "Valorant",
             waktu: "19:00",
             tim1: "Himpunan Mahasiswa Astronomi",
-            image1: "/Himastron_ITB.jfif",
+            image1: "/Himastron_ITB.png",
             skor1: 0,
             tim2: "Mahasiswa Teknik Industri (B)",
             image2: "/MTI_ITB.png",
@@ -896,7 +896,7 @@ export const schedule = [
             image1: "/MTM_ITB.png",
             skor1: 0,
             tim2: "Himpunan Mahasiswa Biologi \"Nymphaea\"",
-            image2: "/HIMABIO_Nymphaea_ITB.jfif",
+            image2: "/HIMABIO_Nymphaea_ITB.png",
             skor2: 0
         },
         {
@@ -1026,7 +1026,7 @@ export const schedule = [
             image1: "/HME_ITB.png",
             skor1: 0,
             tim2: "Keluarga Mahasiswa Seni Rupa (A)",
-            image2: "/KMSR_ITB.jfif",
+            image2: "/KMSR_ITB.png",
             skor2: 0
         },
         {
@@ -1104,7 +1104,7 @@ export const schedule = [
             image1: "/HMME_Atmosphaira_ITB.png",
             skor1: 0,
             tim2: "Keluarga Mahasiswa Seni Rupa (B)",
-            image2: "/KMSR_ITB.jfif",
+            image2: "/KMSR_ITB.png",
             skor2: 0
         }],
     },
