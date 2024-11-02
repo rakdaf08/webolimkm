@@ -1,66 +1,122 @@
-import React from "react";
+import Bg from "@/public/schedule.png";
 import Image from "next/image";
+import Atletik from "@/public/catletik.svg";
+import Badminton from "@/public/cbadminton.svg";
+import Basket from "@/public/cbasket.svg";
+import Catur from "@/public/ccatur.svg";
+import Futsal from "@/public/cfutsal.svg";
+import Ml from "@/public/cml.svg";
+import Renang from "@/public/crenang.svg";
+import TenisMeja from "@/public/ctenis.svg";
+import Valo from "@/public/cvalo.svg";
+import Voli from "@/public/cvoli.svg";
+import Link from "next/link";
 
 const page = () => {
   return (
-    <div className="min-h-[60vh] w-screen relative overflow-hidden m-0 z-20">
-    <Image 
-    src="/Schedule/Background.svg"
-    alt="Background Image" 
-    layout="fill"
-    objectFit="cover"
-    className="absolute scale-105 z-0 h-full w-full object-cover "/>
-    
-    <Image 
-    src="/Schedule/Top Left.svg"
-    alt="Ornament"
-    width={20}
-    height={20}
-    className="absolute w-[500px] md:w-[600px] top-0"
-    />
-    <Image 
-    src="/Schedule/Top Right.svg"
-    alt="Ornament"
-    width={20}
-    height={20}
-    className="absolute w-[700px] md:w-[800px] top-0 right-0"
-    />
-    <Image  
-    src="/Schedule/Bottom Left.svg"
-    alt="Ornament"
-    width={20}
-    height={20}
-    className="absolute w-[400px] md:w-[550px] bottom-0 left-0"
-    />
-    <Image 
-    src="/Schedule/Bottom Right.svg"
-    alt="Ornament"
-    width={20}
-    height={20}
-    className="absolute w-[400px] md:w-[500px] bottom-0 right-[0px] z-[1]"
-    />
-
-    <div className="absolute h-3/5 inset-0 flex justify-center items-center z-20">
-      <div className="flex flex-col lg:flex-row items-center">
-        <Image
-          src="/Schedule/Title.svg"
-          alt="Title"
-          width={20}
-          height={20}
-          className="w-[300px] sm:w-[300px] md:w-[400px] lg:w-[650px] order-2 lg:order-1 relative top-8 md:-top-2 lg:top-24 lg:left-0"
-        />
-        <Image
-          src="/Schedule/Ballracket.svg"
-          alt="Title"
-          width={20}
-          height={20}
-          className="w-[250px] sm:w-[350px] md:w-[450px] order-1 lg:order-2 top-28 relative md:top-[120px] lg:top-40 lg:right-2 "
-        />
+    <section>
+      <div className="w-full bg-[#F9F3BA] min-h-screen h-full">
+        <Image src={Bg} alt="Bg" className="w-full" />
+        <div className="p-10 md:px-16">
+          <h2 className="bonjour-font text-[#102F8E] text-3xl md:text-5xl">
+            {" "}
+            Pilih cabang olahraga{" "}
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <Link href="/Schedule/Atletik">
+              <div className="rounded-xl">
+                <Image
+                  src={Atletik}
+                  alt="Logo"
+                  className="w-full hover:scale-105 duration-200 transition-all"
+                />
+              </div>
+            </Link>
+            <Link href="/Schedule/Badminton">
+              <div className="rounded-xl">
+                <Image
+                  src={Badminton}
+                  alt="Logo"
+                  className="w-full hover:scale-105 duration-200 transition-all"
+                />
+              </div>
+            </Link>
+            <Link href="/Schedule/Basket">
+              <div className="rounded-xl">
+                <Image
+                  src={Basket}
+                  alt="Logo"
+                  className="w-full hover:scale-105 duration-200 transition-all"
+                />
+              </div>
+            </Link>
+            <Link href="/Schedule/Catur">
+              <div className="rounded-xl">
+                <Image
+                  src={Catur}
+                  alt="Logo"
+                  className="w-full hover:scale-105 duration-200 transition-all"
+                />
+              </div>
+            </Link>
+            <Link href="/Schedule/Futsal">
+              <div className="rounded-xl">
+                <Image
+                  src={Futsal}
+                  alt="Logo"
+                  className="w-full hover:scale-105 duration-200 transition-all"
+                />
+              </div>
+            </Link>
+            <Link href="/Schedule/ML">
+              <div className="rounded-xl">
+                <Image
+                  src={Ml}
+                  alt="Logo"
+                  className="w-full hover:scale-105 duration-200 transition-all"
+                />
+              </div>
+            </Link>
+            <Link href="/Schedule/Renang">
+              <div className="rounded-xl">
+                <Image
+                  src={Renang}
+                  alt="Logo"
+                  className="w-full hover:scale-105 duration-200 transition-all"
+                />
+              </div>
+            </Link>
+            <Link href="/Schedule/TenisMeja">
+              <div className="rounded-xl">
+                <Image
+                  src={TenisMeja}
+                  alt="Logo"
+                  className="w-full hover:scale-105 duration-200 transition-all"
+                />
+              </div>
+            </Link>
+            <Link href="/Schedule/Valorant">
+              <div className="rounded-xl">
+                <Image
+                  src={Valo}
+                  alt="Logo"
+                  className="w-full hover:scale-105 duration-200 transition-all"
+                />
+              </div>
+            </Link>
+            <Link href="/Schedule/Voli">
+              <div className="rounded-xl">
+                <Image
+                  src={Voli}
+                  alt="Logo"
+                  className="w-full hover:scale-105 duration-200 transition-all"
+                />
+              </div>
+            </Link>
+          </div>
+        </div>
       </div>
-    </div>
-    tests
-
-    </div>
+    </section>
   );
 };
 
