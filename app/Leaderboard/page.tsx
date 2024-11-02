@@ -86,7 +86,7 @@ const sortedLeaderboard = [...leaderboardData].sort((a, b) => b.score - a.score)
               <div className="grid grid-cols-7 items-center pl-5 md:pl-10">
                 <div className="pl-5">{index + 1}</div> {/* Rank based on sorted order */}
                 <div className="flex items-center gap-1 sm:gap-2 col-span-2 ">
-                  <Image src={row.image} alt="Logo" width={40} height={40} className="w-[20px] h-[20px] sm:w-[30px] sm:h-[30px] md:w-[40px] md:h-[40px] max-w-[50px] max-h-[50px] " /> 
+                  <Image src={row.image} alt="Logo" width={40} height={40} className=" w-auto h-[30px] md:h-[40px]  max-h-[50px] " /> 
                   {row.himpunan}
                 </div>
                 <div>{row.gold}</div>
