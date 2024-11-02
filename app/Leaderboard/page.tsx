@@ -77,7 +77,7 @@ const sortedLeaderboard = [...leaderboardData].sort((a, b) => b.score - a.score)
               <div className="flex"><div className="bg-[#F6C765] rounded-full px-3 -mx-3 text-white">G</div></div>
               <div className="flex"><div className="bg-[#BDBDBD] rounded-full px-3 -mx-3 text-white">S</div></div>
               <div className="flex"><div className="bg-[#C97632] rounded-full px-3 -mx-3 text-white">B</div></div>
-              <div><Image alt="Total" src={Total} width={70} height={70} className="-my-3 -ml-7" /></div>
+              <div><Image alt="Total" src={Total} width={70} height={70} className="-my-3 -ml-7 h-auto" /></div>
             </div>
           </div>
 
@@ -85,8 +85,8 @@ const sortedLeaderboard = [...leaderboardData].sort((a, b) => b.score - a.score)
             <div key={index} className="bg-[#F6E091] rounded-xl py-3 md:py-4 shadow-md border border-gray-300 w-full">
               <div className="grid grid-cols-7 items-center pl-5 md:pl-10">
                 <div className="pl-5">{index + 1}</div> {/* Rank based on sorted order */}
-                <div className="flex gap-1 sm:gap-2 col-span-2">
-                  <Image src={row.image} alt="Logo" width={40} height={40} className="w-[20px] sm:w-[30px] md:w-[40px]" /> 
+                <div className="flex items-center gap-1 sm:gap-2 col-span-2 ">
+                  <Image src={row.image} alt="Logo" width={40} height={40} className="w-[20px] h-[20px] sm:w-[30px] sm:h-[30px] md:w-[40px] md:h-[40px] max-w-[50px] max-h-[50px] " /> 
                   {row.himpunan}
                 </div>
                 <div>{row.gold}</div>
