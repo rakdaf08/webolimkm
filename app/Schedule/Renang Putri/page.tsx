@@ -14,6 +14,15 @@ interface Match {
   tim2: string;
   image2: string;
   skor2: string;
+  tim3: string;
+  image3: string;
+  skor3: string;
+  tim4: string;
+  image4: string;
+  skor4: string;
+  tim5: string;
+  image5: string;
+  skor5: string;
 }
 
 interface Schedule {
