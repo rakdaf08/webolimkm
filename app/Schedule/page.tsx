@@ -25,92 +25,52 @@ const page = () => {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             <Link href="/Schedule/Atletik">
               <div className="rounded-xl">
-                <Image
-                  src={Atletik}
-                  alt="Logo"
-                  className="w-full hover:scale-105 duration-200 transition-all"
-                />
+                <Image src={Atletik} alt="Logo" className="w-full" />
               </div>
             </Link>
             <Link href="/Schedule/Badminton">
               <div className="rounded-xl">
-                <Image
-                  src={Badminton}
-                  alt="Logo"
-                  className="w-full hover:scale-105 duration-200 transition-all"
-                />
+                <Image src={Badminton} alt="Logo" className="w-full" />
               </div>
             </Link>
             <Link href="/Schedule/Basket">
               <div className="rounded-xl">
-                <Image
-                  src={Basket}
-                  alt="Logo"
-                  className="w-full hover:scale-105 duration-200 transition-all"
-                />
+                <Image src={Basket} alt="Logo" className="w-full" />
               </div>
             </Link>
             <Link href="/Schedule/Catur">
               <div className="rounded-xl">
-                <Image
-                  src={Catur}
-                  alt="Logo"
-                  className="w-full hover:scale-105 duration-200 transition-all"
-                />
+                <Image src={Catur} alt="Logo" className="w-full" />
               </div>
             </Link>
             <Link href="/Schedule/Futsal">
               <div className="rounded-xl">
-                <Image
-                  src={Futsal}
-                  alt="Logo"
-                  className="w-full hover:scale-105 duration-200 transition-all"
-                />
+                <Image src={Futsal} alt="Logo" className="w-full" />
               </div>
             </Link>
             <Link href="/Schedule/ML">
               <div className="rounded-xl">
-                <Image
-                  src={Ml}
-                  alt="Logo"
-                  className="w-full hover:scale-105 duration-200 transition-all"
-                />
+                <Image src={Ml} alt="Logo" className="w-full" />
               </div>
             </Link>
             <Link href="/Schedule/Renang">
               <div className="rounded-xl">
-                <Image
-                  src={Renang}
-                  alt="Logo"
-                  className="w-full hover:scale-105 duration-200 transition-all"
-                />
+                <Image src={Renang} alt="Logo" className="w-full" />
               </div>
             </Link>
             <Link href="/Schedule/TenisMeja">
               <div className="rounded-xl">
-                <Image
-                  src={TenisMeja}
-                  alt="Logo"
-                  className="w-full hover:scale-105 duration-200 transition-all"
-                />
+                <Image src={TenisMeja} alt="Logo" className="w-full" />
               </div>
             </Link>
             <Link href="/Schedule/Valorant">
               <div className="rounded-xl">
-                <Image
-                  src={Valo}
-                  alt="Logo"
-                  className="w-full hover:scale-105 duration-200 transition-all"
-                />
+                <Image src={Valo} alt="Logo" className="w-full" />
               </div>
             </Link>
             <Link href="/Schedule/Voli">
               <div className="rounded-xl">
-                <Image
-                  src={Voli}
-                  alt="Logo"
-                  className="w-full hover:scale-105 duration-200 transition-all"
-                />
+                <Image src={Voli} alt="Logo" className="w-full" />
               </div>
             </Link>
           </div>
