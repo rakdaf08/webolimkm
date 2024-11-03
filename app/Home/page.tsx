@@ -12,8 +12,10 @@ import Timeline from "@/public/timeline1.svg";
 import ComingSoon from "@/public/COMING SOON.svg";
 
 const MainPage = () => {
-const sortedLeaderboard = [...leaderboardData].sort((a, b) => b.score - a.score);
-  
+  const sortedLeaderboard = [...leaderboardData].sort(
+    (a, b) => b.score - a.score
+  );
+
   return (
     <section>
       <div className="flex flex-col min-h-screen h-full overflow-hidden w-full bg-[#F9F3BA] relative">
@@ -138,7 +140,8 @@ const sortedLeaderboard = [...leaderboardData].sort((a, b) => b.score - a.score)
                 className="bg-[#F6E091] rounded-xl py-3 md:py-4 shadow-md border border-gray-300"
               >
                 <div className="grid grid-cols-7 items-center pl-5 md:pl-10">
-                  <div className="pl-5">{index + 1}</div> {/* Rank based on sorted order */}
+                  <div className="pl-5">{index + 1}</div>{" "}
+                  {/* Rank based on sorted order */}
                   {/* <div>{row.urutan}</div> */}
                   <div className="flex items-center gap-1 sm:gap-2 col-span-2">
                     {" "}
@@ -160,7 +163,9 @@ const sortedLeaderboard = [...leaderboardData].sort((a, b) => b.score - a.score)
             ))}
             <div className="bg-[#F6E091] bonjour-font text-center py-2 md:py-4 rounded-xl cursor-pointer hover:bg-[#cdbb79]">
               {" "}
-              <Link href="/Leaderboard" key="leaderboard">See More</Link>
+              <Link href="/Leaderboard" key="leaderboard">
+                See More
+              </Link>
             </div>
           </div>
         </div>

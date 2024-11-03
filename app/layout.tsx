@@ -5,7 +5,8 @@ import Footer from "@/Components/Footer";
 
 export const metadata: Metadata = {
   title: "Olimpiade KM XII ITB",
-  description: "Olimpiade KM XII ITB",
+  description:
+    "OLIMPIADE XII KM ITB! Dengan semangat membara, para atlet dari penjuru kampus akan segera bertarung dalam ajang paling begengsi di bumi Ganesha",
 };
 
 export default function RootLayout({
@@ -18,12 +19,10 @@ export default function RootLayout({
       <head>
         {/* Link to the favicon */}
         <link rel="icon" href="/logo-olim-km.ico" />
-        </head>
+      </head>
       <body className="overflow-x-hidden">
         <Navbar />
-        <div className="">
-          {children}
-        </div>
+        <div className="">{children}</div>
         <Footer />
       </body>
     </html>

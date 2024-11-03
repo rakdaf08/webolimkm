@@ -13,25 +13,37 @@ const Footer = () => {
           </Link>
           <div className="flex flex-col pl-5 mt-1">
             <div className="flex items-center gap-5">
-              <Link href="/">
+              <a
+                href="https://instagram.com/olimpiade.km.itb"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image
                   src="/youtube.svg"
                   alt="youtube logo"
-                  width={35}
+                  width={25}
                   height={40}
                 />
-              </Link>
-              <Link href="/https://instagram.com/olimpiade.km.itb">
+              </a>
+              <a
+                href="https://instagram.com/olimpiade.km.itb"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image
                   src="/instagram.svg"
                   alt="instagram logo"
                   width={25}
                   height={40}
                 />
-              </Link>
-              <Link href="/">
-                <Image src="/x.svg" alt="x logo" width={25} height={40} />
-              </Link>
+              </a>
+              <a
+                href="https://www.tiktok.com/@olimpiadekmitb"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image src="/x.svg" alt="tiktok logo" width={25} height={40} />
+              </a>
             </div>
             <div className="text-white magical-stylish-font pt-3">
               Olimpiade KM ITB @ 2024, Bandung
