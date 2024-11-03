@@ -4,151 +4,151 @@ export const schedule = [
       match : [
         {
             sportName: "Futsal Putra",
-            tim1: "HMT-ITB",
+            tim1: "Himpunan Mahasiswa Tambang",
             image1: "/LogoHMPS/HMT.png",
             skor1: "0",
-            tim2: "HMIF ITB",
+            tim2: "Himpunan Mahasiswa Informatika",
             image2: "/LogoHMPS/HMIF.png",
             skor2: "0"
         },
         {
             sportName: "Futsal Putra",
-            tim1: "HMTB 'RINUVA' ITB",
+            tim1: 'Himpunan Mahasiswa Teknik Bioenergi dan Kemurgi "RINUVA"',
             image1: "/LogoHMPS/HMTB.png",
             skor1: "0",
-            tim2: "HMS ITB",
+            tim2: "Himpunan Mahasiswa Sipil ITB",
             image2: "/LogoHMPS/HMS.png",
             skor2: "0"
         },
         {
             sportName: "Futsal Putra",
-            tim1: "IMMG ITB",
+            tim1: "Ikatan Mahasiswa Metalurgi",
             image1: "/LogoHMPS/IMMG.png",
             skor1: "0",
-            tim2: "HIMAFI ITB",
+            tim2: "Himpunan Mahasiswa Fisika",
             image2: "/LogoHMPS/HIMAFI.png",
             skor2: "0"
         },
         {
             sportName: "Futsal Putra",
-            tim1: 'HMTM "PATRA" ITB',
+            tim1: 'Himpunan Mahasiswa Teknik Perminyakan "PATRA"',
             image1: "/LogoHMPS/HMTM.png",
             skor1: "0",
-            tim2: "HME ITB",
+            tim2: "Himpunan Mahasiswa Elektro",
             image2: "/LogoHMPS/HME.png",
             skor2: "0"
         },
         {
             sportName: "Futsal Putra",
-            tim1: "HIMATIKA ITB",
+            tim1: "Himpunan Mahasiswa Matematika",
             image1: "/LogoHMPS/HIMATIKA.png",
             skor1: "0",
-            tim2: "MTI ITB",
+            tim2: "Keluarga Mahasiswa Teknik Industri",
             image2: "/LogoHMPS/MTI.png",
             skor2: "0"
         },
         {
             sportName: "Futsal Putra",
-            tim1: 'HIMABIO "Nymphaea" ITB',
+            tim1: 'Himpunan Mahasiswa Biologi "Nymphaea"',
             image1: "/LogoHMPS/HIMABIO.png",
             skor1: "0",
-            tim2: "KMM ITB",
+            tim2: "Keluarga Mahasiswa Manajemen",
             image2: "/LogoHMPS/KMM.png",
             skor2: "0"
         },
         {
             sportName: "Futsal Putra",
-            tim1: `HMME "Atmosphaira" ITB`,
+            tim1: `Himpunan Mahasiswa Meteorologi "Atmosphaira"`,
             image1: "/LogoHMPS/HMME.png",
             skor1: "0",
-            tim2: "HMK 'AMISCA' ITB",
+            tim2: "Himpunan Mahasiswa Kimia 'AMISCA'",
             image2: "/LogoHMPS/HMK.png",
             skor2: "0"
         },
         {
             sportName: "Futsal Putra",
-            tim1: "HMTL ITB",
+            tim1: "Himpunan Mahasiswa Teknik Lingkungan",
             image1: "/LogoHMPS/HMTL.png",
             skor1: "0",
-            tim2: 'IMK "ARTHA" ITB',
+            tim2: 'Ikatan Mahasiswa Kewirausahaan "ARTHA"',
             image2: "/LogoHMPS/IMK.png",
             skor2: "0"
         },
         {
             sportName: "Futsal Putra",
-            tim1: "KMSR ITB (B)",
+            tim1: "Keluarga Mahasiswa Seni Rupa (B)",
             image1: "/LogoHMPS/KMSR.png",
             skor1: "0",
-            tim2: "HMM ITB",
+            tim2: "Himpunan Mahasiswa Mesin",
             image2: "/LogoHMPS/HMM.png",
             skor2: "0"
         },
         {
             sportName: "Futsal Putra",
-            tim1: "HMP PL ITB",
+            tim1: "Himpunan Mahasiswa Perencanaan Wilayah dan Kota 'Pangripta Loka'",
             image1: "/LogoHMPS/HMP.png",
             skor1: "0",
-            tim2: "HIMASTRON ITB",
+            tim2: "Himpunan Mahasiswa Astronomi",
             image2: "/LogoHMPS/HIMASTRON.png",
             skor2: "0"
         },
         {
             sportName: "Futsal Putra",
-            tim1: "IMG-ITB",
+            tim1: "Ikatan Mahasiswa Geodesi",
             image1: "/LogoHMPS/IMG.png",
             skor1: "0",
-            tim2: 'HMO "TRITON" ITB',
+            tim2: 'Himpunan Mahasiswa Oseanografi "TRITON"',
             image2: "/LogoHMPS/HMO.png",
             skor2: "0"
         },
         {
             sportName: "Futsal Putra",
-            tim1: 'HMTG "GEA" ITB',
+            tim1: 'Himpunan Mahasiswa Teknik Geologi "GEA"',
             image1: "/LogoHMPS/HMTG.png",
             skor1: "0",
-            tim2: "HMF 'Ars Praeparandi' ITB",
+            tim2: "Himpunan Mahasiswa Farmasi 'Ars Praeparandi'",
             image2: "/LogoHMPS/HMF.png",
             skor2: "0"
         },
         {
             sportName: "Futsal Putra",
-            tim1: "KMKL-ITB",
+            tim1: "Keluarga Mahasiswa Teknik Kelautan",
             image1: "/LogoHMPS/KMKL.png",
             skor1: "0",
-            tim2: "KMPN ITB",
+            tim2: "Keluarga Mahasiswa Penerbangan",
             image2: "/LogoHMPS/KMPN.png",
             skor2: "0"
         },
         {
             sportName: "Futsal Putra",
-            tim1: "IMA-G ITB",
+            tim1: "Ikatan Mahasiswa Arsitektur Gunadharma",
             image1: "/LogoHMPS/IMA_G.png",
             skor1: "0",
-            tim2: 'HIMA TG "TERRA" ITB',
+            tim2: 'Himpunan Mahasiswa Teknik Geofisika "TERRA"',
             image2: "/LogoHMPS/HIMA_TG.png",
             skor2: "0"
         },
         {
             sportName: "Futsal Putra",
-            tim1: "HIMATEK-ITB",
+            tim1: "Himpunan Mahasiswa Teknik Kimia",
             image1: "/LogoHMPS/HIMATEK.png",
             skor1: "0",
-            tim2: "KMSR ITB (B)",
+            tim2: "Keluarga Mahasiswa Seni Rupa (B)",
             image2: "/LogoHMPS/KMSR.png",
             skor2: "0"
         },
         {
             sportName: "Futsal Putra",
-            tim1: 'IMT "Signum" ITB',
+            tim1: 'Ikatan Mahasiswa Telekomunikasi "Signum"',
             image1: "/LogoHMPS/IMT.png",
             skor1: "0",
-            tim2: "MTM ITB",
+            tim2: "Himpunan Mahasiswa Teknik Material",
             image2: "/LogoHMPS/MTM.png",
             skor2: "0"
         },
         {
             sportName: "Futsal Putra",
-            tim1: 'HMFT-ITB',
+            tim1: 'Himpunan Mahasiswa Fisika Teknik',
             image1: "/LogoHMPS/HMFT.png",
             skor1: "0",
             tim2: "TBD",
@@ -159,6 +159,69 @@ export const schedule = [
   }, {
       round : 2,
       match : [
+        {
+            sportName: "Futsal Putra",
+            tim1: 'TBD',
+            image1: "/TBD.png",
+            skor1: "0",
+            tim2: "TBD",
+            image2: "/TBD.png",
+            skor2: "0"
+        },
+        {
+            sportName: "Futsal Putra",
+            tim1: 'TBD',
+            image1: "/TBD.png",
+            skor1: "0",
+            tim2: "TBD",
+            image2: "/TBD.png",
+            skor2: "0"
+        },
+        {
+            sportName: "Futsal Putra",
+            tim1: 'TBD',
+            image1: "/TBD.png",
+            skor1: "0",
+            tim2: "TBD",
+            image2: "/TBD.png",
+            skor2: "0"
+        },
+        {
+            sportName: "Futsal Putra",
+            tim1: 'TBD',
+            image1: "/TBD.png",
+            skor1: "0",
+            tim2: "TBD",
+            image2: "/TBD.png",
+            skor2: "0"
+        },
+        {
+            sportName: "Futsal Putra",
+            tim1: 'TBD',
+            image1: "/TBD.png",
+            skor1: "0",
+            tim2: "TBD",
+            image2: "/TBD.png",
+            skor2: "0"
+        },
+        {
+            sportName: "Futsal Putra",
+            tim1: 'TBD',
+            image1: "/TBD.png",
+            skor1: "0",
+            tim2: "TBD",
+            image2: "/TBD.png",
+            skor2: "0"
+        },
+        {
+            sportName: "Futsal Putra",
+            tim1: 'TBD',
+            image1: "/TBD.png",
+            skor1: "0",
+            tim2: "TBD",
+            image2: "/TBD.png",
+            skor2: "0"
+        },
         {
             sportName: "Futsal Putra",
             tim1: 'TBD',
@@ -180,11 +243,47 @@ export const schedule = [
             tim2: "TBD",
             image2: "/TBD.png",
             skor2: "0"
+        },
+        {
+            sportName: "Futsal Putra",
+            tim1: 'TBD',
+            image1: "/TBD.png",
+            skor1: "0",
+            tim2: "TBD",
+            image2: "/TBD.png",
+            skor2: "0"
+        },
+        {
+            sportName: "Futsal Putra",
+            tim1: 'TBD',
+            image1: "/TBD.png",
+            skor1: "0",
+            tim2: "TBD",
+            image2: "/TBD.png",
+            skor2: "0"
+        },
+        {
+            sportName: "Futsal Putra",
+            tim1: 'TBD',
+            image1: "/TBD.png",
+            skor1: "0",
+            tim2: "TBD",
+            image2: "/TBD.png",
+            skor2: "0"
         }]
   },
   {
       round : 4,
       match : [
+        {
+            sportName: "Futsal Putra",
+            tim1: 'TBD',
+            image1: "/TBD.png",
+            skor1: "0",
+            tim2: "TBD",
+            image2: "/TBD.png",
+            skor2: "0"
+        },
         {
             sportName: "Futsal Putra",
             tim1: 'TBD',

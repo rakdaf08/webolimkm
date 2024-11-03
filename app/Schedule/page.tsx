@@ -45,12 +45,12 @@ const Page = () => {
             Pilih cabang olahraga
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            <Link href="/Schedule/Atletik">
+            <Link href="/Schedule/Estafet">
               <div className="rounded-xl">
                 <Image
                   src={Atletik}
                   alt="Logo Atletik"
-                  className="w-full"
+                  className="w-full hover:scale-105 duration-200 transition-all"
                   loading="lazy"
                 />
               </div>
@@ -60,7 +60,7 @@ const Page = () => {
                 <Image
                   src={Badminton}
                   alt="Logo Badminton"
-                  className="w-full"
+                  className="w-full hover:scale-105 duration-200 transition-all"
                   loading="lazy"
                 />
               </div>
@@ -77,7 +77,7 @@ const Page = () => {
               <Image
                 src={Basket}
                 alt="Logo Basket"
-                className="w-full"
+                className="w-full hover:scale-105 duration-200 transition-all"
                 loading="lazy"
               />
             </div>
@@ -86,7 +86,7 @@ const Page = () => {
                 <Image
                   src={Catur}
                   alt="Logo Catur"
-                  className="w-full"
+                  className="w-full hover:scale-105 duration-200 transition-all"
                   loading="lazy"
                 />
               </div>
@@ -103,7 +103,7 @@ const Page = () => {
               <Image
                 src={Futsal}
                 alt="Logo Futsal"
-                className="w-full"
+                className="w-full hover:scale-105 duration-200 transition-all"
                 loading="lazy"
               />
             </div>
@@ -112,7 +112,7 @@ const Page = () => {
                 <Image
                   src={Ml}
                   alt="Logo Mobile Legends"
-                  className="w-full"
+                  className="w-full hover:scale-105 duration-200 transition-all"
                   loading="lazy"
                 />
               </div>
@@ -129,7 +129,7 @@ const Page = () => {
               <Image
                 src={Renang}
                 alt="Logo Renang"
-                className="w-full"
+                className="w-full hover:scale-105 duration-200 transition-all"
                 loading="lazy"
               />
             </div>
@@ -138,7 +138,7 @@ const Page = () => {
                 <Image
                   src={TenisMeja}
                   alt="Logo Tenis Meja"
-                  className="w-full"
+                  className="w-full hover:scale-105 duration-200 transition-all"
                   loading="lazy"
                 />
               </div>
@@ -148,7 +148,7 @@ const Page = () => {
                 <Image
                   src={Valo}
                   alt="Logo Valorant"
-                  className="w-full"
+                  className="w-full hover:scale-105 duration-200 transition-all"
                   loading="lazy"
                 />
               </div>
@@ -158,7 +158,7 @@ const Page = () => {
                 <Image
                   src={Voli}
                   alt="Logo Voli"
-                  className="w-full"
+                  className="w-full hover:scale-105 duration-200 transition-all"
                   loading="lazy"
                 />
               </div>
@@ -183,7 +183,7 @@ const Page = () => {
                   alt={`Image ${index + 1}`}
                   width={1000}
                   height={1000}
-                  className="w-80 h-96 cursor-pointer"
+                  className="w-80 h-96 cursor-pointer hover:scale-105 duration-200 transition-all"
                   loading="lazy"
                 />
               </Link>

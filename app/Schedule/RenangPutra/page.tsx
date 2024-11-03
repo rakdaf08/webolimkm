@@ -4,6 +4,7 @@ import { schedule } from "./schedule";
 import Image from "next/image";
 import Bg from "@/public/schedule.png";
 import Link from "next/link";
+import ComingSoon from "@/public/COMING SOON.svg";
 
 // Define the types for the match and schedule
 interface Match {
@@ -66,10 +67,22 @@ const SchedulePage: React.FC = () => {
               {"<"} Kembali{" "}
             </h3>
           </Link>
-          <h3 className="bonjour-font text-[#102F8E] text-5xl"> Atletik </h3>
-          <div className="bg-slate-400 w-full h-[300px] mt-5"></div>
+          <h3 className="bonjour-font text-[#102F8E] text-5xl">
+            {" "}
+            Renang Putra{" "}
+          </h3>
+          {/* <div className="bg-slate-400 w-full h-[300px] mt-5"></div> */}
         </div>
-        <div className="p-4 md:p-10">
+        <div className="flex flex-col h-full overflow-hidden w-full bg-[#F9F3BA] relative p-10">
+          <Image
+            src={ComingSoon}
+            alt="Title"
+            width={20}
+            height={20}
+            className="w-full mx-auto"
+          />
+        </div>
+        {/* <div className="p-4 md:p-10">
           <div className="flex space-x-4 mb-6 overflow-x-auto scrollbar-hide">
             {[1, 2, 3, 4, 5, 6, 7].map((round) => (
               <button
@@ -137,7 +150,7 @@ const SchedulePage: React.FC = () => {
               ))}
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
