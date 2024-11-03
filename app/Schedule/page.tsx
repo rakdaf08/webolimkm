@@ -173,7 +173,7 @@ const Page = () => {
           onClick={closeModal}
         >
           <div
-            className="flex xs:flex-col sm:flex-col md:flex-row lg:flex-row gap-0"
+            className="flex xss:flex-col xs:flex-col sm:flex-col md:flex-row lg:flex-row gap-0"
             onClick={(e) => e.stopPropagation()}
           >
             {modalImages.map((img, index) => (

@@ -3,7 +3,7 @@ export const schedule = [
         round : 1,
         match : [
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "Keluarga Mahasiswa Teknik Industri",
                 image1: "/LogoHMPS/MTI.png",
                 skor1: "0",
@@ -12,7 +12,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: 'Himpunan Mahasiswa Meteorologi "Atmosphaira"',
                 image1: "/LogoHMPS/HMME.png",
                 skor1: "0",
@@ -21,7 +21,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "Himpunan Mahasiswa Fisika Teknik",
                 image1: "/LogoHMPS/HMFT.png",
                 skor1: "0",
@@ -30,7 +30,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: 'Himpunan Mahasiswa Teknik Perminyakan "PATRA"',
                 image1: "/LogoHMPS/HMTM.png",
                 skor1: "0",
@@ -39,7 +39,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: 'Himpunan Mahasiswa Teknik Geofisika "TERRA"',
                 image1: "/LogoHMPS/HIMA_TG.png",
                 skor1: "0",
@@ -48,7 +48,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "Keluarga Mahasiswa Teknik Kelautan",
                 image1: "/LogoHMPS/KMKL.png",
                 skor1: "0",
@@ -57,7 +57,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "Himpunan Mahasiswa Fisika",
                 image1: "/LogoHMPS/HIMAFI.png",
                 skor1: "0",
@@ -66,7 +66,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "Himpunan Mahasiswa Tambang",
                 image1: "/LogoHMPS/HMT.png",
                 skor1: "0",
@@ -75,7 +75,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "Himpunan Mahasiswa Teknik Lingkungan",
                 image1: "/LogoHMPS/HMTL.png",
                 skor1: "0",
@@ -84,7 +84,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: 'Himpunan Mahasiswa Teknik Geologi "GEA"',
                 image1: "/LogoHMPS/HMTG.png",
                 skor1: "0",
@@ -93,7 +93,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "Himpunan Mahasiswa Teknik Material",
                 image1: "/LogoHMPS/MTM.png",
                 skor1: "0",
@@ -102,7 +102,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "Keluarga Mahasiswa Seni Rupa",
                 image1: "/LogoHMPS/KMSR.png",
                 skor1: "0",
@@ -111,7 +111,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "Keluarga Mahasiswa Manajemen",
                 image1: "/LogoHMPS/KMM.png",
                 skor1: "0",
@@ -120,7 +120,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: 'Himpunan Mahasiswa Oseanografi "TRITON"',
                 image1: "/LogoHMPS/HMO.png",
                 skor1: "0",
@@ -129,7 +129,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "Himpunan Mahasiswa Rekayasa Kehutanan 'Selva'",
                 image1: "/LogoHMPS/HMH.png",
                 skor1: "0",
@@ -138,7 +138,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "Himpunan Mahasiswa Farmasi 'Ars Praeparandi'",
                 image1: "/LogoHMPS/HMF.png",
                 skor1: "0",
@@ -151,7 +151,7 @@ export const schedule = [
         round : 2,
         match : [
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "TBD",
                 image1: "/TBD.png",
                 skor1: "0",
@@ -160,7 +160,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "TBD",
                 image1: "/TBD.png",
                 skor1: "0",
@@ -169,7 +169,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "TBD",
                 image1: "/TBD.png",
                 skor1: "0",
@@ -178,7 +178,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "TBD",
                 image1: "/TBD.png",
                 skor1: "0",
@@ -187,7 +187,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "TBD",
                 image1: "/TBD.png",
                 skor1: "0",
@@ -196,7 +196,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "TBD",
                 image1: "/TBD.png",
                 skor1: "0",
@@ -205,7 +205,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "TBD",
                 image1: "/TBD.png",
                 skor1: "0",
@@ -214,7 +214,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "TBD",
                 image1: "/TBD.png",
                 skor1: "0",
@@ -227,7 +227,7 @@ export const schedule = [
         round : 3,
         match : [
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "TBD",
                 image1: "/TBD.png",
                 skor1: "0",
@@ -236,7 +236,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "TBD",
                 image1: "/TBD.png",
                 skor1: "0",
@@ -245,7 +245,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "TBD",
                 image1: "/TBD.png",
                 skor1: "0",
@@ -254,7 +254,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "TBD",
                 image1: "/TBD.png",
                 skor1: "0",
@@ -267,7 +267,7 @@ export const schedule = [
         round : 4, // Semifinal
         match : [
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "TBD",
                 image1: "/TBD.png",
                 skor1: "0",
@@ -276,7 +276,7 @@ export const schedule = [
                 skor2: "0"
             },
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "TBD",
                 image1: "/TBD.png",
                 skor1: "0",
@@ -289,7 +289,7 @@ export const schedule = [
         round : 5, // Bronze Match
         match : [
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "TBD",
                 image1: "/TBD.png",
                 skor1: "0",
@@ -302,7 +302,7 @@ export const schedule = [
         round : 6, // Final
         match : [
             {
-                sportName: "Badminton Putra",
+                sportName: "Badminton",
                 tim1: "TBD",
                 image1: "/TBD.png",
                 skor1: "0",
