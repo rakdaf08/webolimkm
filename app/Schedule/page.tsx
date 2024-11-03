@@ -3,18 +3,18 @@
 import { useState } from "react";
 import Bg from "@/public/schedule.png";
 import Image from "next/image";
-import Atletik from "@/public/catletik.svg";
-import Badminton from "@/public/cbadminton.svg";
-import Basket from "@/public/cbasket.svg";
-import Catur from "@/public/ccatur.svg";
-import Futsal from "@/public/cfutsal.svg";
-import Ml from "@/public/cml.svg";
-import Renang from "@/public/crenang.svg";
-import TenisMeja from "@/public/ctenis.svg";
-import Valo from "@/public/cvalo.svg";
-import Voli from "@/public/cvoli.svg";
-import Men from "@/public/Schedule/MEN card.svg";
-import Women from "@/public/Schedule/WOMEN card.svg";
+import Atletik from "@/public/Schedule/catletik.png";
+import Badminton from "@/public/Schedule/cbadminton.png";
+import Basket from "@/public/Schedule/cbasket.png";
+import Catur from "@/public/Schedule/ccatur.png";
+import Futsal from "@/public/Schedule/cfutsal.png";
+import Ml from "@/public/Schedule/cml.png";
+import Renang from "@/public/Schedule/crenang.png";
+import TenisMeja from "@/public/Schedule/ctenismeja.png";
+import Valo from "@/public/Schedule/cvalorant.png";
+import Voli from "@/public/Schedule/cvoli.png";
+import Men from "@/public/Schedule/MEN card.png";
+import Women from "@/public/Schedule/WOMEN card.png";
 import Link from "next/link";
 
 // Mendefinisikan tipe untuk gambar modal
@@ -172,15 +172,18 @@ const Page = () => {
           className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
           onClick={closeModal}
         >
-          <div className="flex gap-0" onClick={(e) => e.stopPropagation()}>
+          <div
+            className="flex xs:flex-col sm:flex-col md:flex-row lg:flex-row gap-0"
+            onClick={(e) => e.stopPropagation()}
+          >
             {modalImages.map((img, index) => (
               <Link href={img.href} key={index} onClick={closeModal}>
                 <Image
                   src={img.src}
                   alt={`Image ${index + 1}`}
-                  width={600}
-                  height={600}
-                  className="w-96 h-96 cursor-pointer"
+                  width={1000}
+                  height={1000}
+                  className="w-80 h-96 cursor-pointer"
                   loading="lazy"
                 />
               </Link>
