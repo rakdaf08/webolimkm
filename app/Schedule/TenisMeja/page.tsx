@@ -4,14 +4,11 @@ import { schedule } from "./schedule";
 import Image from "next/image";
 import Bg from "@/public/schedule.png";
 import Link from "next/link";
+import bagan from "@/public/Bagan/Bagan Tenis Meja.png";
 
 // Define the types for the match and schedule
 interface Match {
-  day: number;
-  tanggal: string;
-  lokasi: string;
   sportName: string;
-  waktu: string;
   tim1: string;
   image1: string;
   skor1: string;
@@ -61,12 +58,17 @@ const SchedulePage: React.FC = () => {
               {"<"} Kembali{" "}
             </h3>
           </Link>
-          <h3 className="bonjour-font text-[#102F8E] text-5xl"> Atletik </h3>
-          <div className="bg-slate-400 w-full h-[300px] mt-5"></div>
+          <h3 className="bonjour-font text-[#102F8E] text-5xl"> Tenis Meja </h3>
+          <Image
+            className="w-full mt-5"
+            layout="responsive"
+            src={bagan}
+            alt="Bagan"
+          />
         </div>
         <div className="p-4 md:p-10">
           <div className="flex space-x-4 mb-6 overflow-x-auto scrollbar-hide">
-            {[1, 2, 3, 4, 5, 6, 7].map((round) => (
+            {[1, 2, 3, 4, 5, 6].map((round) => (
               <button
                 key={round}
                 onClick={() => handleRoundChange(round)}
@@ -76,13 +78,12 @@ const SchedulePage: React.FC = () => {
                     : "bg-white text-[#1D48B9] border-[3px] border-[#1D48B9]"
                 }`}
               >
-                {round == 1 && "Round 1"}
-                {round == 2 && "Round 2"}
-                {round == 3 && "Round 3"}
-                {round == 4 && "Round 4"}
-                {round == 5 && "Semi-Final"}
-                {round == 6 && "Bronze Match"}
-                {round == 7 && "Final"}
+                {round == 1 && "32 Besar"}
+                {round == 2 && "16 Besar"}
+                {round == 3 && "8 Besar"}
+                {round == 4 && "Semi-Final"}
+                {round == 5 && "Bronze Match"}
+                {round == 6 && "Final"}
               </button>
             ))}
           </div>
@@ -103,8 +104,8 @@ const SchedulePage: React.FC = () => {
                       <div className="flex gap-1">
                         <Image
                           src={match.image1}
-                          width={20}
-                          height={20}
+                          width={35}
+                          height={35}
                           alt="Logo"
                         />
                         <p> {match.tim1} </p>
@@ -117,8 +118,8 @@ const SchedulePage: React.FC = () => {
                       <div className="flex gap-1">
                         <Image
                           src={match.image2}
-                          width={20}
-                          height={20}
+                          width={35}
+                          height={35}
                           alt="Logo"
                         />
                         <p> {match.tim2} </p>
