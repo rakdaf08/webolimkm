@@ -81,8 +81,8 @@ const SchedulePage: React.FC = () => {
                     : "bg-white text-[#1D48B9] border-[3px] border-[#1D48B9]"
                 }`}
               >
-                {round == 1 && "32 Besar"}
-                {round == 2 && "16 Besar"}
+                {round == 1 && "30 Besar"}
+                {round == 2 && "15 Besar"}
                 {round == 3 && "8 Besar"}
                 {round == 4 && "Semi-Final"}
                 {round == 5 && "Bronze Match"}

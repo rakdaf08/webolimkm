@@ -5,262 +5,262 @@ export const schedule = [
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Fisika Teknik (A)",
-                image1: "/HMFT.png",
+                image1: "/LogoHMPS/HMFT.png",
                 skor1: "1",
                 tim2: "Himpunan Mahasiswa Elektroteknik",
-                image2: "/HME.png",
+                image2: "/LogoHMPS/HME.png",
                 skor2: "0"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Ikatan Mahasiswa Kewirausahaan \"Artha\"",
-                image1: "/IMK.png",
+                image1: "/LogoHMPS/IMK.png",
                 skor1: "0",
                 tim2: "Keluarga Mahasiswa Manajemen",
-                image2: "/KMM.png",
+                image2: "/LogoHMPS/KMM.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Elektronik",
-                image1: "/HME.png",
+                image1: "/LogoHMPS/HME.png",
                 skor1: "1",
                 tim2: "Himpunan Mahasiswa Biologi \"Nymphaea\"",
-                image2: "/HIMABIO.png",
+                image2: "/LogoHMPS/HIMABIO.png",
                 skor2: "0"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Tambang (A)",
-                image1: "/HMT.jpg",
+                image1: "/LogoHMPS/HMT.png",
                 skor1: "0",
                 tim2: "Keluarga Mahasiswa Penerbangan (A)",
-                image2: "/KMPN.png",
+                image2: "/LogoHMPS/KMPN.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Ikatan Mahasiswa Telekomunikasi \"Signum\" (A)",
-                image1: "/IMT.jpg",
+                image1: "/LogoHMPS/IMT.png",
                 skor1: "1",
-                tim2: "Himpunan Mahasiswa Teknik Perencanaan Wilayah dan Kota (A)",
-                image2: "/HMP.png",
+                tim2: "Himpunan Mahasiswa Teknik Perencanaan Wilayah dan Kota 'Pangripta Loka' (A)",
+                image2: "/LogoHMPS/HMP.png",
                 skor2: "0"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Fisika Teknik (B)",
-                image1: "/HMFT.png",
+                image1: "/LogoHMPS/HMFT.png",
                 skor1: "0",
                 tim2: "Himpunan Mahasiswa Informatika (A)",
-                image2: "/HMIF.svg",
+                image2: "/LogoHMPS/HMIF.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Astronomi (B)",
-                image1: "/HIMASTRON.png",
+                image1: "/LogoHMPS/HIMASTRON.png",
                 skor1: "0",
                 tim2: "Himpunan Mahasiswa Teknik Kimia (B)",
-                image2: "/HIMATEK.png",
+                image2: "/LogoHMPS/HIMATEK.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Farmasi 'Ars Praeparandi' (A)",
-                image1: "/HMF.png",
+                image1: "/LogoHMPS/HMF.png",
                 skor1: "1",
-                tim2: "Himpunan Mahasiswa Teknik Geofisika 'TERRA' (B)",
-                image2: "/HIMA_TG.jpg",
+                tim2: 'Himpunan Mahasiswa Teknik Geofisika "TERRA" (B)',
+                image2: "/LogoHMPS/HIMA_TG.png",
                 skor2: "0"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Sipil (B)",
-                image1: "/HMS.png",
+                image1: "/LogoHMPS/HMS.png",
                 skor1: "0",
-                tim2: "Himpunan Mahasiswa Oseanografi 'TRITON' (A)",
-                image2: "/HMO.png",
+                tim2: 'Himpunan Mahasiswa Oseanografi "TRITON" (A)',
+                image2: "/LogoHMPS/HMO.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Ikatan Mahasiswa Geodesi (A)",
-                image1: "/IMG.jpg",
+                image1: "/LogoHMPS/IMG.png",
                 skor1: "0",
                 tim2: "Himpunan Mahasiswa Matematika (A)",
-                image2: "/HIMATIKA.png",
+                image2: "/LogoHMPS/HIMATIKA.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
-                tim1: "Himpunan Mahasiswa Meteorologi 'Atmosphaira' (B)",
-                image1: "/HMME.png",
+                tim1: 'Himpunan Mahasiswa Meteorologi "Atmosphaira" (B)',
+                image1: "/LogoHMPS/HMME.png",
                 skor1: "0",
-                tim2: "Himpunan Mahasiswa Teknik Geologi 'GEA' (B)",
-                image2: "/HMTG.jpg",
+                tim2: 'Himpunan Mahasiswa Teknik Geologi "GEA" (B)',
+                image2: "/LogoHMPS/HMTG.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
-                tim1: "Himpunan Mahasiswa Teknik Perencanaan Wilayah dan Kota (B)",
-                image1: "/HMP.png",
+                tim1: "Himpunan Mahasiswa Teknik Perencanaan Wilayah dan Kota 'Pangripta Loka' (B)",
+                image1: "/LogoHMPS/HMP.png",
                 skor1: "1",
-                tim2: "Himpunan Mahasiswa Teknik Geofisika 'TERRA' (A)",
-                image2: "/HIMA_TG.jpg",
+                tim2: 'Himpunan Mahasiswa Teknik Geofisika "TERRA" (A)',
+                image2: "/LogoHMPS/HIMA_TG.png",
                 skor2: "0"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
-                tim1: "Ikatan Mahasiswa Arsitektur-Gunadharma (B)",
-                image1: "/IMA_G.png",
+                tim1: "Ikatan Mahasiswa Arsitektur Gunadharma (B)",
+                image1: "/LogoHMPS/IMA_G.png",
                 skor1: "1",
                 tim2: "Himpunan Mahasiswa Teknik Perencanaan Wilayah dan Kota Komisariat",
-                image2: "/HMP.png",
+                image2: "/LogoHMPS/HMP.png",
                 skor2: "0"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Teknik Lingkungan (A)",
-                image1: "/HMTL.jpg",
+                image1: "/LogoHMPS/HMTL.png",
                 skor1: "0",
                 tim2: "Himpunan Mahasiswa Matematika (B)",
-                image2: "/HIMATIKA.png",
+                image2: "/LogoHMPS/HIMATIKA.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
-                tim1: "Ikatan Mahasiswa Arsitektur-Gunadharma (A)",
-                image1: "/IMA_G.png",
+                tim1: "Ikatan Mahasiswa Arsitektur Gunadharma (A)",
+                image1: "/LogoHMPS/IMA_G.png",
                 skor1: "0",
                 tim2: "Keluarga Mahasiswa Teknik Kelautan (B)",
-                image2: "/KMKL.png",
+                image2: "/LogoHMPS/KMKL.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Keluarga Mahasiswa Teknik Industri (A)",
-                image1: "/MTI.png",
+                image1: "/LogoHMPS/MTI.png",
                 skor1: "1",
                 tim2: "Keluarga Mahasiswa Manajemen (A)",
-                image2: "/KMM.png",
+                image2: "/LogoHMPS/KMM.png",
                 skor2: "0"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Oseanografi \"TRITON\" (B)",
-                image1: "/HMO.png",
+                image1: "/LogoHMPS/HMO.png",
                 skor1: "0",
                 tim2: "Himpunan Mahasiswa Meteorologi (A)",
-                image2: "/HMM.png",
+                image2: "/LogoHMPS/HMM.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Rekayasa Hayati",
-                image1: "/HMRH.png",
+                image1: "/LogoHMPS/HMRH.png",
                 skor1: "1",
                 tim2: "Keluarga Mahasiswa Seni Rupa",
-                image2: "/KMSR.png",
+                image2: "/LogoHMPS/KMSR.png",
                 skor2: "0"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Teknik Kimia (A)",
-                image1: "/HIMATEK.png",
+                image1: "/LogoHMPS/HIMATEK.png",
                 skor1: "0",
                 tim2: "Himpunan Mahasiswa Informatika (B)",
-                image2: "/HMIF.svg",
+                image2: "/LogoHMPS/HMIF.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Elektroteknik (A)",
-                image1: "/HME.png",
+                image1: "/LogoHMPS/HME.png",
                 skor1: "0",
                 tim2: "Keluarga Mahasiswa Penerbangan (B)",
-                image2: "/KMPN.png",
+                image2: "/LogoHMPS/KMPN.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Mikrobiologi \"Archaea\"",
-                image1: "/HIMAMIKRO.png",
+                image1: "/LogoHMPS/HIMAMIKRO.png",
                 skor1: "0",
                 tim2: "Ikatan Mahasiswa Telekomunikasi \"Signum\" (B)",
-                image2: "/IMT.jpg",
+                image2: "/LogoHMPS/IMT.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Teknik Material (B)",
-                image1: "/MTM.png",
+                image1: "/LogoHMPS/MTM.png",
                 skor1: "1",
                 tim2: "Himpunan Mahasiswa Teknik Geologi \"GEA\" (A)",
-                image2: "/HMTG.jpg",
+                image2: "/LogoHMPS/HMTG.png",
                 skor2: "0"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Mikrobiologi \"Archaea\" (B)",
-                image1: "/HIMAMIKRO.png",
+                image1: "/LogoHMPS/HIMAMIKRO.png",
                 skor1: "0",
                 tim2: "Himpunan Mahasiswa Teknik Lingkungan (B)",
-                image2: "/HMTL.jpg",
+                image2: "/LogoHMPS/HMTL.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
-                tim1: "Himpunan Mahasiswa Meteorologi (B)",
-                image1: "/HMM.png",
+                tim1: "Himpunan Mahasiswa Mesin (B)",
+                image1: "/LogoHMPS/HMM.png",
                 skor1: "0",
                 tim2: "Ikatan Mahasiswa Metalurgi (A)",
-                image2: "/IMMG.png",
+                image2: "/LogoHMPS/IMMG.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Keluarga Mahasiswa Teknik Industri (B)",
-                image1: "/MTI.png",
+                image1: "/LogoHMPS/MTI.png",
                 skor1: "1",
                 tim2: "Himpunan Mahasiswa Kimia \"AMISCA\"",
-                image2: "/AMISCA.png",
+                image2: "/LogoHMPS/HMK.png",
                 skor2: "0"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Sipil (A)",
-                image1: "/HMS.png",
+                image1: "/LogoHMPS/HMS.png",
                 skor1: "1",
                 tim2: "Himpunan Mahasiswa Farmasi 'Ars Praeparandi' (B)",
-                image2: "/HMF.png",
+                image2: "/LogoHMPS/HMF.png",
                 skor2: "0"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Teknik Perminyakan \"PATRA\"",
-                image1: "/HMTM.png",
+                image1: "/LogoHMPS/HMTM.png",
                 skor1: "1",
                 tim2: "Himpunan Mahasiswa Fisika (A)",
-                image2: "/HIMAFI.jpg",
+                image2: "/LogoHMPS/HIMAFI.png",
                 skor2: "0"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Keluarga Mahasiswa Teknik Kelautan (A)",
-                image1: "/KMKL.png",
+                image1: "/LogoHMPS/KMKL.png",
                 skor1: "0",
                 tim2: "Himpunan Mahasiswa Astronomi (A)",
-                image2: "/HIMASTRON.png",
+                image2: "/LogoHMPS/HIMASTRON.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Tambang (B)",
-                image1: "/HMT.jpg",
+                image1: "/LogoHMPS/HMT.png",
                 skor1: "0",
                 tim2: "Himpunan Mahasiswa Teknik Material (A)",
-                image2: "/MTM.png",
+                image2: "/LogoHMPS/MTM.png",
                 skor2: "1"
             }]
     }, {
@@ -269,145 +269,145 @@ export const schedule = [
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Fisika (B)",
-                image1: "/HIMAFI.jpg",
+                image1: "/LogoHMPS/HIMAFI.png",
                 skor1: "0",
                 tim2: "Himpunan Mahasiswa Fisika Teknik (A)",
-                image2: "/HMFT.jpg",
+                image2: "/LogoHMPS/HMFT.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Keluarga Mahasiswa Manajemen (B)",
-                image1: "/KMM.jpg",
+                image1: "/LogoHMPS/KMM.png",
                 skor1: "1",
                 tim2: "Himpunan Mahasiswa Elektro (B)",
-                image2: "/HME.jpg",
+                image2: "/LogoHMPS/HME.png",
                 skor2: "0"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Keluarga Mahasiswa Teknik Penerbangan (A)",
-                image1: "/KMPN.jpg",
+                image1: "/LogoHMPS/KMPN.png",
                 skor1: "0",
-                tim2: "Ikatan Mahasiswa Telekomunikasi 'Signum' (A)",
-                image2: "/IMT.jpg",
+                tim2: 'Ikatan Mahasiswa Telekomunikasi "Signum" (A)',
+                image2: "/LogoHMPS/IMT.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Informatika (A)",
-                image1: "/HMIF.jpg",
+                image1: "/LogoHMPS/HMIF.png",
                 skor1: "1",
                 tim2: "Himpunan Mahasiswa Teknik Kimia (B)",
-                image2: "/HIMATEK.jpg",
+                image2: "/LogoHMPS/HIMATEK.png",
                 skor2: "0"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Farmasi 'Ars Praeparandi' (A)",
-                image1: "/HMF.jpg",
+                image1: "/LogoHMPS/HMF.png",
                 skor1: "0",
-                tim2: "Himpunan Mahasiswa Oseanografi 'Triton' (A)",
-                image2: "/HMO.jpg",
+                tim2: 'Himpunan Mahasiswa Oseanografi "TRITON" (A)',
+                image2: "/LogoHMPS/HMO.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Matematika (A)",
-                image1: "/HIMATIKA.jpg",
+                image1: "/LogoHMPS/HIMATIKA.png",
                 skor1: "1",
-                tim2: "Himpunan Mahasiswa Teknik Geologi 'GEA' (B)",
-                image2: "/HMTG.jpg",
+                tim2: 'Himpunan Mahasiswa Teknik Geologi "GEA" (B)',
+                image2: "/LogoHMPS/HMTG.png",
                 skor2: "0"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
-                tim1: "Himpunan Mahasiswa Teknik Perencanaan Wilayah dan Kota (B)",
-                image1: "/HMP.jpg",
+                tim1: "Himpunan Mahasiswa Teknik Perencanaan Wilayah dan Kota 'Pangripta Loka' (B)",
+                image1: "/LogoHMPS/HMP.png",
                 skor1: "0",
-                tim2: "Ikatan Mahasiswa Arsitektur-Gunadharma (B)",
-                image2: "/IMA_G.jpg",
+                tim2: "Ikatan Mahasiswa Arsitektur Gunadharma (B)",
+                image2: "/LogoHMPS/IMA_G.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Matematika (B)",
-                image1: "/HIMATIKA.jpg",
+                image1: "/LogoHMPS/HIMATIKA.png",
                 skor1: "1",
                 tim2: "Keluarga Mahasiswa Teknik Kelautan (B)",
-                image2: "/KMKL.jpg",
+                image2: "/LogoHMPS/KMKL.png",
                 skor2: "0"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
-                tim1: "Himpunan Mahasiswa Meteorologi 'Atmosphaira' (A)",
-                image1: "/HMME.jpg",
+                tim1: 'Himpunan Mahasiswa Meteorologi "Atmosphaira" (A)',
+                image1: "/LogoHMPS/HMME.png",
                 skor1: "0",
                 tim2: "Keluarga Mahasiswa Teknik Industri (A)",
-                image2: "/MTI.jpg",
+                image2: "/LogoHMPS/MTI.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Mesin (A)",
-                image1: "/HMM.jpg",
+                image1: "/LogoHMPS/HMM.png",
                 skor1: "1",
                 tim2: "Himpunan Mahasiswa Rekayasa Hayati",
-                image2: "/HMRH.jpg",
+                image2: "/LogoHMPS/HMRH.png",
                 skor2: "0"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Informatika (B)",
-                image1: "/HMIF.jpg",
+                image1: "/LogoHMPS/HMIF.png",
                 skor1: "1",
                 tim2: "Keluarga Mahasiswa Teknik Penerbangan (B)",
-                image2: "/KMPN.jpg",
+                image2: "/LogoHMPS/KMPN.png",
                 skor2: "0"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
-                tim1: "Ikatan Mahasiswa Telekomunikasi 'Signum' (B)",
-                image1: "/IMT.jpg",
+                tim1: 'Ikatan Mahasiswa Telekomunikasi "Signum" (B)',
+                image1: "/LogoHMPS/IMT.png",
                 skor1: "1",
                 tim2: "Himpunan Mahasiswa Teknik Material (B)",
-                image2: "/MTM.jpg",
+                image2: "/LogoHMPS/MTM.png",
                 skor2: "0"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Ikatan Mahasiswa Geodesi (B)",
-                image1: "/IMG.jpg",
+                image1: "/LogoHMPS/IMG.png",
                 skor1: "0",
                 tim2: "Himpunan Mahasiswa Teknik Lingkungan (B)",
-                image2: "/HMTL.jpg",
+                image2: "/LogoHMPS/HMTL.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Ikatan Mahasiswa Metalurgi (A)",
-                image1: "/IMMG.jpg",
+                image1: "/LogoHMPS/IMMG.png",
                 skor1: "0",
                 tim2: "Keluarga Mahasiswa Teknik Industri (B)",
-                image2: "/MTI.jpg",
+                image2: "/LogoHMPS/MTI.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Sipil (A)",
-                image1: "/HMS.jpg",
+                image1: "/LogoHMPS/HMS.png",
                 skor1: "0",
-                tim2: "Himpunan Mahasiswa Teknik Perminyakan 'PATRA'",
-                image2: "/HMTM.jpg",
+                tim2: 'Himpunan Mahasiswa Teknik Perminyakan "PATRA"',
+                image2: "/LogoHMPS/HMTM.png",
                 skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Astronomi (A)",
-                image1: "/HIMASTRON.jpg",
+                image1: "/LogoHMPS/HIMASTRON.png",
                 skor1: "0",
                 tim2: "Himpunan Mahasiswa Teknik Material (A)",
-                image2: "/MTM.jpg",
+                image2: "/LogoHMPS/MTM.png",
                 skor2: "1"
             }]
     },
@@ -417,74 +417,74 @@ export const schedule = [
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Fisika Teknik (A)",
-                image1: "/HMFT.jpg",
+                image1: "/LogoHMPS/HMFT.png",
                 skor1: "0",
                 tim2: "Keluarga Mahasiswa Manajemen (B)",
-                image2: "/KMM.jpg",
-                skor2: "0"
+                image2: "/LogoHMPS/KMM.png",
+                skor2: "2"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
-                tim1: "Ikatan Mahasiswa Telekomunikasi 'Signum' (A)",
-                image1: "/IMT.jpg",
-                skor1: "0",
+                tim1: 'Ikatan Mahasiswa Telekomunikasi "Signum" (A)',
+                image1: "/LogoHMPS/IMT.png",
+                skor1: "1",
                 tim2: "Himpunan Mahasiswa Informatika (A)",
-                image2: "/HMIF.jpg",
-                skor2: "0"
+                image2: "/LogoHMPS/HMIF.png",
+                skor2: "2"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
-                tim1: "Himpunan Mahasiswa Oseanografi 'Triton' (A)",
-                image1: "/HMO.jpg",
-                skor1: "0",
+                tim1: 'Himpunan Mahasiswa Oseanografi "Triton" (A)',
+                image1: "/LogoHMPS/HMO.png",
+                skor1: "2",
                 tim2: "Himpunan Mahasiswa Matematika (A)",
-                image2: "/HIMATIKA.jpg",
-                skor2: "0"
+                image2: "/LogoHMPS/HIMATIKA.png",
+                skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
-                tim1: "Ikatan Mahasiswa Arsitektur-Gunadharma (B)",
-                image1: "/IMA_G.jpg",
-                skor1: "0",
+                tim1: "Ikatan Mahasiswa Arsitektur Gunadharma (B)",
+                image1: "/LogoHMPS/IMA_G.png",
+                skor1: "1",
                 tim2: "Himpunan Mahasiswa Matematika (B)",
-                image2: "/HIMATIKA.jpg",
-                skor2: "0"
+                image2: "/LogoHMPS/HIMATIKA.png",
+                skor2: "2"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Keluarga Mahasiswa Teknik Industri (A)",
-                image1: "/MTI.jpg",
+                image1: "/LogoHMPS/MTI.png",
                 skor1: "0",
                 tim2: "Himpunan Mahasiswa Mesin (A)",
-                image2: "/HMM.jpg",
-                skor2: "0"
+                image2: "/LogoHMPS/HMM.png",
+                skor2: "2"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Informatika (B)",
-                image1: "/HMIF.jpg",
-                skor1: "0",
-                tim2: "Ikatan Mahasiswa Telekomunikasi 'Signum' (B)",
-                image2: "/IMT.jpg",
-                skor2: "0"
+                image1: "/LogoHMPS/HMIF.png",
+                skor1: "2",
+                tim2: 'Ikatan Mahasiswa Telekomunikasi "Signum" (B)',
+                image2: "/LogoHMPS/IMT.png",
+                skor2: "1"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Himpunan Mahasiswa Teknik Lingkungan (B)",
-                image1: "/HMTL.jpg",
+                image1: "/LogoHMPS/HMTL.png",
                 skor1: "0",
                 tim2: "Keluarga Mahasiswa Teknik Industri (B)",
-                image2: "/MTI.jpg",
-                skor2: "0"
+                image2: "/LogoHMPS/MTI.png",
+                skor2: "2"
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
-                tim1: "Himpunan Mahasiswa Teknik Perminyakan 'PATRA'",
-                image1: "/HMTM.jpg",
-                skor1: "0",
+                tim1: 'Himpunan Mahasiswa Teknik Perminyakan "PATRA"',
+                image1: "/LogoHMPS/HMTM.png",
+                skor1: "1",
                 tim2: "Himpunan Mahasiswa Teknik Material (A)",
-                image2: "/MTM.jpg",
-                skor2: "0"
+                image2: "/LogoHMPS/MTM.png",
+                skor2: "2"
             }]
     },
     {
@@ -492,57 +492,57 @@ export const schedule = [
         match : [
             {
                 sportName: "Mobile Legends: Bang Bang",
-                tim1: "TBD",
-                image1: "/TBD.png",
+                tim1: "Keluarga Mahasiswa Manajemen (B)",
+                image1: "/LogoHMPS/KMM.png",
                 skor1: "0",
-                tim2: "TBD",
-                image2: "/TBD.png",
+                tim2: "Himpunan Mahasiswa Informatika (A)",
+                image2: "/LogoHMPS/HMIF.png",
+                skor2: "2",
+            },
+            {
+                sportName: "Mobile Legends: Bang Bang",
+                tim1: 'Himpunan Mahasiswa Oseanografi "TRITON" (A)',
+                image1: "/LogoHMPS/HMO.png",
+                skor1: "1",
+                tim2: "Himpunan Mahasiswa Matematika (B)",
+                image2: "/LogoHMPS/HIMATIKA.png",
+                skor2: "2",
+            },
+            {
+                sportName: "Mobile Legends: Bang Bang",
+                tim1: "Himpunan Mahasiswa Mesin (A)",
+                image1: "/LogoHMPS/HMM.png",
+                skor1: "2",
+                tim2: "Himpunan Mahasiswa Informatika (B)",
+                image2: "/LogoHMPS/HMIF.png",
                 skor2: "0",
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
-                tim1: "TBD",
-                image1: "/TBD.png",
+                tim1: "Keluarga Mahasiswa Teknik Industri (B)",
+                image1: "/LogoHMPS/MTI.png",
                 skor1: "0",
-                tim2: "TBD",
-                image2: "/TBD.png",
-                skor2: "0",
-            },
-            {
-                sportName: "Mobile Legends: Bang Bang",
-                tim1: "TBD",
-                image1: "/TBD.png",
-                skor1: "0",
-                tim2: "TBD",
-                image2: "/TBD.png",
-                skor2: "0",
-            },
-            {
-                sportName: "Mobile Legends: Bang Bang",
-                tim1: "TBD",
-                image1: "/TBD.png",
-                skor1: "0",
-                tim2: "TBD",
+                tim2: "Himpunan Mahasiswa Teknik Material (A)",
                 image2: "/TBD.png",
                 skor2: "0",
             }]
     },
     {
-        round : 5, // Semifinal
+        round : 5, //Semifinal
         match : [
             {
                 sportName: "Mobile Legends: Bang Bang",
-                tim1: "TBD",
-                image1: "/TBD.png",
+                tim1: "Himpunan Mahasiswa Informatika (A)",
+                image1: "/LogoHMPS/HMIF.png",
                 skor1: "0",
-                tim2: "TBD",
-                image2: "/TBD.png",
+                tim2: "Himpunan Mahasiswa Matematika (B)",
+                image2: "/LogoHMPS/HIMATIKA.png",
                 skor2: "0",
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
-                tim1: "TBD",
-                image1: "/TBD.png",
+                tim1: "Himpunan Mahasiswa Mesin",
+                image1: "/LogoHMPS/HMM.png",
                 skor1: "0",
                 tim2: "TBD",
                 image2: "/TBD.png",
@@ -551,7 +551,7 @@ export const schedule = [
         ]
     },
     {
-        round : 6, // Bronze Match
+        round : 6, //LogoHMPS/ Bronze Match
         match : [
             {
                 sportName: "Mobile Legends: Bang Bang",
@@ -564,7 +564,7 @@ export const schedule = [
             }]
     },
     {
-        round : 7, // Final
+        round : 7, //LogoHMPS/ Final
         match : [
             {
                 sportName: "Mobile Legends: Bang Bang",

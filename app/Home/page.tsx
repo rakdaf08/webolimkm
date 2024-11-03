@@ -9,8 +9,7 @@ import Total from "@/public/total.svg";
 import Link from "next/link";
 import TimelineTitle from "@/public/titletimeline.svg";
 import Timeline from "@/public/timeline1.svg";
-// import Timeline2 from "@/public/timeline2.svg";
-import ComingSoon from "@/public/COMING SOON.svg";
+import ComingSoon from "@/public/COMING SOON.png";
 
 const MainPage = () => {
   return (
