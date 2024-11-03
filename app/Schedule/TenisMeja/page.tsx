@@ -100,8 +100,8 @@ const SchedulePage: React.FC = () => {
                   </h3>
                   <hr className="border-[#102F8E] border-[1.5px] my-1"></hr>
                   <div className="flex flex-col mt-4 w-full space-y-2 text-[#102F8E] text-xs xs:text-base sm:text-lg md:text-base lg:text-lg">
-                    <div className="flex justify-between">
-                      <div className="flex gap-1">
+                    <div className="flex justify-between items-center">
+                      <div className="flex items-center gap-1">
                         <Image
                           src={match.image1}
                           width={35}
@@ -114,8 +114,8 @@ const SchedulePage: React.FC = () => {
                         <p> {match.skor1} </p>
                       </div>
                     </div>
-                    <div className="flex justify-between">
-                      <div className="flex gap-1">
+                    <div className="flex justify-between items-center">
+                      <div className="flex items-center gap-1">
                         <Image
                           src={match.image2}
                           width={35}
