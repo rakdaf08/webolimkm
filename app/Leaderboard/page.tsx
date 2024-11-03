@@ -69,7 +69,7 @@ const sortedLeaderboard = [...leaderboardData].sort((a, b) => b.score - a.score)
         </div>
       </div>
       <div className="container py-8 w-screen mx-auto flex flex-col items-center justify-center z-30">
-        <div className="space-y-2 md:space-y-4 w-[85%] bonjour-font text-xs xs:text-base sm:text-lg md:text-xl lg:text-2xl relative z-10">
+        <div className="space-y-2 md:space-y-4 w-[85%] bonjour-font xs:text-xs sm:text-lg md:text-xl lg:text-2xl relative z-10">
           <div className="bg-[#EB5327] text-[#F9F3BA] rounded-xl">
             <div className="grid grid-cols-7 items-center pl-5 md:pl-10 py-1 md:py-2">
               <div className="">Urutan</div>

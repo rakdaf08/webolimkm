@@ -12,6 +12,8 @@ import Timeline from "@/public/timeline1.svg";
 import ComingSoon from "@/public/COMING SOON.svg";
 
 const MainPage = () => {
+const sortedLeaderboard = [...leaderboardData].sort((a, b) => b.score - a.score);
+  
   return (
     <section>
       <div className="flex flex-col min-h-screen h-full overflow-hidden w-full bg-[#F9F3BA] relative">
@@ -130,21 +132,22 @@ const MainPage = () => {
                 </div>
               </div>
             </div>
-            {leaderboardData.slice(0, 3).map((row, index) => (
+            {sortedLeaderboard.slice(0, 3).map((row, index) => (
               <div
                 key={index}
                 className="bg-[#F6E091] rounded-xl py-3 md:py-4 shadow-md border border-gray-300"
               >
                 <div className="grid grid-cols-7 items-center pl-5 md:pl-10">
+                  <div className="pl-5">{index + 1}</div> {/* Rank based on sorted order */}
                   {/* <div>{row.urutan}</div> */}
-                  <div className="flex gap-1 sm:gap-2 col-span-2">
+                  <div className="flex items-center gap-1 sm:gap-2 col-span-2">
                     {" "}
                     <Image
                       src={row.image}
                       alt="Logo"
                       width={40}
                       height={40}
-                      className="w-[20px] sm:w-[30px] md:w-[40px]"
+                      className="w-auto h-[20px] md:h-[30px] max-h-[40px]"
                     />{" "}
                     {row.himpunan}
                   </div>
@@ -157,7 +160,7 @@ const MainPage = () => {
             ))}
             <div className="bg-[#F6E091] bonjour-font text-center py-2 md:py-4 rounded-xl cursor-pointer hover:bg-[#cdbb79]">
               {" "}
-              <Link href="./Leaderboard">See More</Link>
+              <Link href="/Leaderboard" key="leaderboard">See More</Link>
             </div>
           </div>
         </div>
