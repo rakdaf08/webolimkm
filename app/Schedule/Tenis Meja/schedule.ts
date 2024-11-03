@@ -2,7 +2,6 @@ export const schedule = [
     {
         round: 1,
         match : [
-            [
                 {
                     sportName: "Tenis Meja",
                     tim1: "Himpunan Mahasiswa Teknik Geofisika 'Terra'",
@@ -102,13 +101,12 @@ export const schedule = [
                     image2: "./IMMG.png",
                     skor2: "0"
                 }
-            ]
         ],
     },
     {
         round: 2,
-        match : [
-            
+        match : [   
+
         ],
     },
   ]
