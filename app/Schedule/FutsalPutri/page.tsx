@@ -57,12 +57,15 @@ const SchedulePage: React.FC = () => {
               {"<"} Kembali{" "}
             </h3>
           </Link>
-          <h3 className="bonjour-font text-[#102F8E] text-5xl"> Atletik </h3>
+          <h3 className="bonjour-font text-[#102F8E] text-5xl">
+            {" "}
+            Futsal Putri{" "}
+          </h3>
           <div className="bg-slate-400 w-full h-[300px] mt-5"></div>
         </div>
         <div className="p-4 md:p-10">
           <div className="flex space-x-4 mb-6 overflow-x-auto scrollbar-hide">
-            {[1, 2, 3, 4, 5, 6, 7].map((round) => (
+            {[1, 2, 3, 4, 5].map((round) => (
               <button
                 key={round}
                 onClick={() => handleRoundChange(round)}
@@ -74,11 +77,9 @@ const SchedulePage: React.FC = () => {
               >
                 {round == 1 && "Round 1"}
                 {round == 2 && "Round 2"}
-                {round == 3 && "Round 3"}
-                {round == 4 && "Round 4"}
-                {round == 5 && "Semi-Final"}
-                {round == 6 && "Bronze Match"}
-                {round == 7 && "Final"}
+                {round == 3 && "Semi-Final"}
+                {round == 4 && "Bronze Match"}
+                {round == 5 && "Final"}
               </button>
             ))}
           </div>

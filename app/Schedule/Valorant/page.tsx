@@ -61,7 +61,7 @@ const SchedulePage: React.FC = () => {
               {"<"} Kembali{" "}
             </h3>
           </Link>
-          <h3 className="bonjour-font text-[#102F8E] text-5xl"> Atletik </h3>
+          <h3 className="bonjour-font text-[#102F8E] text-5xl"> VALORANT </h3>
           <div className="bg-slate-400 w-full h-[300px] mt-5"></div>
         </div>
         <div className="p-4 md:p-10">
@@ -103,8 +103,8 @@ const SchedulePage: React.FC = () => {
                       <div className="flex gap-1">
                         <Image
                           src={match.image1}
-                          width={20}
-                          height={20}
+                          width={35}
+                          height={35}
                           alt="Logo"
                         />
                         <p> {match.tim1} </p>
@@ -117,8 +117,8 @@ const SchedulePage: React.FC = () => {
                       <div className="flex gap-1">
                         <Image
                           src={match.image2}
-                          width={20}
-                          height={20}
+                          width={35}
+                          height={35}
                           alt="Logo"
                         />
                         <p> {match.tim2} </p>

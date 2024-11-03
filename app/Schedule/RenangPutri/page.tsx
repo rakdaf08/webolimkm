@@ -4,7 +4,7 @@ import { schedule } from "./schedule";
 import Image from "next/image";
 import Bg from "@/public/schedule.png";
 import Link from "next/link";
-import ComingSoon from "@/public/COMING SOON.svg";
+import ComingSoon from "@/public/COMING SOON.png";
 
 // Define the types for the match and schedule
 interface Match {

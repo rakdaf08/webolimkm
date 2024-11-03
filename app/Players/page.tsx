@@ -20,7 +20,7 @@ import Futsal2 from "@/public/futsal2.svg";
 import Renang2 from "@/public/renang2.svg";
 import Voli2 from "@/public/voli2.svg";
 import BgPop from "@/public/bgpop.svg";
-import ComingSoon from "@/public/COMING SOON.svg";
+import ComingSoon from "@/public/COMING SOON.png";
 
 const page = () => {
   const [searchTerm, setSearchTerm] = useState("");
