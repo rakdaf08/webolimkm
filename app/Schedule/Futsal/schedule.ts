@@ -9,10 +9,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Fisika Teknik",
-              image1: "/HMFT_ITB.png",
+              image1: "./HMFT_ITB.png",
               skor1: 0,
               tim2: "Himpunan Mahasiswa Teknik Lingkungan",
-              image2: "/HMTL_ITB.jpg",
+              image2: "./HMTL_ITB.jpg",
               skor2: 0
           },
           {
@@ -22,10 +22,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Mesin",
-              image1: "/HMM_ITB.png",
+              image1: "./HMM_ITB.png",
               skor1: 0,
               tim2: "Mahasiswa Teknik Industri (A)",
-              image2: "/MTI_ITB.png",
+              image2: "./MTI_ITB.png",
               skor2: 0
           },
           {
@@ -35,10 +35,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Elektro",
-              image1: "/HME_ITB.png",
+              image1: "./HME_ITB.png",
               skor1: 0,
               tim2: "Ikatan Mahasiswa Kewirausahaan \"Artha\"",
-              image2: "/IMK_ARTHA_ITB.jfif",
+              image2: "./IMK_ARTHA_ITB.jfif",
               skor2: 0
           },
           {
@@ -48,10 +48,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Teknik Perminyakan \"Patra\"",
-              image1: "/HMTM_PATRA_ITB.png",
+              image1: "./HMTM_PATRA_ITB.png",
               skor1: 0,
               tim2: "Ikatan Mahasiswa Metalurgi",
-              image2: "/IMMG_ITB.png",
+              image2: "./IMMG_ITB.png",
               skor2: 0
           },
           {
@@ -61,10 +61,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Sipil (A)",
-              image1: "/HMS_ITB.png",
+              image1: "./HMS_ITB.png",
               skor1: 0,
               tim2: "Keluarga Mahasiswa Teknik Penerbangan (A)",
-              image2: "/KMPN_ITB.png",
+              image2: "./KMPN_ITB.png",
               skor2: 0
           },
           {
@@ -74,10 +74,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Astronomi",
-              image1: "/Himastron_ITB.jfif",
+              image1: "./Himastron_ITB.jfif",
               skor1: 0,
               tim2: "Mahasiswa Teknik Industri (B)",
-              image2: "/MTI_ITB.png",
+              image2: "./MTI_ITB.png",
               skor2: 0
           },
           {
@@ -87,10 +87,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Tambang (B)",
-              image1: "/HMT_ITB.jpg",
+              image1: "./HMT_ITB.jpg",
               skor1: 0,
               tim2: "Keluarga Mahasiswa Manajemen (B)",
-              image2: "/KMM_ITB.png",
+              image2: "./KMM_ITB.png",
               skor2: 0
           },
           {
@@ -100,10 +100,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Matematika (B)",
-              image1: "/HIMATIKA_ITB.png",
+              image1: "./HIMATIKA_ITB.png",
               skor1: 0,
               tim2: "Ikatan Mahasiswa Geodesi",
-              image2: "/IMG_ITB.jpg",
+              image2: "./IMG_ITB.jpg",
               skor2: 0
           },
           {
@@ -113,10 +113,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Teknik Material",
-              image1: "/MTM_ITB.png",
+              image1: "./MTM_ITB.png",
               skor1: 0,
               tim2: "Himpunan Mahasiswa Biologi \"Nymphaea\"",
-              image2: "/HIMABIO_Nymphaea_ITB.jfif",
+              image2: "./HIMABIO_Nymphaea_ITB.jfif",
               skor2: 0
           },
           {
@@ -126,10 +126,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Farmasi 'Ars Praeparandi'",
-              image1: "/HMF_Ars Praeparandi_ITB.png",
+              image1: "./HMF_Ars Praeparandi_ITB.png",
               skor1: 0,
               tim2: "TBD",
-              image2: "",
+              image2: "./",
               skor2: 0
           },
           {
@@ -139,10 +139,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Meteorologi 'Atmosphaira' (B)",
-              image1: "/HMME_Atmosphaira_ITB.png",
+              image1: "./HMME_Atmosphaira_ITB.png",
               skor1: 0,
               tim2: "Himpunan Mahasiswa Informatika",
-              image2: "/HMIF_ITB.png",
+              image2: "./HMIF_ITB.png",
               skor2: 0
           },
           {
@@ -152,10 +152,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Sipil (B)",
-              image1: "/HMS_ITB.png",
+              image1: "./HMS_ITB.png",
               skor1: 0,
               tim2: "TBD",
-              image2: "",
+              image2: "./",
               skor2: 0
           },
           {
@@ -165,10 +165,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Teknik Geofisika 'Terra'",
-              image1: "/HIMA_TG_TERRA_ITB.jpg",
+              image1: "./HIMA_TG_TERRA_ITB.jpg",
               skor1: 0,
               tim2: "TBD",
-              image2: "",
+              image2: "./",
               skor2: 0
           },
           {
@@ -178,10 +178,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Teknik Perencanaan Wilayah dan Kota 'Pangripta Loka' (B)",
-              image1: "/HMP_PL_ITB.png",
+              image1: "./HMP_ITB.png",
               skor1: 0,
               tim2: "TBD",
-              image2: "",
+              image2: "./",
               skor2: 0
           },
           {
@@ -191,10 +191,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Fisika",
-              image1: "/HIMAFI_ITB.jpg",
+              image1: "./HIMAFI_ITB.jpg",
               skor1: 0,
               tim2: "Keluarga Mahasiswa Teknik Kelautan",
-              image2: "/KMKL_ITB.png",
+              image2: "./KMKL_ITB.png",
               skor2: 0
           },
           {
@@ -204,10 +204,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Teknik Perencanaan Wilayah dan Kota 'Pangripta Loka' (A)",
-              image1: "/HMP_PL_ITB.png",
+              image1: "./HMP_ITB.png",
               skor1: 0,
               tim2: "TBD",
-              image2: "",
+              image2: "./",
               skor2: 0
           },
           {
@@ -217,10 +217,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Fisika Teknik (A)",
-              image1: "/HMFT_ITB.png",
+              image1: "./HMFT_ITB.png",
               skor1: 0,
               tim2: "Himpunan Mahasiswa Tambang (A)",
-              image2: "/HMT_ITB.jpg",
+              image2: "./HMT_ITB.jpg",
               skor2: 0
           },
           {
@@ -230,10 +230,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Teknik Bioenergi dan Kemurgi 'RINUVA'",
-              image1: "/HMTB_RINUVA_ITB.png",
+              image1: "./HMTB_RINUVA_ITB.png",
               skor1: 0,
               tim2: "TBD",
-              image2: "",
+              image2: "./",
               skor2: 0
           },
           {
@@ -243,10 +243,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Elektroteknik",
-              image1: "/HME_ITB.png",
+              image1: "./HME_ITB.png",
               skor1: 0,
               tim2: "Keluarga Mahasiswa Seni Rupa (A)",
-              image2: "/KMSR_ITB.jfif",
+              image2: "./KMSR_ITB.jfif",
               skor2: 0
           },
           {
@@ -256,10 +256,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Matematika (A)",
-              image1: "/HIMATIKA_ITB.png",
+              image1: "./HIMATIKA_ITB.png",
               skor1: 0,
               tim2: "TBD",
-              image2: "",
+              image2: "./",
               skor2: 0
           },
           {
@@ -269,10 +269,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Ikatan Mahasiswa Arsitektur-Gunadharma",
-              image1: "/IMA_G_ITB.jpg",
+              image1: "./IMA_G_ITB.jpg",
               skor1: 0,
               tim2: "TBD",
-              image2: "",
+              image2: "./",
               skor2: 0
           },
           {
@@ -282,10 +282,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Oseanografi 'Triton'",
-              image1: "/HMO_TRITON_ITB.png",
+              image1: "./HMO_TRITON_ITB.png",
               skor1: 0,
               tim2: "TBD",
-              image2: "",
+              image2: "./",
               skor2: 0
           },
           {
@@ -295,10 +295,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Ikatan Mahasiswa Telekomunikasi 'Signum'",
-              image1: "/IMT_Signum_ITB.jpg",
+              image1: "./IMT_Signum_ITB.jpg",
               skor1: 0,
               tim2: "Himpunan Mahasiswa Teknik Kimia",
-              image2: "/HIMATEK_ITB.png",
+              image2: "./HIMATEK_ITB.png",
               skor2: 0
           },
           {
@@ -308,10 +308,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Mesin (A)",
-              image1: "/HMM_ITB.png",
+              image1: "./HMM_ITB.png",
               skor1: 0,
               tim2: "TBD",
-              image2: "",
+              image2: "./",
               skor2: 0
           },
           {
@@ -321,10 +321,10 @@ export const schedule = [
               sportName: "Valorant",
               waktu: "-",
               tim1: "Himpunan Mahasiswa Meteorologi 'Atmosphaira' (A)",
-              image1: "/HMME_Atmosphaira_ITB.png",
+              image1: "./HMME_Atmosphaira_ITB.png",
               skor1: 0,
               tim2: "Keluarga Mahasiswa Seni Rupa (B)",
-              image2: "/KMSR_ITB.jfif",
+              image2: "./KMSR_ITB.jfif",
               skor2: 0
           }
          
@@ -340,10 +340,10 @@ export const schedule = [
               sportName: "Futsal",
               waktu: "14:00",
               tim1: "Himpunan Mahasiswa Informatika",
-              image1: "HMIF.svg",
+              image1: ".HMIF.svg",
               skor1: "4",
               tim2: "Himpunan Mahasiswa Elektroteknik",
-              image2: "HMIF.svg",
+              image2: "./HMIF.svg",
               skor2: "1",
           },
       ],
