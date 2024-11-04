@@ -49,7 +49,7 @@ export const schedule = [
             },
             {
                 sportName: "Catur",
-                tim1: "Himpunan Mahasiswa Elektro (B)",
+                tim1: "Himpunan Mahasiswa Elektroteknik (B)",
                 image1: "/HME.jpg",
                 skor1: "0",
                 tim2: "Himpunan Mahasiswa Fisika Teknik",
@@ -58,7 +58,7 @@ export const schedule = [
             },
             {
                 sportName: "Catur",
-                tim1: "Himpunan Mahasiswa Elektro (A)",
+                tim1: "Himpunan Mahasiswa Elektroteknik (A)",
                 image1: "/HME.jpg",
                 skor1: "0",
                 tim2: "Keluarga Mahasiswa Teknik Penerbangan",

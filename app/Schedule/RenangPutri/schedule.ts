@@ -43,7 +43,7 @@ export const schedule = [
                 tim1: "Himpunan Mahasiswa Teknik Geofisika 'Terra'",
                 image1: "/HIMA_TG.jpg",
                 skor1: "0",
-                tim2: "Himpunan Mahasiswa Elektro",
+                tim2: "Himpunan Mahasiswa Elektroteknik",
                 image2: "/HME.jpg",
                 skor2: "0",
                 tim3: "Keluarga Mahasiswa Seni Rupa (B)",
