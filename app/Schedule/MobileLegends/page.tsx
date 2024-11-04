@@ -4,6 +4,7 @@ import { schedule } from "./schedule";
 import Image from "next/image";
 import Bg from "@/public/schedule.png";
 import Link from "next/link";
+import bagan from "@/public/Bagan/Bagan ML.png";
 
 // Define the types for the match and schedule
 interface Match {
@@ -61,7 +62,12 @@ const SchedulePage: React.FC = () => {
             {" "}
             Mobile Legends{" "}
           </h3>
-          <div className="bg-slate-400 w-full h-[300px] mt-5"></div>
+          <Image
+            className="w-full mt-5"
+            layout="responsive"
+            src={bagan}
+            alt="Bagan"
+          />
         </div>
         <div className="p-4 md:p-10">
           <div className="flex space-x-4 mb-6 overflow-x-auto scrollbar-hide">
