@@ -72,7 +72,7 @@ const page = () => {
         </div>
       </div>
       <div className="container py-8 min-w-[300px] w-full mx-auto flex flex-col items-center justify-center z-30 overflow-x-auto">
-        <div className="space-y-2 md:space-y-4 w-[85%] bonjour-font text-xs sm:text-lg md:text-xl lg:text-2xl relative z-10">
+        <div className="space-y-2 md:space-y-4 w-[85%] bonjour-font text-xxs sm:text-lg md:text-xl lg:text-2xl relative z-10">
           <div className="bg-[#EB5327] text-[#F9F3BA] rounded-xl">
             <div className="grid grid-cols-7 items-center pl-5 md:pl-10 py-1 md:py-2">
               <div className="">Urutan</div>
@@ -98,7 +98,7 @@ const page = () => {
                   src={Total}
                   width={70}
                   height={70}
-                  className="-my-3 -ml-7 h-auto"
+                  className="-my-3 -ml-4 sm:-ml-7 md:-ml-8 h-auto"
                 />
               </div>
             </div>
@@ -110,15 +110,14 @@ const page = () => {
               className="bg-[#F6E091] rounded-xl py-3 md:py-4 shadow-md border border-gray-300 w-full"
             >
               <div className="grid grid-cols-7 items-center pl-5 md:pl-10">
-                <div className="pl-5">{index + 1}</div>{" "}
-                {/* Rank based on sorted order */}
+                <div className="pl-2 xs:pl-3 md:pl-5">{index + 1}</div>
                 <div className="flex items-center gap-1 sm:gap-2 col-span-2 ">
                   <Image
                     src={row.image}
                     alt="Logo"
                     width={40}
                     height={40}
-                    className=" w-auto h-[25px] md:h-[40px]  max-h-[50px] "
+                    className=" w-auto  xss:h-[10px]  xs:h-[15px] sm:h-[25px] md:h-[40px]  max-h-[50px] "
                   />
                   {row.himpunan}
                 </div>

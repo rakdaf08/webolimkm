@@ -41,9 +41,20 @@ const Page = () => {
       <div className="w-full bg-[#F9F3BA] min-h-screen h-full">
         <Image src={Bg} alt="Bg" className="w-full" />
         <div className="p-10 md:px-16">
-          <h2 className="bonjour-font text-[#102F8E] text-3xl md:text-5xl">
-            Pilih cabang olahraga
-          </h2>
+          <div className="flex flex-col md:flex-row md:justify-between items-start md:items-center">
+            <h2 className="bonjour-font text-[#102F8E] text-3xl lg:text-5xl md:text-3xl text-left mb-2 md:mb-0">
+              Pilih cabang olahraga
+            </h2>
+            <a
+              className="bonjour-font text-[#102F8E] text-right text-base lg:text-5xl md:text-xl ml-0 md:ml-auto sm:text-base hover:scale-105 duration-200 transition-all"
+              href="https://bit.ly/JadwalOlimXIIKMITB"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Click Here For the Time Schedule!
+            </a>
+          </div>
+
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             <Link href="/Schedule/Estafet">
               <div className="rounded-xl">

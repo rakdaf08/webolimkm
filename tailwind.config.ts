@@ -12,6 +12,9 @@ module.exports = {
         bonjour:["Bonjour", "sans-serif"],
         magical:["Magical", "serif"]
       },
+      fontSize:{
+        'xxs':['0.5rem', {lineHeight: '0.8rem'}]
+      },
       colors: {
         green: {
           50: '#30AF5B',
