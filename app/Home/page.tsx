@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Piala from "@/public/Piala Euforia 1.svg";
 import leaderboardData from "../Leaderboard/leaderboardData";
@@ -11,10 +13,27 @@ import TimelineTitle from "@/public/titletimeline.svg";
 import Timeline from "@/public/timeline1.svg";
 import ComingSoon from "@/public/COMING SOON.svg";
 
+const Loader = () => (
+  <div className="flex justify-center items-center h-screen bg-[#F9F3BA]">
+    <div className="animate-spin rounded-full h-24 w-24 border-t-4 border-b-4 border-[#7500A4]"></div>
+  </div>
+);
+
 const MainPage = () => {
+  const [loading, setLoading] = useState(true);
   const sortedLeaderboard = [...leaderboardData].sort(
     (a, b) => b.score - a.score
   );
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 4000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) return <Loader />;
 
   return (
     <section>
@@ -26,43 +45,34 @@ const MainPage = () => {
           height={20}
           className="z-0 object-cover h-screen w-full"
         />
-
         <Image
           src="/Home/Top Left.svg"
           alt="Ornament"
           width={20}
           height={20}
-          // className="absolute w-[500px] md:w-[800px] lg:w-[1200px] -top-[10px] md:-top-[100px] lg:-top-[200px] -left-[230px] md:-left-[360px] lg:-left-[550px] z-[1]"
           className="absolute left-0 w-[550px]"
         />
-
         <Image
           src="/Home/Top Right.svg"
           alt="Ornament"
           width={20}
           height={20}
-          // className="absolute w-[350px] md:w-[500px] lg:w-[600px] -right-5 -top-[37px] md:-top-28 lg:-top-28 z-[1]"
           className="absolute w-[500px] right-0"
         />
-
         <Image
           src="/Home/Bottom Left.svg"
           alt="Ornament"
           width={20}
           height={20}
-          // className="absolute w-[350px] md:w-[500px] lg:w-[700px] -bottom-[214px] md:-bottom-[266px] lg:-bottom-[337px] -left-[80px] md:-left-28 lg:-left-44 z-[1]"
           className="absolute w-[400px] md:w-[500px] -bottom-14 left-0"
         />
-
         <Image
           src="/Home/Bottom Right.svg"
           alt="Ornament"
           width={20}
           height={20}
-          // className="absolute w-[350px] md:w-[400px] lg:w-[600px] -bottom-[128px] md:-bottom-[132px] lg:-bottom-[154px] -right-[70px] md:-right-[20px] lg:-right-[110px] z-[1] overflow-hidden"
           className="absolute w-[400px] md:w-[500px] right-0 -bottom-14"
         />
-
         <div className="absolute flex justify-center items-center z-20 xs:left-16 sm:left-32 md:left-20 top-20 md:top-32 lg:top-20 xl:top-10">
           <div className="grid md:grid-cols-2 items-center">
             <Image
@@ -107,20 +117,17 @@ const MainPage = () => {
                 <div className="col-span-2 ml-1 sm:ml-0">Himpunan</div>
                 <div className="flex">
                   <div className="bg-[#F6C765] rounded-full px-3 -mx-3 text-white">
-                    {" "}
-                    G{" "}
+                    G
                   </div>
                 </div>
                 <div className="flex">
                   <div className="bg-[#BDBDBD] rounded-full px-3 -mx-3 text-white">
-                    {" "}
-                    S{" "}
+                    S
                   </div>
                 </div>
                 <div className="flex">
                   <div className="bg-[#C97632] rounded-full px-3 -mx-3 text-white">
-                    {" "}
-                    B{" "}
+                    B
                   </div>
                 </div>
                 <div className="">
@@ -129,7 +136,7 @@ const MainPage = () => {
                     src={Total}
                     width={70}
                     height={70}
-                    className="-my-3 -ml-7"
+                    className="-my-3 -ml-4 sm:-ml-7 md:-ml-8"
                   />
                 </div>
               </div>
@@ -140,18 +147,15 @@ const MainPage = () => {
                 className="bg-[#F6E091] rounded-xl py-3 md:py-4 shadow-md border border-gray-300"
               >
                 <div className="grid grid-cols-7 items-center pl-5 md:pl-10">
-                  <div className="pl-5">{index + 1}</div>{" "}
-                  {/* Rank based on sorted order */}
-                  {/* <div>{row.urutan}</div> */}
+                  <div className="pl-2.5 md:pl-5">{index + 1}</div>{" "}
                   <div className="flex items-center gap-1 sm:gap-2 col-span-2">
-                    {" "}
                     <Image
                       src={row.image}
                       alt="Logo"
                       width={40}
                       height={40}
                       className="w-auto h-[20px] md:h-[30px] max-h-[40px]"
-                    />{" "}
+                    />
                     {row.himpunan}
                   </div>
                   <div>{row.gold}</div>
@@ -162,7 +166,6 @@ const MainPage = () => {
               </div>
             ))}
             <div className="bg-[#F6E091] bonjour-font text-center py-2 md:py-4 rounded-xl cursor-pointer hover:bg-[#cdbb79]">
-              {" "}
               <Link href="/Leaderboard" key="leaderboard">
                 See More
               </Link>
@@ -186,13 +189,6 @@ const MainPage = () => {
             height={20}
             className="w-full"
           />
-          {/* <Image
-            src={Timeline2}
-            alt="Title"
-            width={20}
-            height={20}
-            className="w-full"
-          /> */}
         </div>
         <Image
           src={ComingSoon}
