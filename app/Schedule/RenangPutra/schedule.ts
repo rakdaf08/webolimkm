@@ -52,13 +52,13 @@ export const schedule = [
                 tim4: "Himpunan Mahasiswa Matematika (B)",
                 image4: "/HIMATIKA.jpg",
                 skor4: "0",
-                tim5: "Himpunan Mahasiswa Elektro (B)",
+                tim5: "Himpunan Mahasiswa Elektroteknik (B)",
                 image5: "/HME.jpg",
                 skor5: "0"
             },
             {
                 sportName: "Renang Putra",
-                tim1: "Himpunan Mahasiswa Elektro (A)",
+                tim1: "Himpunan Mahasiswa Elektroteknik (A)",
                 image1: "/HME.jpg",
                 skor1: "0",
                 tim2: "Ikatan Mahasiswa Kewirausahaan 'Artha' (B)",

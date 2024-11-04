@@ -40,7 +40,7 @@ export const schedule = [
             },
             {
                 sportName: "Voli",
-                tim1: "Himpunan Mahasiswa Elektroteknik",
+                tim1: "Himpunan Mahasiswa Elektroteknik (B)",
                 image1: "/LogoHMPS/HME.png",
                 skor1: "0",
                 tim2: "Ikatan Mahasiswa Metalurgi",
@@ -106,7 +106,7 @@ export const schedule = [
                 tim1: "Keluarga Mahasiswa Teknik Industri",
                 image1: "/LogoHMPS/MTI.png",
                 skor1: "0",
-                tim2: "Himpunan Mahasiswa Elektroteknik (A)",
+                tim2: "Himpunan Mahasiswa Elektroteknikteknik (A)",
                 image2: "/LogoHMPS/HME.png",
                 skor2: "0"
             },

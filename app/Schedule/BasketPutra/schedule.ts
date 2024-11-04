@@ -4,7 +4,7 @@ export const schedule = [
         match : [
             {
                 sportName: "Basket Putra",
-                tim1: "Himpunan Mahasiswa Elektro (A)",
+                tim1: "Himpunan Mahasiswa Elektroteknik (A)",
                 image1: "/LogoHMPS/HME.png",
                 skor1: "0",
                 tim2: 'Himpunan Mahasiswa Teknik Geologi "GEA"',
@@ -130,7 +130,7 @@ export const schedule = [
             },
             {
                 sportName: "Basket Putra",
-                tim1: "Himpunan Mahasiswa Elektro (B)",
+                tim1: "Himpunan Mahasiswa Elektroteknik (B)",
                 image1: "/LogoHMPS/HME.png",
                 skor1: "0",
                 tim2: "Keluarga Mahasiswa Teknik Industri",

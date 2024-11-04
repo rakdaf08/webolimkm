@@ -22,7 +22,7 @@ export const schedule = [
             },
             {
                 sportName: "Valorant",
-                tim1: "Himpunan Mahasiswa Elektro (B)",
+                tim1: "Himpunan Mahasiswa Elektroteknik (B)",
                 image1: "/LogoHMPS/HME.png",
                 skor1: "13",
                 tim2: "Ikatan Mahasiswa Kewirausahaan \"Artha\"",
@@ -129,7 +129,7 @@ export const schedule = [
                 tim1: 'Himpunan Mahasiswa Teknik Geofisika "Terra"',
                 image1: "/LogoHMPS/HIMA_TG.png",
                 skor1: "4",
-                tim2: "Himpunan Mahasiswa Elektro",
+                tim2: "Himpunan Mahasiswa Elektroteknik (B)",
                 image2: "/LogoHMPS/HME.png.png",
                 skor2: "13"
             },
@@ -260,7 +260,7 @@ export const schedule = [
             tim1: 'Keluarga Mahasiswa Teknik Industri',
             image1: "/LogoHMPS/MTI.png",
             skor1: "13",
-            tim2: "Himpunan Mahasiswa Elektro",
+            tim2: "Himpunan Mahasiswa Elektroteknik (B)",
             image2: "/LogoHMPS/HME.png",
             skor2: "8"
         },
