@@ -99,10 +99,10 @@ const MainPage = () => {
           className="right-0 lg:top-20 xl:top-10 absolute w-[400px] lg:w-[500px] xl:w-[600px] z-0"
         />
 
-        <div className="container py-8 w-[90%] md:w-[75%] lg:w-[65%]">
+        <div className="container py-8 w-[90%] md:w-[75%] lg:w-[65%] min-w-[350px]">
           <div className="space-y-2 md:space-y-4 bonjour-font text-xs xs:text-base sm:text-lg md:text-xl lg:text-2xl relative z-10">
             <div className="bg-[#EB5327] text-[#F9F3BA] rounded-xl">
-              <div className="grid grid-cols-7 items-center pl-5 md:pl-10 py-1 md:py-2">
+              <div className="grid grid-cols-7 items-center pl-5 md:pl-10 py-1 md:py-2 min-w-[350px]">
                 <div className="">Urutan</div>
                 <div className="col-span-2 ml-1 sm:ml-0">Himpunan</div>
                 <div className="flex">
