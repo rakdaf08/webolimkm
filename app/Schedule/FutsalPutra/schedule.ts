@@ -115,7 +115,7 @@ export const schedule = [
             tim1: "Keluarga Mahasiswa Teknik Kelautan",
             image1: "/LogoHMPS/KMKL.png",
             skor1: "0",
-            tim2: "Keluarga Mahasiswa Penerbangan",
+            tim2: "Keluarga Mahasiswa Teknik Penerbangan",
             image2: "/LogoHMPS/KMPN.png",
             skor2: "0"
         },

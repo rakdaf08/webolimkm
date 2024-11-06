@@ -35,7 +35,7 @@ const leaderboardData = [
   { image: "/LogoHMPS/KMIL.png", himpunan: "KMIL ITB", gold: 0, silver: 0, bronze: 0, score: 0 },
   { image: "/LogoHMPS/KMKL.png", himpunan: "KMKL-ITB", gold: 0, silver: 0, bronze: 0, score: 0 },
   { image: "/LogoHMPS/KMM.png", himpunan: "KMM ITB", gold: 0, silver: 0, bronze: 0, score: 0 },
-  { image: "/LogoHMPS/KMPN.png", himpunan: "KMPN ITB", gold: 0, silver: 0, bronze: 0, score: 0 },
+  { image: "/LogoHMPS/KMPN.png", himpunan: "KMPN", gold: 0, silver: 0, bronze: 0, score: 0 },
   { image: "/LogoHMPS/KMSR.png", himpunan: "KMSR ITB", gold: 0, silver: 0, bronze: 0, score: 0 },
   { image: "/LogoHMPS/MTI.png", himpunan: "MTI ITB", gold: 0, silver: 0, bronze: 0, score: 0 },
   { image: "/LogoHMPS/MTM.png", himpunan: "MTM ITB", gold: 0, silver: 0, bronze: 0, score: 0 },

@@ -34,7 +34,7 @@ export const schedule = [
                 tim1: "Himpunan Mahasiswa Tambang (A)",
                 image1: "/LogoHMPS/HMT.png",
                 skor1: "0",
-                tim2: "Keluarga Mahasiswa Penerbangan (A)",
+                tim2: "Keluarga Mahasiswa Teknik Penerbangan (A)",
                 image2: "/LogoHMPS/KMPN.png",
                 skor2: "1"
             },
@@ -178,7 +178,7 @@ export const schedule = [
                 tim1: "Himpunan Mahasiswa Elektroteknik (A)",
                 image1: "/LogoHMPS/HME.png",
                 skor1: "0",
-                tim2: "Keluarga Mahasiswa Penerbangan (B)",
+                tim2: "Keluarga Mahasiswa Teknik Penerbangan (B)",
                 image2: "/LogoHMPS/KMPN.png",
                 skor2: "1"
             },
@@ -286,7 +286,7 @@ export const schedule = [
             },
             {
                 sportName: "Mobile Legends: Bang Bang",
-                tim1: "Keluarga Mahasiswa Teknik Penerbangan (A)",
+                tim1: "Keluarga Mahasiswa Teknik Teknik Penerbangan (A)",
                 image1: "/LogoHMPS/KMPN.png",
                 skor1: "0",
                 tim2: 'Ikatan Mahasiswa Telekomunikasi "Signum" (A)',
@@ -361,7 +361,7 @@ export const schedule = [
                 tim1: "Himpunan Mahasiswa Informatika (B)",
                 image1: "/LogoHMPS/HMIF.png",
                 skor1: "1",
-                tim2: "Keluarga Mahasiswa Teknik Penerbangan (B)",
+                tim2: "Keluarga Mahasiswa Teknik Teknik Penerbangan (B)",
                 image2: "/LogoHMPS/KMPN.png",
                 skor2: "0"
             },

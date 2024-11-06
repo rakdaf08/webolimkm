@@ -52,7 +52,7 @@ export const schedule = [
               tim1: "Himpunan Mahasiswa Rekayasa Kehutanan 'Selva'",
               image1: "/LogoHMPS/HMH.png",
               skor1: "0",
-              tim2: "Keluarga Mahasiswa Penerbangan",
+              tim2: "Keluarga Mahasiswa Teknik Penerbangan",
               image2: "/LogoHMPS/KMPN.png",
               skor2: "0"
           },
