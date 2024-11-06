@@ -14,8 +14,11 @@ import Timeline from "@/public/timeline1.svg";
 import ComingSoon from "@/public/COMING SOON.svg";
 
 const Loader = () => (
-  <div className="flex justify-center items-center h-screen bg-[#F9F3BA]">
-    <div className="animate-spin rounded-full h-24 w-24 border-t-4 border-b-4 border-[#7500A4]"></div>
+  <div className="flex flex-col justify-center items-center h-screen bg-[#F9F3BA]">
+    <div className="animate-spin rounded-full h-16 w-16 sm:h-20 sm:w-20 md:h-24 md:w-24 lg:h-32 lg:w-32 border-t-2 sm:border-t-3 md:border-t-4 border-b-2 sm:border-b-3 md:border-b-4 border-[#7500A4]"></div>
+    <p className="bonjour-font mt-10 text-[#7500A4] text-lg md:text-3xl lg:text-5xl animate-bounce">
+      Warming up the athletes. Almost game time!
+    </p>
   </div>
 );
 
