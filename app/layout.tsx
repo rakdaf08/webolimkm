@@ -19,7 +19,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/logo-olim-km.ico" />
       </head>
-      <body className="overflow-x-hidden pt-[90px]">
+      <body className="overflow-x-hidden pt-[70px] sm:pt-[70px] md:pt-[90px] lg:pt-[80px]">
         <Navbar />
         <div className="">{children}</div>
         <Footer />
