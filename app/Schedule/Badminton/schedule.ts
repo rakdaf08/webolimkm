@@ -51,10 +51,10 @@ export const schedule = [
                 sportName: "Badminton",
                 tim1: "Keluarga Mahasiswa Teknik Kelautan",
                 image1: "/LogoHMPS/KMKL.png",
-                skor1: "3",
+                skor1: "2",
                 tim2: "Himpunan Mahasiswa Sipil",
                 image2: "/LogoHMPS/HMS.png",
-                skor2: "2"
+                skor2: "3"
             },
             {
                 sportName: "Badminton",
