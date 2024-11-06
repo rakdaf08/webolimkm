@@ -17,10 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Link to the favicon */}
         <link rel="icon" href="/logo-olim-km.ico" />
       </head>
-      <body className="overflow-x-hidden">
+      <body className="overflow-x-hidden pt-[90px]">
         <Navbar />
         <div className="">{children}</div>
         <Footer />

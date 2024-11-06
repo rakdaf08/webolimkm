@@ -10,7 +10,7 @@ import BgNav from "@/public/Navbar.png";
 const Navbar = () => {
   return (
     <nav
-      className="flex justify-between items-center w-full padding-container relative h-[70px] md:h-[90px]"
+      className="flex fixed top-0 z-[100] justify-between items-center w-full padding-container h-[70px] md:h-[90px]"
       style={{
         backgroundImage: `url(${BgNav.src})`,
         backgroundSize: "cover",
@@ -18,7 +18,13 @@ const Navbar = () => {
       }}
     >
       <Link href="/" className="pl-4 md:pl-8">
-        <Image src="/logo-olim-km.ico" alt="logo" width={50} height={25} className="md:w-[60px] md:h-[60px]" />
+        <Image
+          src="/logo-olim-km.ico"
+          alt="logo"
+          width={50}
+          height={25}
+          className="md:w-[60px] md:h-[60px]"
+        />
       </Link>
       <ul className="hidden md:flex h-full gap-4 lg:gap-8 mx-3 pr-4 md:pr-[72px] items-center">
         {NAV_LINKS.map((link) => (
