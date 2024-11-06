@@ -70,7 +70,7 @@ export const schedule = [
                 tim1: "Himpunan Mahasiswa Tambang",
                 image1: "/LogoHMPS/HMT.png",
                 skor1: "0",
-                tim2: "Keluarga Mahasiswa Penerbangan",
+                tim2: "Keluarga Mahasiswa Teknik Penerbangan",
                 image2: "/LogoHMPS/KMPN.png",
                 skor2: "0"
             },

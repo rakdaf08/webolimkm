@@ -44,7 +44,7 @@ export const schedule = [
                 image1: "/LogoHMPS/HIMAFI.png",
                 skor1: "0",
                 tim2: "Himpunan Mahasiswa Perencanaan Wilayah dan Kota 'Pangripta Loka'",
-                image2: "/LogoHMPS/HMP_PL.png",
+                image2: "/LogoHMPS/HMP.png",
                 skor2: "0"
             },
             {

@@ -88,7 +88,7 @@ export const schedule = [
                 tim1: "Keluarga Mahasiswa Manajemen (A)",
                 image1: "/LogoHMPS/KMM.png",
                 skor1: "13",
-                tim2: "Keluarga Mahasiswa Penerbangan (B)",
+                tim2: "Keluarga Mahasiswa Teknik Penerbangan (B)",
                 image2: "/LogoHMPS/KMPN.png",
                 skor2: "2"
             }
@@ -156,7 +156,7 @@ export const schedule = [
                 tim1: "Himpunan Mahasiswa Teknik Perencanaan Wilayah dan Kota 'Pangripta Loka' (A)",
                 image1: "/LogoHMPS/HMP.png",
                 skor1: "1",
-                tim2: "Keluarga Mahasiswa Penerbangan",
+                tim2: "Keluarga Mahasiswa Teknik Penerbangan",
                 image2: "/LogoHMPS/KMPN.png.png",
                 skor2: "0"
             },
@@ -275,7 +275,7 @@ export const schedule = [
         },
         {
             sportName: "Valorant",
-            tim1: 'Keluarga Mahasiswa Penerbangan (A)',
+            tim1: 'Keluarga Mahasiswa Teknik Penerbangan (A)',
             image1: "/LogoHMPS/KMPN.png",
             skor1: "13",
             tim2: "Himpunan Mahasiswa Fisika Teknik (A)",
@@ -337,7 +337,7 @@ export const schedule = [
             tim1: 'Himpunan Mahasiswa Teknik Perminyakan "PATRA"',
             image1: "/LogoHMPS/HMTM.png",
             skor1: "0",
-            tim2: 'Keluarga Mahasiswa Penerbangan',
+            tim2: 'Keluarga Mahasiswa Teknik Penerbangan',
             image2: "/LogoHMPS/KMPN.png",
             skor2: "0"
         },
