@@ -6,7 +6,7 @@ export const schedule = [
                 sportName: "Badminton",
                 tim1: "Keluarga Mahasiswa Teknik Industri",
                 image1: "/LogoHMPS/MTI.png",
-                skor1: "0",
+                skor1: "5",
                 tim2: 'Himpunan Mahasiswa Mikrobiologi "Archaea"',
                 image2: "/LogoHMPS/HIMAMIKRO.png",
                 skor2: "0"
@@ -24,10 +24,10 @@ export const schedule = [
                 sportName: "Badminton",
                 tim1: "Himpunan Mahasiswa Fisika Teknik",
                 image1: "/LogoHMPS/HMFT.png",
-                skor1: "0",
+                skor1: "2",
                 tim2: 'Himpunan Mahasiswa Biologi "Nymphaea"',
                 image2: "/LogoHMPS/HIMABIO.png",
-                skor2: "0"
+                skor2: "3"
             },
             {
                 sportName: "Badminton",
@@ -36,16 +36,16 @@ export const schedule = [
                 skor1: "0",
                 tim2: "Himpunan Mahasiswa Matematika",
                 image2: "/LogoHMPS/HIMATIKA.png",
-                skor2: "0"
+                skor2: "5"
             },
             {
                 sportName: "Badminton",
                 tim1: 'Himpunan Mahasiswa Teknik Geofisika "TERRA"',
                 image1: "/LogoHMPS/HIMA_TG.png",
-                skor1: "0",
+                skor1: "3",
                 tim2: "Ikatan Mahasiswa Arsitektur Gunadharma",
                 image2: "/LogoHMPS/IMA_G.png",
-                skor2: "0"
+                skor2: "2"
             },
             {
                 sportName: "Badminton",
@@ -69,7 +69,7 @@ export const schedule = [
                 sportName: "Badminton",
                 tim1: "Himpunan Mahasiswa Tambang",
                 image1: "/LogoHMPS/HMT.png",
-                skor1: "0",
+                skor1: "5",
                 tim2: "Keluarga Mahasiswa Teknik Penerbangan",
                 image2: "/LogoHMPS/KMPN.png",
                 skor2: "0"
@@ -90,16 +90,16 @@ export const schedule = [
                 skor1: "0",
                 tim2: "Himpunan Mahasiswa Informatika",
                 image2: "/LogoHMPS/HMIF.png",
-                skor2: "0"
+                skor2: "5"
             },
             {
                 sportName: "Badminton",
                 tim1: "Himpunan Mahasiswa Teknik Material",
                 image1: "/LogoHMPS/MTM.png",
-                skor1: "0",
+                skor1: "3",
                 tim2: "Himpunan Mahasiswa Elektroteknik",
                 image2: "/LogoHMPS/HME.png",
-                skor2: "0"
+                skor2: "2"
             },
             {
                 sportName: "Badminton",
@@ -123,16 +123,16 @@ export const schedule = [
                 sportName: "Badminton",
                 tim1: 'Himpunan Mahasiswa Oseanografi "TRITON"',
                 image1: "/LogoHMPS/HMO.png",
-                skor1: "0",
+                skor1: "4",
                 tim2: "Himpunan Mahasiswa Teknik Kimia",
                 image2: "/LogoHMPS/HIMATEK.png",
-                skor2: "0"
+                skor2: "1"
             },
             {
                 sportName: "Badminton",
                 tim1: "Himpunan Mahasiswa Rekayasa Kehutanan 'Selva'",
                 image1: "/LogoHMPS/HMH.png",
-                skor1: "0",
+                skor1: "5",
                 tim2: 'Ikatan Mahasiswa Kewirausahaan "ARTHA"',
                 image2: "/LogoHMPS/IMK.png",
                 skor2: "0"
@@ -141,10 +141,10 @@ export const schedule = [
                 sportName: "Badminton",
                 tim1: "Himpunan Mahasiswa Farmasi 'Ars Praeparandi'",
                 image1: "/LogoHMPS/HMF.png",
-                skor1: "0",
+                skor1: "4",
                 tim2: 'Ikatan Mahasiswa Telekomunikasi "Signum"',
                 image2: "/LogoHMPS/IMT.png",
-                skor2: "0"
+                skor2: "1"
             }]
     },
     {
