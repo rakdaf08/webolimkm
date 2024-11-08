@@ -179,12 +179,12 @@ export const schedule = [
             },
             {
                 sportName: "Badminton",
-                tim1: "Himpunan Mahasiswa Fisika",
-                image1: "/LogoHMPS/HIMAFI.png",
-                skor1: "0",
+                tim1: "Ikatan Mahasiswa Metalurgi",
+                image1: "/LogoHMPS/IMMG.png",
+                skor1: "3",
                 tim2: "Himpunan Mahasiswa Tambang",
                 image2: "/LogoHMPS/HMT.png",
-                skor2: "0"
+                skor2: "2"
             },
             {
                 sportName: "Badminton",
@@ -240,8 +240,8 @@ export const schedule = [
                 tim1: "Himpunan Mahasiswa Sipil",
                 image1: "/LogoHMPS/HMS.png",
                 skor1: "0",
-                tim2: "TBD",
-                image2: "/TBD.png",
+                tim2: "Ikatan Mahasiswa Metalurgi",
+                image2: "/LogoHMPS/IMMG.png",
                 skor2: "0"
             },
             {
