@@ -250,10 +250,10 @@ export const schedule = [
             sportName: "Valorant",
             tim1: 'Himpunan Mahasiswa Teknik Lingkungan',
             image1: "/LogoHMPS/HMTL.png",
-            skor1: "0",
+            skor1: "1",
             tim2: "Himpunan Mahasiswa Informatika",
             image2: "/LogoHMPS/HMIF.png",
-            skor2: "0"
+            skor2: "13"
         },
         {
             sportName: "Valorant",
@@ -325,8 +325,8 @@ export const schedule = [
     match : [
         {
             sportName: "Valorant",
-            tim1: 'TBD',
-            image1: "/TBD.png",
+            tim1: 'Himpunan Mahasiswa Informatika',
+            image1: "/LogoHMPS/HMIF.png",
             skor1: "0",
             tim2: 'Keluarga Mahasiswa Teknik Industri',
             image2: "/LogoHMPS/MTI.png",
