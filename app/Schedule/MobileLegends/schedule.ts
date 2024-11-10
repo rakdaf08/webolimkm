@@ -521,10 +521,10 @@ export const schedule = [
                 sportName: "Mobile Legends: Bang Bang",
                 tim1: "Keluarga Mahasiswa Teknik Industri (B)",
                 image1: "/LogoHMPS/MTI.png",
-                skor1: "0",
+                skor1: "1",
                 tim2: "Himpunan Mahasiswa Teknik Material (A)",
-                image2: "/TBD.png",
-                skor2: "0",
+                image2: "/LogoHMPS/MTM.png",
+                skor2: "2",
             }]
     },
     {
@@ -544,8 +544,8 @@ export const schedule = [
                 tim1: "Himpunan Mahasiswa Mesin",
                 image1: "/LogoHMPS/HMM.png",
                 skor1: "0",
-                tim2: "TBD",
-                image2: "/TBD.png",
+                tim2: "Himpunan Mahasiswa Teknik Material (A)",
+                image2: "/LogoHMPS/MTM.png",
                 skor2: "0",
             }
         ]
