@@ -1,156 +1,83 @@
 "use client";
-import React, { useState } from "react";
-import { schedule } from "./schedule";
+import React from "react";
 import Image from "next/image";
-import Bg from "@/public/schedule.png";
 import Link from "next/link";
-import ComingSoon from "@/public/COMING SOON.svg";
+import caturData from "./caturData";
 
-// Define the types for the match and schedule
-interface Match {
-  sportName: string;
-  tim1: string;
-  image1: string;
-  skor1: string;
-  tim2: string;
-  image2: string;
-  skor2: string;
-  tim3: string;
-  image3: string;
-  skor3: string;
-  tim4: string;
-  image4: string;
-  skor4: string;
-  tim5: string;
-  image5: string;
-  skor5: string;
-}
-
-interface Schedule {
-  round: number;
-  match: Match[];
-}
-
-const SchedulePage: React.FC = () => {
-  const [selectedRound, setSelectedRound] = useState(1); // Default to Week 1
-
-  const handleRoundChange = (round: number) => {
-    setSelectedRound(round);
-  };
-
-  // Extract matches for the selected week
-  // Extract matches for the selected round directly
-  // TypeScript should recognize `schedule` as an array of `Schedule`
-  const selectedSchedule = schedule.find(
-    (s): s is Schedule => s.round === selectedRound && s.match !== undefined
-  );
-  const selectedMatches = selectedSchedule?.match ?? [];
-
-  // .flatMap((s: Schedule) => s.match)
-  // .reduce((acc: Record<string, Match[]>, match: Match) => {
-  //     if (!acc[match.tanggal]) {
-  //         acc[match.tanggal] = [];
-  //     }
-  //     acc[match.tanggal].push(match);
-  //     return acc;
-  // }, {});
-
-  // Convert the object back to an array for rendering
+const page = () => {
+  const sortedLeaderboard = [...caturData].sort((a, b) => b.points - a.points);
 
   return (
     <section>
       <div className="w-full min-h-screen h-full bg-[#F9F3BA]">
         <div className="p-4 md:p-10">
           <Link href="/Schedule">
-            <h3 className="bonjour-font text-[#102F8E] text-xl">
-              {" "}
-              {"<"} Kembali{" "}
+            <h3 className="bonjour-font text-[#102F8E] text-xl cursor-pointer">
+              {"<"} Kembali
             </h3>
           </Link>
-          <h3 className="bonjour-font text-[#102F8E] text-5xl"> Catur </h3>
-          {/* <div className="bg-slate-400 w-full h-[300px] mt-5"></div> */}
+          <h3 className="bonjour-font text-[#102F8E] text-5xl">Catur</h3>
         </div>
-        <div className="flex flex-col h-full overflow-hidden w-full bg-[#F9F3BA] relative p-10">
-          <Image
-            src={ComingSoon}
-            alt="Title"
-            width={20}
-            height={20}
-            className="w-full mx-auto"
-          />
-        </div>
-        {/* <div className="p-4 md:p-10">
-          <div className="flex space-x-4 mb-6 overflow-x-auto scrollbar-hide">
-            {[1, 2, 3, 4, 5, 6, 7].map((round) => (
-              <button
-                key={round}
-                onClick={() => handleRoundChange(round)}
-                className={`px-4 py-1 text-xs sm:text-base md:text-lg rounded-xl bonjour-font ${
-                  selectedRound === round
-                    ? "bg-[#1D48B9] text-white"
-                    : "bg-white text-[#1D48B9] border-[3px] border-[#1D48B9]"
-                }`}
+
+        <div className="container py-8 min-w-[300px] w-full mx-auto flex flex-col items-center justify-center z-30 overflow-x-auto">
+          <div className="space-y-4 w-full max-w-5xl bonjour-font text-sm sm:text-lg md:text-xl lg:text-2xl">
+            <div className="bg-[#EB5327] text-[#F9F3BA] rounded-lg shadow-md">
+              <div className="grid grid-cols-4 items-center pl-5 md:pl-10 py-2 font-semibold">
+                <div className="text-center">Position</div>
+                <div className="text-center">Himpunan</div>
+                <div className="text-center">
+                  <span className="bg-[#F6C765] text-white px-4 py-1 rounded-full">
+                    Points
+                  </span>
+                </div>
+                <div className="text-center">
+                  <span className="bg-[#BDBDBD] text-white px-4 py-1 rounded-full">
+                    BucT
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {sortedLeaderboard.map((row, index) => (
+              <div
+                key={index}
+                className="bg-[#F6E091] rounded-lg py-3 shadow-md border border-gray-300 w-full"
               >
-                {round == 1 && "Round 1"}
-                {round == 2 && "Round 2"}
-                {round == 3 && "Round 3"}
-                {round == 4 && "Round 4"}
-                {round == 5 && "Semi-Final"}
-                {round == 6 && "Bronze Match"}
-                {round == 7 && "Final"}
-              </button>
+                <div className="grid grid-cols-4 items-center pl-5 md:pl-10">
+                  <div className="text-center font-medium">
+                    {(() => {
+                      const pos = index + 1;
+                      if (pos >= 16 && pos <= 17) return "16-17";
+                      if (pos >= 18 && pos <= 19) return "18-19";
+                      if (pos >= 21 && pos <= 22) return "21-22";
+                      return pos;
+                    })()}
+                  </div>
+
+                  {/* Logo dan Nama Himpunan */}
+                  <div className="flex items-center gap-2 justify-center">
+                    <Image
+                      src={row.image}
+                      alt={`${row.himpunan} Logo`}
+                      width={40}
+                      height={40}
+                      className="w-auto h-[25px] sm:h-[35px] md:h-[50px] max-h-[50px]"
+                    />
+                    <span className="font-medium text-[0.75rem] sm:text-sm sm:leading-5 md:text-base md:leading-6">
+                      {row.himpunan}
+                    </span>
+                  </div>
+
+                  <div className="text-center font-medium">{row.points}</div>
+                  <div className="text-center font-medium">{row.BucT}</div>
+                </div>
+              </div>
             ))}
           </div>
-
-          <div className="space-y-4">
-            <div className="grid md:grid-cols-2 gap-3">
-              {selectedMatches.map((match, index) => (
-                <div
-                  key={index}
-                  className="p-4 px-7 rounded-xl bg-[#F6E091] bonjour-font"
-                >
-                  <h3 className="text-2xl sm:text-3xl text-[#102F8E]">
-                    {match.sportName}
-                  </h3>
-                  <hr className="border-[#102F8E] border-[1.5px] my-1"></hr>
-                  <div className="flex flex-col mt-4 w-full space-y-2 text-[#102F8E] text-xs xs:text-base sm:text-lg md:text-base lg:text-lg">
-                    <div className="flex justify-between">
-                      <div className="flex gap-1">
-                        <Image
-                          src={match.image1}
-                          width={20}
-                          height={20}
-                          alt="Logo"
-                        />
-                        <p> {match.tim1} </p>
-                      </div>
-                      <div>
-                        <p> {match.skor1} </p>
-                      </div>
-                    </div>
-                    <div className="flex justify-between">
-                      <div className="flex gap-1">
-                        <Image
-                          src={match.image2}
-                          width={20}
-                          height={20}
-                          alt="Logo"
-                        />
-                        <p> {match.tim2} </p>
-                      </div>
-                      <div>
-                        <p> {match.skor2} </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );
 };
 
-export default SchedulePage;
+export default page;
