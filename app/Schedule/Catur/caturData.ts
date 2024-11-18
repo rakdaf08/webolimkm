@@ -1,0 +1,27 @@
+const caturData = [
+    { image: "/LogoHMPS/HMT.png", himpunan: "HMT-ITB", points: 5.0, BucT: 13.0 },
+    { image: "/LogoHMPS/KMPN.png", himpunan: "KMPN", points: 4.0, BucT: 17.0 },
+    { image: "/LogoHMPS/HMS.png", himpunan: "HMS ITB", points: 4.0, BucT: 15.0 },
+    { image: "/LogoHMPS/MTM.png", himpunan: "MTM ITB", points: 4.0, BucT: 12.0 },
+    { image: "/LogoHMPS/HMTM.png", himpunan: "HMTM \"PATRA\" ITB", points: 3.0, BucT: 16.0 },
+    { image: "/LogoHMPS/HMP.png", himpunan: "HMP PL ITB", points: 3.0, BucT: 15.5 },
+    { image: "/LogoHMPS/MTI.png", himpunan: "MTI ITB", points: 3.0, BucT: 14.5 },
+    { image: "/LogoHMPS/HIMATIKA.png", himpunan: "HIMATIKA ITB", points: 3.0, BucT: 14.0 },
+    { image: "/LogoHMPS/HMM.png", himpunan: "HMM ITB", points: 3.0, BucT: 13.0 },
+    { image: "/LogoHMPS/HMIF.png", himpunan: "HMIF ITB", points: 3.0, BucT: 13.0 },
+    { image: "/LogoHMPS/HMTL.png", himpunan: "HMTL ITB", points: 3.0, BucT: 11.0 },
+    { image: "/LogoHMPS/HMO.png", himpunan: "HMO \"TRITON\" ITB", points: 3.0, BucT: 10.0 },
+    { image: "/LogoHMPS/IMMG.png", himpunan: "IMMG ITB", points: 2.5, BucT: 10.5 },
+    { image: "/LogoHMPS/HME.png", himpunan: "HME ITB (B)", points: 2.5, BucT: 9.5 },
+    { image: "/LogoHMPS/HMFT.png", himpunan: "HMFT ITB", points: 2.0, BucT: 15.5 },
+    { image: "/LogoHMPS/HMF.png", himpunan: "HMF \'Ars Praeparandi\' ITB", points: 2.0, BucT: 13.0 },
+    { image: "/LogoHMPS/KMM.png", himpunan: "KMM ITB", points: 2.0, BucT: 13.0 },
+    { image: "/LogoHMPS/HME.png", himpunan: "HME ITB (A)", points: 2.0, BucT: 11.5 },
+    { image: "/LogoHMPS/HIMASTRON.png", himpunan: "Himastron ITB", points: 2.0, BucT: 11.5 },
+    { image: "/LogoHMPS/IMA_G.png", himpunan: "IMA-G ITB", points: 1.0, BucT: 11.5 },
+    { image: "/LogoHMPS/HMME.png", himpunan: "HMME \"Atmosphaira\" ITB", points: 1.0, BucT: 10.5 },
+    { image: "/LogoHMPS/HIMA_TG.png", himpunan: "HIMA TG \"TERRA\" ITB", points: 1.0, BucT: 10.5 },
+    { image: "/LogoHMPS/IMT.png", himpunan: "IMT \"Signum\" ITB", points: 1.0, BucT: 10.0 },
+];
+
+export default caturData;
