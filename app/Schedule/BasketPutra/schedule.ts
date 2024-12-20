@@ -212,10 +212,10 @@ export const schedule = [
                 sportName: "Basket Putra",
                 tim1: "Himpunan Mahasiswa Elektroteknik (A)",
                 image1: "/LogoHMPS/HME.png",
-                skor1: "0",
+                skor1: "14",
                 tim2: 'Himpunan Mahasiswa Teknik Perminyakan "PATRA"',
                 image2: "/LogoHMPS/HMTM.png",
-                skor2: "0"
+                skor2: "17"
             },
             {
                 sportName: "Basket Putra",
@@ -250,21 +250,21 @@ export const schedule = [
         match : [
             {
                 sportName: "Basket Putra",
-                tim1: "TBD",
-                image1: "/TBD.png",
-                skor1: "0",
+                tim1: 'Himpunan Mahasiswa Teknik Perminyakan "PATRA"',
+                image1: "/LogoHMPS/HMTM.png",
+                skor1: "28",
                 tim2: "Himpunan Mahasiswa Mesin",
                 image2: "/LogoHMPS/HMM.png",
-                skor2: "0"
+                skor2: "51"
             },
             {
                 sportName: "Basket Putra",
                 tim1: "Keluarga Mahasiswa Manajemen",
                 image1: "/LogoHMPS/KMM.png",
-                skor1: "0",
+                skor1: "55",
                 tim2: "Keluarga Mahasiswa Teknik Industri",
                 image2: "/LogoHMPS/MTI.png",
-                skor2: "0"
+                skor2: "43"
             }]
     },
     {
@@ -272,11 +272,11 @@ export const schedule = [
         match : [
             {
                 sportName: "Basket Putra",
-                tim1: "TBD",
-                image1: "/TBD.png",
-                skor1: "0",
-                tim2: "TBD",
-                image2: "/TBD.png",
+                tim1: 'Himpunan Mahasiswa Teknik Perminyakan "PATRA"',
+                image1: "/LogoHMPS/HMTM.png",
+                skor1: "WO",
+                tim2: "Keluarga Mahasiswa Teknik Industri",
+                image2: "/LogoHMPS/MTI.png",
                 skor2: "0"
             }]
     },
@@ -285,12 +285,12 @@ export const schedule = [
         match : [
             {
                 sportName: "Basket Putra",
-                tim1: "TBD",
-                image1: "/TBD.png",
-                skor1: "0",
-                tim2: "TBD",
-                image2: "/TBD.png",
-                skor2: "0"
+                tim1: "Himpunan Mahasiswa Mesin",
+                image1: "/LogoHMPS/HMM.png",
+                skor1: "40",
+                tim2: "Keluaraga Mahasiswa Manajemen",
+                image2: "/LogoHMPS/KMM.png",
+                skor2: "42"
             }]
     },
 ]
