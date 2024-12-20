@@ -68,7 +68,7 @@ const SchedulePage: React.FC = () => {
         </div>
         <div className="p-4 md:p-10">
           <div className="flex space-x-4 mb-6 overflow-x-auto scrollbar-hide">
-            {[1, 2, 3, 4, 5, 6].map((round) => (
+            {[1, 2, 3, 4, 5].map((round) => (
               <button
                 key={round}
                 onClick={() => handleRoundChange(round)}
@@ -78,12 +78,11 @@ const SchedulePage: React.FC = () => {
                     : "bg-white text-[#1D48B9] border-[3px] border-[#1D48B9]"
                 }`}
               >
-                {round == 1 && "32 Besar"}
-                {round == 2 && "16 Besar"}
-                {round == 3 && "8 Besar"}
-                {round == 4 && "Semi-Final"}
-                {round == 5 && "Bronze Match"}
-                {round == 6 && "Final"}
+                {round == 1 && "19 Besar"}
+                {round == 2 && "8 Besar"}
+                {round == 3 && "Semi-Final"}
+                {round == 4 && "Bronze Match"}
+                {round == 5 && "Final"}
               </button>
             ))}
           </div>
