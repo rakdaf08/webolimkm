@@ -4,7 +4,7 @@ import { schedule } from "./schedule";
 import Image from "next/image";
 import Bg from "@/public/schedule.png";
 import Link from "next/link";
-import ComingSoon from "@/public/COMING SOON.svg";
+import Renang from "@/public/Bagan/Bagan Renang.png";
 
 // Define the types for the match and schedule
 interface Match {
@@ -75,7 +75,7 @@ const SchedulePage: React.FC = () => {
         </div>
         <div className="flex flex-col h-full overflow-hidden w-full bg-[#F9F3BA] relative p-10">
           <Image
-            src={ComingSoon}
+            src={Renang}
             alt="Title"
             width={20}
             height={20}
