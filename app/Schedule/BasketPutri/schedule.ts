@@ -149,10 +149,10 @@ export const schedule = [
                 sportName: "Basket Putri",
                 tim1: 'Himpunan Mahasiswa Teknik Geologi "GEA"',
                 image1: "/LogoHMPS/HMTG.png",
-                skor1: "11",
+                skor1: "13",
                 tim2: "Himpunan Mahasiswa Sipil",
                 image2: "/LogoHMPS/HMS.png",
-                skor2: "13"
+                skor2: "11"
             }]
     },
     {
