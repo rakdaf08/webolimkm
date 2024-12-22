@@ -67,11 +67,10 @@ const SchedulePage: React.FC = () => {
         </div>
         <div className="flex flex-col h-full overflow-hidden w-full bg-[#F9F3BA] relative p-10">
           <Image
+            className="w-full mt-5"
+            layout="responsive"
             src={Atletik}
-            alt="Title"
-            width={20}
-            height={20}
-            className="w-full mx-auto"
+            alt="Bagan"
           />
         </div>
         {/* <div className="p-4 md:p-10">
