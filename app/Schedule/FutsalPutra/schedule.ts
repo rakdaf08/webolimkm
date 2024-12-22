@@ -163,10 +163,10 @@ export const schedule = [
             sportName: "Futsal Putra",
             tim1: 'Himpunan Mahasiswa Sipil',
             image1: "/LogoHMPS/HMS.png",
-            skor1: "0",
+            skor1: "3",
             tim2: "Ikatan Mahasiswa Metalurgi",
             image2: "/LogoHMPS/IMMG.png",
-            skor2: "0"
+            skor2: "2"
         },
         {
             sportName: "Futsal Putra",
@@ -237,8 +237,8 @@ export const schedule = [
       match : [
         {
             sportName: "Futsal Putra",
-            tim1: 'TBD',
-            image1: "/TBD.png",
+            tim1:  "Himpunan Mahasiswa Sipil",
+            image1: "/LogoHMPS/HMS.png",
             skor1: "0",
             tim2: 'Himpunan Mahasiswa Teknik Perminyakan "PATRA"',
             image2: "/LogoHMPS/HMTM.png",
@@ -248,7 +248,7 @@ export const schedule = [
             sportName: "Futsal Putra",
             tim1: 'Kelurga Mahasiswa Manajemen',
             image1: "/LogoHMPS/KMM.png",
-            skor1: "0",
+            skor1: "4",
             tim2: "Himpunan Mahasiswa Teknik Lingkungan",
             image2: "/LogoHMPS/HMTL.png",
             skor2: "0"
@@ -257,19 +257,19 @@ export const schedule = [
             sportName: "Futsal Putra",
             tim1: 'Himpunan Mahasiswa Oseanografi "TRITON"',
             image1: "/LogoHMPS/HMO.png",
-            skor1: "0",
+            skor1: "0(4)",
             tim2: "Keluaraga Mahasiswa Teknik Kelautan",
             image2: "/LogoHMPS/KMKL.png",
-            skor2: "0"
+            skor2: "0(3)"
         },
         {
             sportName: "Futsal Putra",
             tim1: 'Himpunan Mahasiswa Teknik Geofisika "TERRA"',
             image1: "/LogoHMPS/HIMA_TG.png",
-            skor1: "0",
+            skor1: "1",
             tim2: "Himpunan Mahasiswa Informatika",
             image2: "/LogoHMPS/HMIF.png",
-            skor2: "0"
+            skor2: "2"
         }]
   },
   {
@@ -277,21 +277,21 @@ export const schedule = [
       match : [
         {
             sportName: "Futsal Putra",
-            tim1: 'TBD',
-            image1: "/TBD.png",
-            skor1: "0",
-            tim2: "TBD",
-            image2: "/TBD.png",
-            skor2: "0"
+            tim1: 'Himpunan Mahasiswa Siil',
+            image1: "/LogoHMPS/HMS.png",
+            skor1: "1(1)",
+            tim2: "Keluarga Mahasiswa Manajemen",
+            image2: "/LogoHMPS/KMM.png",
+            skor2: "1(3)"
         },
         {
             sportName: "Futsal Putra",
-            tim1: 'TBD',
-            image1: "/TBD.png",
-            skor1: "0",
-            tim2: "TBD",
-            image2: "/TBD.png",
-            skor2: "0"
+            tim1: 'Himpunan Mahasiswa Oseanografi "TRITON"',
+            image1: "/LogoHMPS/HMO.png",
+            skor1: "1(2)",
+            tim2: "Himpunan Mahasiswa Informatika",
+            image2: "/LogoHMPS/HMIF.png",
+            skor2: "1(3)"
         }]
   },
   {
@@ -299,11 +299,11 @@ export const schedule = [
       match : [
         {
             sportName: "Futsal Putra",
-            tim1: 'TBD',
-            image1: "/TBD.png",
-            skor1: "0",
-            tim2: "TBD",
-            image2: "/TBD.png",
+            tim1: 'Himpunan Mahasiswa Sipil',
+            image1: "/LogoHMPS/HMS.png",
+            skor1: "1",
+            tim2: 'Himpunan Mahasiswa Oseanografi "TRITON"', 
+            image2: "/LogoHMPS/HMO.png",
             skor2: "0"
         }
       ]
@@ -313,12 +313,12 @@ export const schedule = [
     match : [
       {
           sportName: "Futsal Putra",
-          tim1: 'TBD',
-          image1: "/TBD.png",
-          skor1: "0",
-          tim2: "TBD",
-          image2: "/TBD.png",
-          skor2: "0"
+          tim1: 'Keluarga Mahasiswa Manajemen',
+          image1: "/LogoHMPS/KMM.png",
+          skor1: "6",
+          tim2: "Himpunan Mahasiswa Informatika",
+          image2: "/LogoHMPS/HMIF.png",
+          skor2: "3"
       }
     ]
 }
