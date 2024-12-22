@@ -127,10 +127,10 @@ export const schedule = [
                 sportName: "Basket Putri",
                 tim1: "Ikatan Mahasiswa Geodesi",
                 image1: "/LogoHMPS/IMG.png",
-                skor1: "0",
+                skor1: "5",
                 tim2: 'Himpunan Mahasiswa Teknik Geologi "GEA"',
                 image2: "/LogoHMPS/HMTG.png",
-                skor2: "0"
+                skor2: "19"
             }]
     },
     {
@@ -140,19 +140,19 @@ export const schedule = [
                 sportName: "Basket Putri",
                 tim1: "Keluarga Mahasiswa Manajemen",
                 image1: "/LogoHMPS/KMM.png",
-                skor1: "0",
+                skor1: "34",
                 tim2: "Himpunan Mahasiswa Fisika",
                 image2: "/LogoHMPS/HIMAFI.png",
-                skor2: "0"
+                skor2: "7"
             },
             {
                 sportName: "Basket Putri",
-                tim1: "TBD",
-                image1: "/TBD.png",
-                skor1: "0",
+                tim1: 'Himpunan Mahasiswa Teknik Geologi "GEA"',
+                image1: "/LogoHMPS/HMTG.png",
+                skor1: "13",
                 tim2: "Himpunan Mahasiswa Sipil",
                 image2: "/LogoHMPS/HMS.png",
-                skor2: "0"
+                skor2: "11"
             }]
     },
     {
@@ -162,19 +162,19 @@ export const schedule = [
                 sportName: "Basket Putri",
                 tim1: "Keluarga Mahasiswa Teknik Industri",
                 image1: "/LogoHMPS/MTI.png",
-                skor1: "0",
-                tim2: "TBD",
-                image2: "/TBD.png",
-                skor2: "0"
+                skor1: "20",
+                tim2: "Keluarga Mahasiswa Manajemen",
+                image2: "/LogoHMPS/KMM.png",
+                skor2: "32"
             },
             {
                 sportName: "Basket Putri",
                 tim1: "Ikatan Mahasiswa Arsitektur Gunadharma",
                 image1: "/LogoHMPS/IMA_G.png",
-                skor1: "0",
-                tim2: "TBD",
-                image2: "/TBD.png",
-                skor2: "0"
+                skor1: "20",
+                tim2: 'Himpunan Mahasiswa Teknik Geologi "GEA"',
+                image2: "/LogoHMPS/HMTG.png",
+                skor2: "28"
             }]
     },
     {
@@ -182,12 +182,12 @@ export const schedule = [
         match : [
             {
                 sportName: "Basket Putri",
-                tim1: "TBD",
-                image1: "/TBD.png",
-                skor1: "0",
-                tim2: "TBD",
-                image2: "/TBD.png",
-                skor2: "0"
+                tim1: "Keluarga Mahasiswa Teknik Industri",
+                image1: "/LogoHMPS/MTI.png",
+                skor1: "37",
+                tim2: "Ikatan Mahasiswa Arsitektur Gunadharma",
+                image2: "/LogoHMPS/IMA_G.png",
+                skor2: "7"
             }]
     },
     {
@@ -195,12 +195,12 @@ export const schedule = [
         match : [
             {
                 sportName: "Basket Putri",
-                tim1: "TBD",
-                image1: "/TBD.png",
-                skor1: "0",
-                tim2: "TBD",
-                image2: "/TBD.png",
-                skor2: "0"
+                tim1: "Keluarga Mahasiswa Manajemen",
+                image1: "/LogoHMPS/KMM.png",
+                skor1: "40",
+                tim2: 'Himpunan Mahasiswa Teknik Geologi "GEA"',
+                image2: "/LogoHMPS/HMTG.png",
+                skor2: "13"
             }]
     },
 ]
