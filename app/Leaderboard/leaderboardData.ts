@@ -1,5 +1,5 @@
 const leaderboardData = [
-  { image: "/LogoHMPS/HIMABIO.png", himpunan: "HIMABIO \"Nymphaea\" ITB", gold: 1, silver: 1, bronze: 0, score: 8 },
+  { image: "/LogoHMPS/HIMABIO.png", himpunan: "HIMABIO \"Nymphaea\" ITB", gold: 1, silver: 1, bronze: 1, score: 9 },
   { image: "/LogoHMPS/HIMA_TG.png", himpunan: "HIMA TG \"TERRA\" ITB", gold: 0, silver: 0, bronze: 0, score: 0 },
   { image: "/LogoHMPS/HIMAFI.png", himpunan: "HIMAFI ITB", gold: 0, silver: 0, bronze: 1, score: 1 },
   { image: "/LogoHMPS/HIMAMIKRO.png", himpunan: "HIMAMIKRO \"Archaea\" ITB", gold: 0, silver: 0, bronze: 0, score: 0 },
@@ -33,8 +33,8 @@ const leaderboardData = [
   { image: "/LogoHMPS/IMMG.png", himpunan: "IMMG ITB", gold: 1, silver: 1, bronze: 1, score: 9 },
   { image: "/LogoHMPS/IMT.png", himpunan: "IMT \"Signum\" ITB", gold: 0, silver: 1, bronze: 0, score: 3 },
   { image: "/LogoHMPS/KMIL.png", himpunan: "KMIL ITB", gold: 0, silver: 0, bronze: 0, score: 0 },
-  { image: "/LogoHMPS/KMKL.png", himpunan: "KMKL-ITB", gold: 0, silver: 0, bronze: 0, score: 0 },
-  { image: "/LogoHMPS/KMM.png", himpunan: "KMM ITB", gold: 3, silver: 0, bronze: 1, score: 16 },
+  { image: "/LogoHMPS/KMKL.png", himpunan: "KMKL-ITB", gold: 1, silver: 0, bronze: 0, score: 5 },
+  { image: "/LogoHMPS/KMM.png", himpunan: "KMM ITB", gold: 3, silver: 1, bronze: 1, score: 19 },
   { image: "/LogoHMPS/KMPN.png", himpunan: "KMPN", gold: 0, silver: 1, bronze: 0, score: 3 },
   { image: "/LogoHMPS/KMSR.png", himpunan: "KMSR ITB", gold: 0, silver: 0, bronze: 0, score: 0 },
   { image: "/LogoHMPS/MTI.png", himpunan: "MTI ITB", gold: 1, silver: 0, bronze: 2, score: 7 },
