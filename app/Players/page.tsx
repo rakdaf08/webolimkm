@@ -3,14 +3,14 @@ import { useState, useEffect, useRef } from "react";
 import { teams } from "@/constants/index";
 import Image from "next/image";
 import Bg from "@/public/playerbg.png";
-import TenisMeja from "@/public/tenismeja.svg";
-import Catur from "@/public/catur.svg";
-import Futsal from "@/public/futsal.svg";
-import Voli from "@/public/voli.svg";
-import Basket from "@/public/basket.svg";
-import Renang from "@/public/renang.svg";
-import Badminton from "@/public/badminton.svg";
-import Atletik from "@/public/atletik.svg";
+import TenisMeja from "@/public/tenismeja.png";
+import Catur from "@/public/catur.png";
+import Futsal from "@/public/futsal.png";
+import Voli from "@/public/voli.png";
+import Basket from "@/public/basket.png";
+import Renang from "@/public/renang.png";
+import Badminton from "@/public/badminton.png";
+import Atletik from "@/public/atletik.png";
 import TenisMeja2 from "@/public/tenismeja2.svg";
 import Atletik2 from "@/public/atletik2.svg";
 import Badminton2 from "@/public/badminton2.svg";
@@ -21,6 +21,8 @@ import Renang2 from "@/public/renang2.svg";
 import Voli2 from "@/public/voli2.svg";
 import BgPop from "@/public/bgpop.svg";
 import ComingSoon from "@/public/COMING SOON.svg";
+import ML from "@/public/mobilelegends.png";
+import Valorant from "@/public/Valorant.png";
 
 const page = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -33,6 +35,15 @@ const page = () => {
 
   const inputRef = useRef<HTMLInputElement>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    // Lock scroll pada body ketika modal terbuka
+    if (showSport) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [showSport]);
 
   // Filtered teams based on search term
   const filteredTeams = teams.filter((team) =>
@@ -128,7 +139,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="flex flex-col h-full overflow-hidden w-full bg-[#F9F3BA] relative p-10">
+        {/* <div className="flex flex-col h-full overflow-hidden w-full bg-[#F9F3BA] relative p-10">
           <Image
             src={ComingSoon}
             alt="Title"
@@ -136,12 +147,12 @@ const page = () => {
             height={20}
             className="w-full mx-auto"
           />
-        </div>
+        </div> */}
 
         {/* Search Bar */}
 
-        {/* <div className="mx-auto w-[90%] relative pt-4"> */}
-        {/* <input
+        <div className="mx-auto w-[90%] relative pt-4">
+          <input
             ref={inputRef}
             type="text"
             placeholder="CARI HIMPUNAN MAHASISWA JURUSAN/PROGRAM STUDI"
@@ -154,9 +165,9 @@ const page = () => {
             <div
               ref={dropdownRef}
               className="absolute top-12 w-full bg-[#F6E091] rounded-lg max-h-36 overflow-y-auto mt-2 overflow-x-hidden z-[20]"
-            > */}
-        {/* Display all teams but only show 3 at a time with scroll */}
-        {/* {filteredTeams.map((team, index) => (
+            >
+              {/* Display all teams but only show 3 at a time with scroll */}
+              {filteredTeams.map((team, index) => (
                 <div
                   key={index}
                   className="p-3 hover:bg-gray-200 cursor-pointer bonjour-font border-bottom-center flex gap-3"
@@ -170,12 +181,12 @@ const page = () => {
                   {team.name}
                 </div>
               ))}
-            </div> */}
-        {/* )}
-        </div> */}
+            </div>
+          )}
+        </div>
 
         {/* Selected Team */}
-        {/* {selectedTeam && (
+        {selectedTeam && (
           <div className="mt-10 pb-8 w-[90%] mx-auto">
             <div className="flex gap-5 mb-5">
               <Image
@@ -184,7 +195,7 @@ const page = () => {
                 width={60}
                 height={60}
               />
-              <p className="bonjour-font text-2xl sm:text-4xl font-semibold">
+              <p className="bonjour-font text-xl sm:text-xl font-semibold">
                 {" "}
                 {selectedTeam.name}{" "}
               </p>
@@ -199,8 +210,6 @@ const page = () => {
                     <Image
                       src={TenisMeja}
                       alt="Logo"
-                      width={20}
-                      height={20}
                       className="w-full rounded-xl"
                     />
                   )}
@@ -208,8 +217,6 @@ const page = () => {
                     <Image
                       src={Catur}
                       alt="Logo"
-                      width={20}
-                      height={20}
                       className="w-full rounded-xl"
                     />
                   )}
@@ -217,8 +224,6 @@ const page = () => {
                     <Image
                       src={Futsal}
                       alt="Logo"
-                      width={20}
-                      height={20}
                       className="w-full rounded-xl"
                     />
                   )}
@@ -226,8 +231,6 @@ const page = () => {
                     <Image
                       src={Voli}
                       alt="Logo"
-                      width={20}
-                      height={20}
                       className="w-full rounded-xl"
                     />
                   )}
@@ -235,8 +238,6 @@ const page = () => {
                     <Image
                       src={Basket}
                       alt="Logo"
-                      width={20}
-                      height={20}
                       className="w-full rounded-xl"
                     />
                   )}
@@ -244,8 +245,6 @@ const page = () => {
                     <Image
                       src={Renang}
                       alt="Logo"
-                      width={20}
-                      height={20}
                       className="w-full rounded-xl"
                     />
                   )}
@@ -253,8 +252,6 @@ const page = () => {
                     <Image
                       src={Badminton}
                       alt="Logo"
-                      width={20}
-                      height={20}
                       className="w-full rounded-xl"
                     />
                   )}
@@ -262,8 +259,16 @@ const page = () => {
                     <Image
                       src={Atletik}
                       alt="Logo"
-                      width={20}
-                      height={20}
+                      className="w-full rounded-xl"
+                    />
+                  )}
+                  {sport.sportName == "Mobile Legends" && (
+                    <Image src={ML} alt="Logo" className="w-full rounded-xl" />
+                  )}
+                  {sport.sportName == "Valorant" && (
+                    <Image
+                      src={Valorant}
+                      alt="Logo"
                       className="w-full rounded-xl"
                     />
                   )}
@@ -273,7 +278,7 @@ const page = () => {
                       .map((player: string, i: number) => (
                         <li
                           key={i}
-                          className="bg-[#F2A845] rounded-full p-2 bonjour-font text-black mb-2 text-xs xs:text-base"
+                          className="bg-[#F2A845] rounded-full p-2 bonjour-font text-black mb-2 text-xxs xs:text-xss sm:text-sm md:text-sm lg:text-lg"
                         >
                           {" "}
                           <span className="rounded-full bg-[#F9F3BA] py-1 px-2 mr-3">
@@ -298,22 +303,22 @@ const page = () => {
               ))}
             </div>
           </div>
-        )} */}
+        )}
 
         {/* Modal for "See More" */}
-        {/* {showSport && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-            <div className="bg-[#F6E091] rounded-xl shadow-lg w-[90%] lg:max-w-[80%] h-fit relative pb-10">
+        {showSport && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 z-[1000] flex justify-center items-center h-screen p-4">
+            <div className="bg-[#F6E091] rounded-xl shadow-lg w-[90%] lg:max-w-[80%] h-fit pb-10 max-h-[80vh] overflow-y-auto absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
               <Image
                 src={BgPop}
                 alt="Bg"
                 width={20}
                 height={20}
                 className="w-full rounded-xl absolute top-0"
-              /> */}
+              />
 
-        {/* {showSport.sportName == } */}
-        {/* {showSport.sportName == "Tenis Meja" && (
+              {/* {showSport.sportName == } */}
+              {showSport.sportName == "Tenis Meja" && (
                 <Image
                   src={TenisMeja2}
                   alt="Logo"
@@ -353,8 +358,8 @@ const page = () => {
                 <Image
                   src={Basket2}
                   alt="Logo"
-                  width={20}
-                  height={20}
+                  // width={20}
+                  // height={20}
                   className="w-[80%] rounded-xl mx-auto"
                 />
               )}
@@ -389,9 +394,9 @@ const page = () => {
                 {showSport.players.map((player: string, index: number) => (
                   <div
                     key={index}
-                    className=" text-black bonjour-font flex bg-[#F2A845] rounded-full p-1 md:p-2 bonjour-font items-center text-sm md:text-base"
+                    className=" text-black bonjour-font flex bg-[#F2A845] rounded-full p-1 md:p-2 bonjour-font items-center text-xxs xs:text-xss sm:text-sm md:text-sm lg:text-lg"
                   >
-                    <span className="rounded-full bg-[#F9F3BA] px-2 py-[0.15rem] md:py-0 mr-3 text-xs sm:text-sm">
+                    <span className="rounded-full bg-[#F9F3BA] px-2 py-[0.15rem] md:py-0 mr-3 text-xxs xs:text-xss sm:text-sm md:text-sm lg:text-lg">
                       {" "}
                       {index + 1}{" "}
                     </span>
@@ -407,7 +412,7 @@ const page = () => {
               </div>
             </div>
           </div>
-        )} */}
+        )}
       </div>
     </section>
   );

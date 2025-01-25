@@ -13,7 +13,8 @@ module.exports = {
         magical:["Magical", "serif"]
       },
       fontSize:{
-        'xxs':['0.5rem', {lineHeight: '0.8rem'}]
+        'xxs':['0.5rem', {lineHeight: '0.8rem'}],
+        'xss':['0.625rem', {lineHeigt: '0.9rem'}]
       },
       colors: {
         green: {
