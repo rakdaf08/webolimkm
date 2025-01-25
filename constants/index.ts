@@ -12,7 +12,7 @@ export const Himpunan = [
   {href: 'himastron', key: 'himastron', label: 'HIMASTRON'},
   {href: '#', key: 'himabio', label: 'HIMABIO "Nymphaea"'},
   {href: '#', key: 'hme', label: 'HME'},
-  {href: '#', key: 'hmf', label: 'HMF "Ars Praeparandi"'},
+  {href: '#', key: 'hmf', label: "HMF 'Ars Praeparandi'"},
   {href: '#', key: 'himafi', label: 'HIMAFI'},
   {href: '#', key: 'hmft', label: 'HMFT'},
   {href: '#', key: 'hmk', label: 'HMK "AMISCA"'},
@@ -60,12 +60,10 @@ export const Medals = [
   {key: 'mti', label: 'MTI', gold: '#', silver: '#', bronze: '#'}
 ]
 
-// src/data/index.ts
-
 export const teams = [
   {
     key: 'hmif',
-    name: 'HIMPUNAN MAHASISWA INFORMATIKA (HMIF)',
+    name: 'HIMPUNAN MAHASISWA INFORMATIKA ITB (HMIF ITB)',
     image: '/LogoHMPS/HMIF.png',
     sports: [
       {
@@ -78,13 +76,12 @@ export const teams = [
       },
       {
         sportName: 'Basket',
-        players: ['Aliya Husna Fayyaza', 'Angelica Aliwinata', 'Audy Alicia Renatha Tirayoh', 'Bevinda Vivian', 'Indah Novita Tangdililing', 'Lidya Marthadilla', 'Princessfa Azzahra Alvin', 'Egina Deva Carissa', 'Erdianti Wiga Putri Andini', 'Willhelmina Rachel Silalahi',
-          'Ariel Jovananda', 'Christian Justin Hendrawan', 'Daffa Athalla Rajasa', 'Juan Sohuturon Arauna Siagian', 'Kenneth Ezekiel', 'Kenny Benaya Nathan', 'Matthew Sebastian Kurniawan', 'Michael Dimas Sarono', 'Ricky Wijaya'
+        players: ['Aliya Husna Fayyaza', 'Angelica Aliwinata', 'Audy Alicia Renatha Tirayoh', 'Bevinda Vivian', 'Indah Novita Tangdililing', 'Lidya Marthadilla', 'Princessfa Azzahra Alvin', 'Egina Deva Carissa', 'Erdianti Wiga Putri Andini', 'Willhelmina Rachel Silalahi', 'Ariel Jovananda', 'Christian Justin Hendrawan', 'Daffa Athalla Rajasa', 'Juan Sohuturon Arauna Siagian', 'Kenneth Ezekiel', 'Kenny Benaya Nathan', 'Matthew Sebastian Kurniawan', 'Michael Dimas Sarono', 'Ricky Wijaya'
         ],
       },
       {
         sportName: 'Catur',
-        players: ['TBA'],
+        players: ['Imam Hanif Mulyarahman'],
       },
       {
         sportName: 'Futsal',
@@ -113,12 +110,12 @@ export const teams = [
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA ASTRONOMI (HIMASTRON)',
+    name: 'HIMPUNAN MAHASISWA ASTRONOMI ITB (Himastron ITB)',
     image: '/LogoHMPS/HIMASTRON.png',
     sports: [
       {
         sportName: 'Atletik',
-        players: ['Gita Nur Ajizah', 'Yonathan Firdian Saragih', 'Amalul Qorina', 'Syauqi Nawawi'],
+        players: ['Gita Nur Ajizah', 'Yonathan Firdian Saragih', 'Amalul Qorina', 'Syauqi Nawawi', 'Yonathan Firdian Saragih'],
       },
       {
         sportName: 'Badminton',
@@ -130,7 +127,7 @@ export const teams = [
       },
       {
         sportName: 'Catur',
-        players: ['TBA'],
+        players: ["Abu A'la An-Nadwi"],
       },
       {
         sportName: 'Futsal',
@@ -148,15 +145,23 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['Muhammad Fariz Al Ayubi', 'Nathanael Jericho Raharjo', 'Rafli Laksamana', 'Rashya Anandifa Kawindra', 'Vincent', 'Yandi Ghassani Septiandi', 'Alif Rokhman Hidayat', 'Eugene Timothy Clay', 'M Satria Fathan Rizky P H', 'Moh. Ichwan Afzani Zahran', 'Muhammad Zaky Kurniawan', 'Naufal Muhammad Dzaky Widodo', 'Surya Novrian'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['Sahabista Arkitanego Armantara', 'Muchammad Najmi Syarif Al Baihaqi', 'Tian Ahmad Bayuadri', 'Tikrit Syifa Rizquna', 'Rajendra Aryasuta', 'Muhammad Fariz Al Ayubi', 'Muhammad Zaki Gumilang'],
+      }
     ],
   }, 
   {
-    name: 'HIMPUNAN MAHASISWA BIOLOGI (HIMABIO "Nymphaea")',
+    name: 'HIMPUNAN MAHASISWA BIOLOGI "Nymphaea" ITB (HIMABIO "Nymphaea" ITB)',
     image: '/LogoHMPS/HIMABIO.png',
     sports: [
       {
         sportName: 'Atletik',
-        players: ['TBA'],
+        players: ['Sean Koresy', 'M. Luqman Dzaky', 'Aime Sekar Ayu', ],
       },
       {
         sportName: 'Badminton',
@@ -186,15 +191,23 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['Alfath Rashif', 'Diaz Sutan', 'Milan Ardana', 'Theo Rhae Mulyono', 'Raidan A.D'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['Calvin Simanjuntak', 'Oswald Ansy', 'Raden Ivan', 'M. Hikmal', 'Maria Stephanie'],
+      }
     ],
   }, 
   {
-    name: 'HIMPUNAN MAHASISWA ELEKTROTEKNIK (HME)',
+    name: 'HIMPUNAN MAHASISWA ELEKTROTEKNIK ITB (HME ITB)',
     image: '/LogoHMPS/HME.png',
     sports: [
       {
         sportName: 'Atletik',
-        players: ['Gisela Aurora Gitapoetri', 'Bright Christian Kusuma', 'Samuel Irving Pudinaung', 'Maria Sophie Dewanto', 'Hans Forbes Kurniadi', ' Al Khairy Farisy', 'Player 7'],
+        players: ['Gisela Aurora Gitapoetri', 'Bright Christian Kusuma', 'Samuel Irving Pudinaung', 'Maria Sophie Dewanto', 'Hans Forbes Kurniadi', 'Al Khairy Farisy'],
       },
       {
         sportName: 'Badminton',
@@ -202,37 +215,45 @@ export const teams = [
       },
       {
         sportName: 'Basket',
-        players: ['Abbel Jatmiko', 'Daffa Muhammad Rasyid', 'A.A.Radheya Seva Marthariyana', 'Nicholas Darren', 'Yohanes Ari Putra Pandapotan', 'Arif Firman Fadhilah', 'Muhammad Shafiyuddin Mihradi', 'Kiyo Lee Tiono', 'Achmad Fadhil', 'Fadhil Kusuma Wardhana', 'Denis Fathullah Pratama', 'Vallery Anthonio Raditya'],
+        players: ['Abbel Jatmiko', 'Daffa Muhammad Rasyid', 'A.A.Radheya Seva Marthariyana', 'Nicholas Darren', 'Yohanes Ari Putra Pandapotan', 'Arif Firman Fadhilah', 'Muhammad Shafiyuddin Mihradi', 'Kiyo Lee Tiono', 'Achmad Fadhil', 'Fadhil Kusuma Wardhana', 'Denis Fathullah Pratama', 'Vallery Anthonio Raditya', 'Alarik Unggul Yudhatama Sukadis', 'Mikhael Abhiseka Pramono', 'Rubi Naufal Tiandito', 'Samuel Irving Pudinaung', 'Hauzan Aiman', 'Sulthan Antar Aulia Yunus', 'Benny Christiano', 'Haykal Alviantara Surya', 'Hafidz Yasifa Patty', 'Irfansyah Abiyu Tamir', 'Farel Ihsan'],
       },
       {
         sportName: 'Catur',
-        players: ['TBA'],
+        players: ['Muchammad Hardhiaz Maulana P.'],
       },
       {
         sportName: 'Futsal',
-        players: ['Jasmine Callista Auriellie I', 'Rumasiha Afiqah Taqiyya', 'Shadrina Syahla Vidyana', 'Sophie Maria Dewanto', 'Gisella Aurora Gitapoetri', 'Fransiska Fernanda', 'Amelia Dina Savitri', 'Nasywa Fadhilah Putri', 'Kaila Ermina Budiarto', 'Alifia Ghina Hanifah', 'Serena Kristin Hasiana', 'Raisya Nabila Thahari'],
+        players: ['Jasmine Callista Auriellie I', 'Rumasiha Afiqah Taqiyya', 'Shadrina Syahla Vidyana', 'Sophie Maria Dewanto', 'Gisella Aurora Gitapoetri', 'Fransiska Fernanda', 'Amelia Dina Savitri', 'Nasywa Fadhilah Putri', 'Kaila Ermina Budiarto', 'Alifia Ghina Hanifah', 'Serena Kristin Hasiana', 'Raisya Nabila Thahari', 'Ryaas Ramdan Inugraha', 'Daffa Muhammad Rasyid', 'Syauqi Muhammad Fatih', 'Syors Desember Srefle', 'Afardhan Putra Fashadani', 'Riswandha Mashuri', 'Musthafa Ibrahim', 'Miftah Fauzaan Maryono', 'Noval Adi Prasetyo', 'Jan Patrick Yeremia', 'Muhamad Ali Ibrahim Al Hariri', 'Gamaliel Adaran Nadiuarihon', 'Desnanda Akbar Novelito'],
       },
       {
         sportName: 'Renang',
-        players: ['Andika Rama', 'Jasmine Callista'],
+        players: ['Andika Rama', 'Jasmine Callista', 'Abdullah Al Ash'],
       },
       {
         sportName: 'Tenis Meja',
-        players: ['Alvin Zuhri', 'Arya Faiza Sebastian', 'Ershafa Nailah', 'Ransi Raihan','Player 1'],
+        players: ['Samuel Irving Pudinaung', 'Rumaisha Afiqah Taqiyya', 'Akhmad Aditya Yusuf', 'Rubi Naufal Tiandito', 'Muhammad Raihan Fahlevi'],
       },
       {
         sportName: 'Voli',
-        players: ['TBA'],
+        players: ['Noval Adi Prasetyo', 'Ihsan Hidayat Rafi', 'Ananda Aldio Arlando', 'Kiyo Lee Tiono', 'Habibie Muhammad Ghifari', 'Miftah Fauzaan Maryono', 'Muhammad Fauzan Syarif', 'Faiq Suhail', 'Mohammad Abiyyu Ikhsan', 'Danang Rifqi', 'Ronaldo', 'Azril Multazam Pambudi', 'Ryaas Ramdan Inugraha', 'Al Khairy Farisy', 'Yoga Wijanarko', 'Bright Christian Kusuma', 'Taufiq Hidayat', 'Arif Firman Fadhilah', 'Daffa Muhammad Rasyid', 'Muhammad Luthfi', 'Yohanes Ari Putra Pandapotan', 'Poggy Macello Gultom', 'Akhmad Aditya Yusuf'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['Musthafa Ibrahim', 'Prajnagastya Adhyatmika', 'Pradigta Hisyam Ramadhan', 'Yustinus Miki Prayoga Hernanto', 'Benny Christiano', 'Roni Septian', 'Mubarok Syamil', 'Gregorius Yoga R', 'Rafie Naufal Halimi', 'Imam Ahmad Abdullah', 'Joenathan Luther Sihotang', 'Irwindra Nevan E', 'Radhitia Syafii'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['Davin Gunawan', 'Achmad Arians Fadhil', 'Emir Rasyadi Mas Avicena', 'Faris Riza Maulana', 'Nicholas Darren', 'Abednego Ozoralael S', 'Stefen Sutandi', 'Pierre Gavin Tan', 'Jason Theo Salim', 'Erik Dania Putra', 'Justin Aprio Chan', 'Abbel Jatmiko'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA FARMASI (HMF "Ars Praeparandi")',
+    name: "HIMPUNAN MAHASISWA FARMASI 'Ars Praeparandi' ITB (HMF 'Ars Praeparandi' ITB)",
     image: '/LogoHMPS/HMF.png',
     sports: [
       {
         sportName: 'Atletik',
-        players: ['Al Muqsith Aufa', 'Aisha Nadine', 'Rayhan Tri Putra', 'Made Ayu Aneira Widiana', 'Nadira Azzahrah', 'Sendy Ramadona', 'Player 7'],
+        players: ['Al Muqsith Aufa', 'Aisha Nadine', 'Rayhan Tri Putra', 'Made Ayu Aneira Widiana', 'Nadira Azzahrah', 'Sendy Ramadona'],
       },
       {
         sportName: 'Badminton',
@@ -244,7 +265,7 @@ export const teams = [
       },
       {
         sportName: 'Catur',
-        players: ['TBA'],
+        players: ['Wilson Aurelius Rusmana'],
       },
       {
         sportName: 'Futsal',
@@ -262,10 +283,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['Dinan Ghufrani Teddy', 'Muhammad Dzulfahmi Putra', 'Renardi Hadisurya', 'Muhammad Fajar Argenta Nurhadi', 'Yogi Febriandi', 'Raphael Amadeaus', 'Kent Evan Alfarisi', 'Sendy Ramadona', 'Anthony Ruben Piyong', 'Sellin Leony', 'Muhammad Hafizh Febyanza', 'Tasya Cornelia', 'Rafi Aqila Zahy'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['Dinan Ghufrani Teddy', 'Raphael Amadeaus', 'Daffa Harsawardhana', 'Muhammad Fathan Rizatya', 'Wilson Aurelius Rusmana', 'David Raynard Gunadi'],
+      }
     ],
   }, 
   {
-    name: 'HIMPUNAN MAHASISWA FISIKA (HIMAFI)',
+    name: 'HIMPUNAN MAHASISWA FISIKA ITB (HIMAFI ITB)',
     image: '/LogoHMPS/HIMAFI.png',
     sports: [
       {
@@ -300,19 +329,27 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['Mulyadi Prasojo', 'Juniar Risalatul A.', 'Geraldhika R.A.R', 'Rezariansa Gema Akbar S.', 'Ahmad Alfian Tri S.', 'Jonathan Lijaya', 'Kansha Ghaffaru F.', 'Gading Manggala', 'Ahmad Fadillah', 'Naufal Aulia P.', 'Petra Siahaan', 'Zidan R. Rusdiana', 'Mohammad Adil Ramdhi F.'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['Kian Imanur Razan', 'Naufal Aulia Pramadhana', 'M. Afief', 'Azzahra Putriya A.', 'Yazidhariz Farghani K.', 'Huzain Hadi P.', 'Vincent Constantine'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA FISIKA TEKNIK (HMFT)',
+    name: 'HIMPUNAN MAHASISWA FISIKA TEKNIK (HMFT ITB)',
     image: '/LogoHMPS/HMFT.png',
     sports: [
       {
         sportName: 'Atletik',
-        players: ['TBA'],
+        players: ['Akmal Pramudya', 'Muhammad Farras'],
       },
       {
         sportName: 'Badminton',
-        players: ['TBA'],
+        players: ['Bintang Adra Sapardiman', 'Nayaka Zahran Raeswara', 'Alif Muhammad Rizky', 'Christopher Justin Kurniawan', 'Rasya Ihza Ramadhan', 'Zalma Zahara Hanum', 'Yuba Felda Tustika', 'Engracia Tio Kinanti Sihombing', 'Alyssandra Destiny Gozali', 'Sherin Marsanda P Limbong'],
       },
       {
         sportName: 'Basket',
@@ -320,7 +357,7 @@ export const teams = [
       },
       {
         sportName: 'Catur',
-        players: ['TBA'],
+        players: ['Jeremy Lukas Setiawan'],
       },
       {
         sportName: 'Futsal',
@@ -328,7 +365,7 @@ export const teams = [
       },
       {
         sportName: 'Renang',
-        players: ['TBA'],
+        players: ['Bintang Adra Sapardiman'],
       },
       {
         sportName: 'Tenis Meja',
@@ -338,10 +375,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['Nayaka Zahran Raeswara', 'Gontar Amin', 'Kornelius Anthoney E Naibaho', 'Taufik Syahputra', 'Fathy Abdurrahman', 'Izma Alhazmi Herdian', 'Nafi Mulyo Kusumo', 'Dandy Arif Rahmadi', 'Muhamad Arya Saputra', 'Daffa Aris Alhakim', 'Muhammad Reza Indarto', 'Ahmad Richard Naufal'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['Moses Bintang Janner Hutabarat', 'Muhammad Azka Azzikra', 'Muhammad Jordy Alfayed', 'Baginda Muhammad Achtar Kahar', 'Rayyan Cahya Rinaldi', 'Sherin Marsanda Paskali Limbong', 'Muhammad Zidni Rizqan Fauzan', 'Ilham Bintang', 'Izma Alhazmi Herdian', 'I Putu Agus Ananda Giri Putra', 'Fransiskus Michael Christian', 'Dandy Arif Rahmadi', 'Albert Ramosta Graetinus'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['Luthfi Adi Nugraha', 'Javier Dustin Tambunan', 'Prabu Asshidiq', 'Muhammad Alfath Tsani Ramadhan', 'Muhammad Naufal Shidqi Fariz', 'Frederick Andrew Joshe', 'Kemal Akbar Mahesa', 'Kevin Kristian Silaen', 'Abdan Hakim', 'Russell Christopher Yudhistira', 'Muhammad Nurbuana Alfatah', 'Habibie Dzaky Lathif', 'Sulthan Naufal Affan', 'Achriza Nurfarid'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA KIMIA (HMK "AMISCA")',
+    name: "HIMPUNAN MAHASISWA KIMIA 'AMISCA' ITB (HMK 'AMISCA' ITB)",
     image: '/LogoHMPS/HMK.png',
     sports: [
       {
@@ -376,15 +421,23 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['Muhammad Kamil Nurrahman', 'Christofarrel Graddy Marpaung', 'Firdaus Andreas Karundeng', 'Muhammad Arrofy Alfitar', 'Jonathan Samuel', 'Yucca Marintan Rosemary', 'Irham Alfun Aufa', 'Ananda Mayusra', 'Ryan Ageng Wicaksono'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA MATEMATIKA (HIMATIKA)',
+    name: 'HIMPUNAN MAHASISWA MATEMATIKA ITB (HIMATIKA ITB)',
     image: '/LogoHMPS/HIMATIKA.png',
     sports: [
       {
         sportName: 'Atletik',
-        players: ['Azarya Benhanan Isriyanto', 'Bryan Guok', 'Reihana Je Aminata', 'Alfia Suci Febriyanti', 'Ingrid Lenora Simanungkalit', 'Slamet Abidin', 'Indra Putra Lohanata', 'Pieter Valentino Wijaya'],
+        players: ['Azarya Benhanan Isriyanto', 'Bryan Guok', 'Reihana Je Aminata', 'Alfia Suci Febriyanti', 'Ingrid Lenora Simanungkalit', 'Slamet Abidin', 'Indra Putra Lohanata', 'Pieter Valentino Wijaya', 'Avicenna Harits Chang'],
       },
       {
         sportName: 'Badminton',
@@ -404,7 +457,7 @@ export const teams = [
       },
       {
         sportName: 'Renang',
-        players: ['Alfia Suci Febriyanti', 'Aditya Lukki'],
+        players: ['Alfia Suci Febriyanti', 'Aditya Lukki', 'Keita Kamil Rahardyan'],
       },
       {
         sportName: 'Tenis Meja',
@@ -414,10 +467,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['Amar Fatih SKA', 'Gulit Radian Wiyarno', 'Rendi Adinata', 'M. Raihan Nupiyandi', 'Devin Nathaniel', 'Haitsam Izzan W.S.', 'Muhammad Fikran Naufal', 'Muhammad Zidni Ilman Nafiah', 'Naufal Rafidien Khalwani', 'Aditya Lukki', 'Nathanael Gilbert'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['Jonathan Biliguna', 'Muhammad Hashfi Prabhaswara', 'Khalip Ali', 'Muhammad Mu\'Alief', 'Ricky Rahadiyan Daraputra', 'Chandra Hadi Wijaya', 'Christopher Nathaniel', 'Brian Irsandi Lisander', 'Haikal Aulia Alfarghani', 'A F M M Juan Philotra Deva'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['Darrell Lee Benevaldi', 'Aditya Lukki', 'Falieh Noufal Rahadi', 'Muhammad Fathan Assadad', 'Fabian Ariasena Santoso', 'Keita Kamil', 'Valentinus Brian Johan', 'Felix Gerald Sutanto', 'Devin Nathaniel', 'Jeremiah Sahalatua', 'Ibrahim Radhi Yusaputra Bahar'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA MESIN (HMM)',
+    name: 'HIMPUNAN MAHASISWA MESIN ITB (HMM ITB)',
     image: '/LogoHMPS/HMM.png',
     sports: [
       {
@@ -434,7 +495,7 @@ export const teams = [
       },
       {
         sportName: 'Catur',
-        players: ['Player 1', 'Ryan Rivandi'],
+        players: ['Ryan Rivandi'],
       },
       {
         sportName: 'Futsal',
@@ -452,10 +513,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['Rakha Abdillah Firdaus', 'Rayyan Nusaly', 'Mikhail Arsyad Fadhila', 'Arta Aulia Affif', 'Muhammad Fikri Zidandaru', 'Adam Rushdain Putrayando', 'Reyhan Ubadillah', 'M. Naufal Dhiaulhaq', 'Taufa Indrawan', 'Muhammad Afdhal', 'Edric Geoffrey', 'Zykhra Rauf', 'M. Abdunnafi'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['Ridho Fikri Zein', 'Rio Rifaldo', 'Avigo Asari', 'Angger Pangestu', 'Muhammad Raka Wicaksono', 'Muhammad Farel Rahardian', 'Taufa Indrawan', 'Muhammad Zaiq Azmi', 'Rayhan Alawin Satrio', 'Muhammad Abdunnafi Arrifai', 'Muhammad Farid Ali', 'Adi Haditya Nursyam', 'Ryan Rivandi'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['Lastiko Bramantyo', 'Dzaki Dwiandra Shaumil Ghifari', 'Farhan Abyan Algerie', 'Fadhil Aldito Putra', 'Robie Neil Julian Nababan', 'Sammuel Haskel Kurniawan', 'Rafael Petra Arrang Pangkung', 'Yan Rivandi', 'Irlo Eldrianhsa Achmad F', 'Rakha Abdillah', 'Rayyan Nusaly', 'Bima Bhadrikananda', 'Azmi Achmad Dailami', 'Reivan Damarbagus Legawa'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA METEOROLOGI (HMME "Atmosphaira")',
+    name: 'HIMPUNAN MAHASISWA METEOROLOGI "Atmosphaira" ITB (HMME "Atmosphaira" ITB)',
     image: '/LogoHMPS/HMME.png',
     sports: [
       {
@@ -490,10 +559,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['Nuran Dhiya A.', 'Mhd. Isfahan Fadyasha', 'Axel Widjanarko', 'Dawwas RS', 'Rully Dwi Nugraha Dasyura', 'Nurrizki Fathami', 'Arya Nst', 'Muhammad Airy Yulman', 'Doddy Nbh', 'Jeremy Blessclay Muljana', 'Auva Qaulan Sadiida', 'Muhammad Naufal Iman', 'Emelio Joshia'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['Febrya Bagus Saputra', 'M. Naufal Iman', 'M. Raka Perdana', 'Azadi Azhrah', 'Doddy Naibaho', 'Oryza Wardana', 'M. Ammar Zaky', 'Gunawan Muhammad Akbar', 'Abyaz Nawfaldhiyaa', 'L.M. Abin Akbar', 'Rully Dwi Nugraha Dasyura', 'Marchelius Johannes Manurung'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['Emelio Joshia E', 'Benaryasatya B S', 'Muhammad Fayas Altigo', 'Daffa Alvaro Athaila', 'Marchelius Johannes Manurung', 'Muhammad Arkan', 'Hafiz Amin Sudril', 'Fauzan Nasirulhaaq', 'Muhammad Humam Nabeel', 'Shulhan Al Khalidy', 'Ganesha Akbar Taruna'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA MIKROBIOLOGI (HIMAMIKRO "ARCHAEA")',
+    name: 'HIMPUNAN MAHASISWA MIKROBIOLOGI "ARCHAEA" ITB (HIMAMIKRO "ARCHAEA" ITB)',
     image: '/LogoHMPS/HIMAMIKRO.png',
     sports: [
       {
@@ -528,10 +605,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['Sabiyan Arafi', 'Raffi Raihan Fadhilah', 'Ilham Marza Rabbani', 'Melati Adriana Christy', 'Nathanael Manzo Hadi Winata', 'Dave Matthew Pangaribuan', 'Hansen Jonathan', 'Putri Hasya Nafitsana', 'Aisyah Adiva Jasmine', 'Muhammad Ilham Ghifari', 'Darrell Orlando Avydi', 'Gregorius Belfry Soetanto'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA OSEANOGRAFI (HMO "TRITON")',
+    name: 'HIMPUNAN MAHASISWA OSEANOGRAFI "TRITON" ITB (HMO "TRITON" ITB)',
     image: '/LogoHMPS/HMO.png',
     sports: [
       {
@@ -560,16 +645,24 @@ export const teams = [
       },
       {
         sportName: 'Tenis Meja',
-        players: ['Raihan Eko Sugiyanto', 'Anna Felicya', 'Arham Namusul Ka’ab', '⁠⁠Syafrizal Hidayat', 'Maidina Zevi', 'Ahmad Faishal Nurdzaky', 'Player 7','TBA'],
+        players: ['Raihan Eko Sugiyanto', 'Anna Felicya', 'Arham Namusul Ka’ab', '⁠⁠Syafrizal Hidayat', 'Maidina Zevi', 'Ahmad Faishal Nurdzaky'],
       },
       {
         sportName: 'Voli',
         players: ['Mochamad Nur Fajri', 'Gara Ghalib Ramadhan', 'Partogi Yosafat Hamonangan', 'Syafrizal Hidayat', 'M. Azqar Zalvino', 'Ikhwan Tsuni Nusantara', 'Arham Namusul Ka’ab', 'Muhammad Fatih Putra Achsan', 'Arvind Vazza Pratama', 'Tabiin Ikhsan', 'Diky Dwi Anggara Permadi', 'Vincentius Arya Persada'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['Rizky Dwi Ryu', 'M. Ravi Alrizqi Permana', 'Calvin Sigmund Kolosianz (Gane)', 'Raditya Ramadhan', 'Muhammad Syahwal Nasstia', 'Fauzan Putra Indra', 'Rafli Yudha A', 'Christian Sianipar', 'Bue Silalahi', 'Ivanogari Simanjorang', 'Joshua Yosianto', 'Faris Seputra', 'Ahdan Musyaffa', 'Muhammad Raihan'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['Muhammad Insan Hanif', 'Reynaldi Darsim Vergia', 'Adnan Abdussalam Putra Yanhas', 'Ahdan Musyaffa', 'Rafli Yudha Asdana', 'Pandu Malik Aulia', 'Muhammad Abid Arsyad Majid'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA REKAYASA HAYATI (HMRH)',
+    name: 'HIMPUNAN MAHASISWA REKAYASA HAYATI ITB (HMRH ITB)',
     image: '/LogoHMPS/HMRH.png',
     sports: [
       {
@@ -578,7 +671,7 @@ export const teams = [
       },
       {
         sportName: 'Badminton',
-        players: ['TBA'],
+        players: ['Rizki Dwi Setiyani', 'Gloria Greska Anastasya'],
       },
       {
         sportName: 'Basket',
@@ -604,10 +697,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['Maverick Allen Chaynn', 'Lifwid Ilmalyakin Taftanjani', 'Reso Aji Saputra Wicaksono', 'Muhammad Abdul Hikam', 'Nathan Barros Kangga', 'Kevin Phillipe Atmaja', 'Aqila Zulfa Maheswari'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA REKAYASA KEHUTANAN (HMH "Selva")',
+    name: "HIMPUNAN MAHASISWA REKAYASA KEHUTANAN 'Selva' ITB (HMH 'Selva' ITB)",
     image: '/LogoHMPS/HMH.png',
     sports: [
       {
@@ -616,7 +717,7 @@ export const teams = [
       },
       {
         sportName: 'Badminton',
-        players: ['TBA'],
+        players: ['Christian Abraham Pangihutan', 'Johanson Eleazar', 'Yosua Kevin Siahaan', 'Demaulidimas Kuncoro', 'Sarah', 'Nuha Hanina Arkan'],
       },
       {
         sportName: 'Basket',
@@ -642,10 +743,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
-  {
-    name: 'HIMPUNAN MAHASISWA REKAYASA PERTANIAN (HIMAREKTA "Agrapana")',
+  { //dari sini yan
+    name: 'HIMPUNAN MAHASISWA REKAYASA PERTANIAN "Agrapana" ITB (HIMAREKTA "Agrapana" ITB)',
     image: '/LogoHMPS/HIMAREKTA.png',
     sports: [
       {
@@ -680,10 +789,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
-  { //Sampai sini sekarang
-    name: 'HIMPUNAN MAHASISWA SIPIL (HMS)',
+  {
+    name: 'HIMPUNAN MAHASISWA SIPIL (HMS ITB)',
     image: '/LogoHMPS/HMS.png',
     sports: [
       {
@@ -718,10 +835,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['M. Elyas Aryo Saputro', 'Mohammad Fathan Islamika', 'Aditya Panji Moehammad', 'Frendi Adianata Putra', 'Geraldus Emanuel Gunawan', 'Barra Fatta Abdullah', 'Ronald Calvin Lo', 'Alwan Rafi`u Musyaffa`', 'Bangkit Krisna Satriadi', 'Khasan Matlubi', 'Fitrah Nur M.H.', 'Immanuel Ryandika O.'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA SUMBER DAYA AIR (HIMASDA)',
+    name: 'HIMPUNAN MAHASISWA SUMBER DAYA AIR ITB (HIMASDA-ITB)',
     image: '/LogoHMPS/HIMASDA.png',
     sports: [
       {
@@ -756,10 +881,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA TAMBANG (HMT)',
+    name: 'HIMPUNAN MAHASISWA TAMBANG ITB (HMT-ITB)',
     image: '/LogoHMPS/HMT.png',
     sports: [
       {
@@ -794,10 +927,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['Abraham  Rivaldo Novelino Purba', 'Ahmad Husaini Firdaus', 'Pangerehan Purwantorojati', 'Nasra Yuda Sitorus', 'Arfa Iman Prasetyo', 'Muhammad Firdaus Nugroho', 'Hillal Az Zahri Sunata', 'Rafilino Fazza Kuncoro', 'Azar Alfi Dwi Bahtiar', 'Dody Muhammad Pasha', 'Akbar Ramadhani Rahayu', 'Rocky Expan Manik'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA TEKNIK BIOENERGI DAN KEMURGI (HMTB "RINUVA")',
+    name: 'HIMPUNAN MAHASISWA TEKNIK BIOENERGI DAN KEMURGI "RINUVA" ITB (HMTB "RINUVA" ITB)',
     image: '/LogoHMPS/HMTB.png',
     sports: [
       {
@@ -832,10 +973,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA TEKNIK GEOFISIKA (HIMA TG "TERRA")',
+    name: 'HIMPUNAN MAHASISWA TEKNIK GEOFISIKA "TERRA" ITB (HIMA TG "TERRA" ITB)',
     image: '/LogoHMPS/HIMA_TG.png',
     sports: [
       {
@@ -870,10 +1019,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA TEKNIK GEOLOGI (HMTG "GEA")',
+    name: 'HIMPUNAN MAHASISWA TEKNIK GEOLOGI "GEA" ITB (HMTG "GEA" ITB)',
     image: '/LogoHMPS/HMTG.png',
     sports: [
       {
@@ -908,10 +1065,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA TEKNIK KIMIA (HIMATEK)',
+    name: 'HIMPUNAN MAHASISWA TEKNIK KIMIA ITB (HIMATEK-ITB)',
     image: '/LogoHMPS/HIMATEK.png',
     sports: [
       {
@@ -946,10 +1111,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['Azka Anindya Aryasatya', 'Gerald Xavier Widjaja', 'Christopher Reynard Jose', 'Nurfian Akbar Tyzaputra', 'Raihan Azizur Rachman', 'Aufa Rafiqi Disya', 'Jason Moelia Sapoetra', 'Afnes Fisnanda', 'Hizkia Tyoga Pamatar Manurung', 'Juan Reynaldy Pasaribu', 'Feliciano Enrico Setiawan', 'Akmal Rakha Firdaus', 'Arva Adwitya', 'Arya Ibrahim Marzuki', 'Gregorius Webbe Gigih Sadewa'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA TEKNIK LINGKUNGAN (HMTL)',
+    name: 'HIMPUNAN MAHASISWA TEKNIK LINGKUNGAN ITB (HMTL-ITB)',
     image: '/LogoHMPS/HMTL.png',
     sports: [
       {
@@ -984,10 +1157,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['Ignatius Fernando', 'Muhammad Haekal Fikri', 'Johan Hasudungan Simbolon', 'Henard Niki Limbongan', 'Muhammad Farell Faza Swivelly', 'Fanama Nasima', 'Adam Bryan Abyan', 'Vryzha Dutchka Devryan Putra', 'Steven Hosea Manurung', 'Ikhlasul Qolby Zacky  Nuravianto', 'Marcellino Antolin Surbakti', 'Hanindityo Aiman Rachmansa'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA TEKNIK MATERIAL (MTM)',
+    name: 'HIMPUNAN MAHASISWA TEKNIK MATERIAL ITB (MTM ITB)',
     image: '/LogoHMPS/MTM.png',
     sports: [
       {
@@ -1022,10 +1203,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['Prio Bahari Junior', 'Miftah Alfiqri', 'Fawzan Muhammad Rizqi', 'Muhammad Rafi', 'Hizkia Stefanus Julyanto', 'Abdirahman Pratama', 'Fikri Ahmad Hervian', 'Rifqi Putra Maiyadi', 'Rijal Mustamsik Zia`Ul Ha', 'Afari Rahman Sodikin', 'Iftikhar Ryo Ardhana', 'Daniz H J V Samosir'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA TEKNIK PANGAN (HMPG)',
+    name: 'HIMPUNAN MAHASISWA TEKNIK PANGAN ITB (HMPG ITB)',
     image: '/LogoHMPS/HMPG.png',
     sports: [
       {
@@ -1060,10 +1249,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   { 
-    name: 'HIMPUNAN MAHASISWA TEKNIK PERENCANAAN WILAYAH DAN KOTA PANGRIPTA LOKA (HMP PL)',
+    name: "HIMPUNAN MAHASISWA PERENCANAAN WILAYAH DAN KOTA 'PANGRIPTA LOKA' ITB (HMP PL ITB)",
     image: '/LogoHMPS/HMP.png',
     sports: [
       {
@@ -1098,10 +1295,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA TEKNIK PERMINYAKAN (HMTM "PATRA")',
+    name: 'HIMPUNAN MAHASISWA TEKNIK PERMINYAKAN "PATRA" ITB (HMTM "PATRA" ITB)',
     image: '/LogoHMPS/HMTM.png',
     sports: [
       {
@@ -1136,10 +1341,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['David Juan Saputra', 'I Nyoman Maximilian Bhuana Paksi', 'Naufal ‘Athallah Fahrezi', 'Ibrahim Musa', 'Rizqy Masdarul Haq', 'Akhtar Fikri Patria', 'Rido Marpaho Damanik', 'Rayhan Andrasakti Rahmatulloh', 'Muhamad Noufal Fawwaz Hakim', 'Jiro Adika Faruq'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   {
-    name: 'HIMPUNAN MAHASISWA TEKNOLOGI PASCAPANEN (HMPP "VADRA")',
+    name: "HIMPUNAN MAHASISWA TEKNOLOGI PASCAPANEN 'VADRA' ITB (HMPP 'VADRA' ITB)",
     image: '/LogoHMPS/HMPP.png',
     sports: [
       {
@@ -1148,7 +1361,7 @@ export const teams = [
       },
       {
         sportName: 'Badminton',
-        players: ['TBA'],
+        players: ['Muhammad Ridho Ardiansyah', 'Edelyn Venny'],
       },
       {
         sportName: 'Basket',
@@ -1174,10 +1387,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   {
-    name: 'IKATAN MAHASISWA ARSITEKTUR-GUNADHARMA (IMA-G)',
+    name: 'IKATAN MAHASISWA ARSITEKTUR GUNADHARMA ITB (IMA-G ITB)',
     image: '/LogoHMPS/IMA_G.png',
     sports: [
       {
@@ -1212,10 +1433,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   {
-    name: 'IKATAN MAHASISWA GEODESI (IMG)',
+    name: 'IKATAN MAHASISWA GEODESI ITB (IMG-ITB)',
     image: '/LogoHMPS/IMG.png',
     sports: [
       {
@@ -1250,10 +1479,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   {
-    name: 'IKATAN MAHASISWA METALURGI (IMMG)',
+    name: 'IKATAN MAHASISWA METALURGI ITB (IMMG ITB)',
     image: '/LogoHMPS/IMMG.png',
     sports: [
       {
@@ -1288,10 +1525,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['Argya Syachlendra', 'Fraditya Balfis Abdillah', 'Panya Magasankappa Wongso', 'Zaidan Ayyubi Biyan', 'Thubagus Ahmad Mahanata', 'Danan Muhammad Rasyid', 'Alexander Bramastra Haryanto', 'Nur Bintang Farhan', 'Daud Mustofa Munief', 'Julian Ikhlas Ikhtiar', 'Putra Sianipar', 'Muhammad Naufal Musaddad'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   { 
-    name: 'IKATAN MAHASISWA TELEKOMUNIKASI (IMT "SIGNUM")',
+    name: 'IKATAN MAHASISWA TELEKOMUNIKASI "SIGNUM" ITB (IMT "SIGNUM" ITB)',
     image: '/LogoHMPS/IMT.png',
     sports: [
       {
@@ -1326,10 +1571,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   {
-    name: 'KELUARGA MAHASISWA INFRASTRUKTUR LINGKUNGAN (KMIL)',
+    name: 'KELUARGA MAHASISWA INFRASTRUKTUR LINGKUNGAN ITB (KMIL ITB)',
     image: '/LogoHMPS/KMIL.png',
     sports: [
       {
@@ -1364,10 +1617,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   { 
-    name: 'KELUARGA MAHASISWA MANAJEMEN (KMM)',
+    name: 'KELUARGA MAHASISWA MANAJEMEN ITB (KMM ITB)',
     image: '/LogoHMPS/KMM.png',
     sports: [
       {
@@ -1402,10 +1663,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['Dio Hari Syahputra', 'Candra Wijaya Rahman', 'Yogi Chegovara Pratama', 'Kendra Rasyidnaz Hadidharma', 'Victor Ringuedé', 'Agatbe Thymoty', 'Mario Keita Adika', 'Adi Ahmad Hidayat', 'Bogdan Maier', 'Naufal Khairata Rizal', 'Maximilian Yoga Ananta W', 'Muhammad Fadhil'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   { 
-    name: 'KELUARGA MAHASISWA TEKNIK INDUSTRI (MTI)',
+    name: 'KELUARGA MAHASISWA TEKNIK INDUSTRI ITB (MTI ITB)',
     image: '/LogoHMPS/MTI.png',
     sports: [
       {
@@ -1440,10 +1709,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['Febthree Shafrut Qindil Azka', 'Jamaludin Ahmad', 'Mahabbah Azzaky Naufal Toti', 'Muhammad Raditya Tri Atmaja', 'Muhammad Naufal Regga Reviadi', 'Ryan Rendi Agatha Silalahi', 'Rizqi khoirul Amilin', 'Farros Xavier Fayyadh', 'Hilarius Febrianto Sidabutar', 'Ohanprada Hebrizky Sitorus', 'Ghani Syahputra'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   {
-    name: 'KELUARGA MAHASISWA TEKNIK KELAUTAN (KMKL)',
+    name: 'KELUARGA MAHASISWA TEKNIK KELAUTAN ITB (KMKL-ITB)',
     image: '/LogoHMPS/KMKL.png',
     sports: [
       {
@@ -1478,6 +1755,14 @@ export const teams = [
         sportName: 'Voli',
         players: ['TBA'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   { 
@@ -1516,10 +1801,18 @@ export const teams = [
         sportName: 'Voli',
         players: ['Hitado Managam Sitorus', 'Aafreen Al Farouq', 'Dhani Putra Kurniawan', 'Jovian Oliver Mallo Pasaribu', 'Farid Abdul Aziz', 'Hotman Jhonson Alexander Limbong', 'Raden Mas Mufid Suryo Ardyanyo', 'Muhammad Nuril Akbar', 'Kevin Abednego Djawa', 'Jean Matthew Setiabekti', 'Joseph Amadeus G.L Tobing', 'Marchel Sahat Ganda Simangunsong'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
   { 
-    name: 'KELUARGA MAHASISWA SENI RUPA (KMSR)',
+    name: 'KELUARGA MAHASISWA SENI RUPA ITB (KMSR ITB)',
     image: '/LogoHMPS/KMSR.png',
     sports: [
       {
@@ -1554,6 +1847,14 @@ export const teams = [
         sportName: 'Voli',
         players: ['Aryadipa Rizqi Yudhistira', 'Nicholas Yogaswara', 'Samuel Theodorus', 'Muhammad Ridho Kusworo', 'Delvin Nazzala Rozan', 'Mochamad Fachrudin', 'Maulana Vajar Gemilang', 'Adil Muhammad', 'Dimas Stefano', 'Samuel Ciaves'],
       },
+      {
+        sportName: 'Mobile Legends',
+        players: ['TBA'],
+      },
+      {
+        sportName: 'Valorant',
+        players: ['TBA'],
+      }
     ],
   },
 ];

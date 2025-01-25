@@ -23,6 +23,8 @@ import BgPop from "@/public/bgpop.svg";
 import ComingSoon from "@/public/COMING SOON.svg";
 import ML from "@/public/mobilelegends.png";
 import Valorant from "@/public/Valorant.png";
+import ML2 from "@/public/ml2.svg";
+import Valorant2 from "@/public/valo2.svg";
 
 const page = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -155,7 +157,7 @@ const page = () => {
           <input
             ref={inputRef}
             type="text"
-            placeholder="CARI HIMPUNAN MAHASISWA JURUSAN/PROGRAM STUDI"
+            placeholder="CARI NAMA HIMPUNAN"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             onFocus={() => setShowDropdown(true)} // Show dropdown when input is focused
@@ -170,7 +172,7 @@ const page = () => {
               {filteredTeams.map((team, index) => (
                 <div
                   key={index}
-                  className="p-3 hover:bg-gray-200 cursor-pointer bonjour-font border-bottom-center flex gap-3"
+                  className="p-3 hover:bg-gray-200 cursor-pointer bonjour-font border-bottom-center flex gap-3 items-center"
                   onClick={() => {
                     setSelectedTeam(team);
                     setShowDropdown(false); // Hide dropdown when team is selected
@@ -188,7 +190,7 @@ const page = () => {
         {/* Selected Team */}
         {selectedTeam && (
           <div className="mt-10 pb-8 w-[90%] mx-auto">
-            <div className="flex gap-5 mb-5">
+            <div className="flex gap-5 mb-5 items-center">
               <Image
                 src={selectedTeam.image}
                 alt="Logo"
@@ -358,8 +360,8 @@ const page = () => {
                 <Image
                   src={Basket2}
                   alt="Logo"
-                  // width={20}
-                  // height={20}
+                  width={20}
+                  height={20}
                   className="w-[80%] rounded-xl mx-auto"
                 />
               )}
@@ -388,6 +390,24 @@ const page = () => {
                   width={20}
                   height={20}
                   className="w-[80%] rounded-xl mx-auto"
+                />
+              )}
+              {showSport.sportName == "Mobile Legends" && (
+                <Image
+                  src={ML2}
+                  alt="Logo"
+                  width={20}
+                  height={20}
+                  className="w-[80%] rounded-xl mx-auto"
+                />
+              )}
+              {showSport.sportName == "Valorant" && (
+                <Image
+                  src={Valorant2}
+                  alt="Logo"
+                  width={20}
+                  height={20}
+                  className="w-[80%] rounded-xl mx-auto pt-8 -pb-3"
                 />
               )}
               <div className="grid grid-cols-2 gap-2 px-5 md:px-16 -mt-5 md:-mt-16">
