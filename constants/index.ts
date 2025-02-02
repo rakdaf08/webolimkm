@@ -76,7 +76,7 @@ export const teams = [
       },
       {
         sportName: 'Basket',
-        players: ['Aliya Husna Fayyaza', 'Angelica Aliwinata', 'Audy Alicia Renatha Tirayoh', 'Bevinda Vivian', 'Indah Novita Tangdililing', 'Lidya Marthadilla', 'Princessfa Azzahra Alvin', 'Egina Deva Carissa', 'Erdianti Wiga Putri Andini', 'Willhelmina Rachel Silalahi', 'Ariel Jovananda', 'Christian Justin Hendrawan', 'Daffa Athalla Rajasa', 'Juan Sohuturon Arauna Siagian', 'Kenneth Ezekiel', 'Kenny Benaya Nathan', 'Matthew Sebastian Kurniawan', 'Michael Dimas Sarono', 'Ricky Wijaya', 'Ariel Jovananda', 'Christian Justin Hendrawan', 'Daffa Athalla Rajasa', 'Juan Sohuturon Arauna Siagian', 'Kenneth Ezekiel', 'Kenny Benaya Nathan', 'Matthew Sebastian Kurniawan', 'Michael Dimas Sarono', 'Ricky Wijaya', 'Fajar Maulana Herawan', 'Timotius Vivaldi Gunawan', 'Raka Admiharfan Fatihah', 'Muhammad Kevinza Faiz', 'Bob Kunanda', 'Samuel Fransiscus'],
+        players: ['Aliya Husna Fayyaza', 'Angelica Aliwinata', 'Audy Alicia Renatha Tirayoh', 'Bevinda Vivian', 'Indah Novita Tangdililing', 'Lidya Marthadilla', 'Princessfa Azzahra Alvin', 'Egina Deva Carissa', 'Erdianti Wiga Putri Andini', 'Willhelmina Rachel Silalahi', 'Ariel Jovananda', 'Christian Justin Hendrawan', 'Daffa Athalla Rajasa', 'Juan Sohuturon Arauna Siagian', 'Kenneth Ezekiel', 'Kenny Benaya Nathan', 'Matthew Sebastian Kurniawan', 'Michael Dimas Sarono', 'Ricky Wijaya', 'Fajar Maulana Herawan', 'Timotius Vivaldi Gunawan', 'Raka Admiharfan Fatihah', 'Muhammad Kevinza Faiz', 'Bob Kunanda', 'Samuel Fransiscus'],
       },
       {
         sportName: 'Catur',

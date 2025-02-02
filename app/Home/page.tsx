@@ -176,7 +176,7 @@ const MainPage = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col h-full overflow-hidden w-full bg-[#F9F3BA] relative p-10">
+      {/* <div className="flex flex-col h-full overflow-hidden w-full bg-[#F9F3BA] relative p-10">
         <Image
           src={TimelineTitle}
           alt="Title"
@@ -200,7 +200,7 @@ const MainPage = () => {
           height={20}
           className="w-full mx-auto"
         />
-      </div>
+      </div> */}
     </section>
   );
 };
