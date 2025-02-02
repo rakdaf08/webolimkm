@@ -22,7 +22,7 @@ import Voli2 from "@/public/voli2.svg";
 import BgPop from "@/public/bgpop.svg";
 import ComingSoon from "@/public/COMING SOON.svg";
 import ML from "@/public/mobilelegends.png";
-import Valorant from "@/public/Valorant.png";
+import Valorant from "@/public/valorant.png";
 import ML2 from "@/public/ml2.svg";
 import Valorant2 from "@/public/valo2.svg";
 

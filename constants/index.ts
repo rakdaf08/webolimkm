@@ -139,7 +139,7 @@ export const teams = [
       },
       {
         sportName: 'Tenis Meja',
-        players: ['M. Khawariz Andaristiyan', 'Rafa Nanda Akilah', 'Kiki Citra Wati', 'Fatiha Izza Tunisa','Player 1'],
+        players: ['M. Khawariz Andaristiyan', 'Rafa Nanda Akilah', 'Kiki Citra Wati', 'Fatiha Izza Tunisa'],
       },
       {
         sportName: 'Voli',
@@ -185,7 +185,7 @@ export const teams = [
       },
       {
         sportName: 'Tenis Meja',
-        players: ['Alvin Zuhri', 'Arya Faiza Sebastian', 'Ershafa Nailah', 'Ransi Raihan','Player 1'],
+        players: ['Alvin Zuhri', 'Arya Faiza Sebastian', 'Ershafa Nailah', 'Ransi Raihan'],
       },
       {
         sportName: 'Voli',
@@ -897,7 +897,7 @@ export const teams = [
     sports: [
       {
         sportName: 'Atletik',
-        players: ['Bona Ventura D Taplo', 'Immanuel Satria A M N', 'Rizqi Andhika Satrya Putra', 'Kasih Paskah Avrilla Sinaga', 'Revina Elisabeth Permata Sari', 'Adil Satria Buana', 'Player 7'],
+        players: ['Bona Ventura D Taplo', 'Immanuel Satria A M N', 'Rizqi Andhika Satrya Putra', 'Kasih Paskah Avrilla Sinaga', 'Revina Elisabeth Permata Sari', 'Adil Satria Buana'],
       },
       {
         sportName: 'Badminton',
@@ -989,7 +989,7 @@ export const teams = [
     sports: [
       {
         sportName: 'Atletik',
-        players: ['Raihan Aqilla Naufaly Hendarsyah', 'Bonifasius Christian Wisetya', 'Sofie Samantha Joris Putri', 'Nazlia Zahra Wahdani', 'M. Raindra Faizza Adhitama', 'Zuhra Dzaki Pawenang', 'Player 7'],
+        players: ['Raihan Aqilla Naufaly Hendarsyah', 'Bonifasius Christian Wisetya', 'Sofie Samantha Joris Putri', 'Nazlia Zahra Wahdani', 'M. Raindra Faizza Adhitama', 'Zuhra Dzaki Pawenang'],
       },
       {
         sportName: 'Badminton',
@@ -1013,7 +1013,7 @@ export const teams = [
       },
       {
         sportName: 'Tenis Meja',
-        players: ['Agung Imansyah', 'Luthfie Eka Surya Kelana', 'Meira Madya Kurnia Putri', 'Bagas Prakasa Akbar', 'Siti Asih Rahmahaya', 'Player 6', 'Player 7','TBA'],
+        players: ['Agung Imansyah', 'Luthfie Eka Surya Kelana', 'Meira Madya Kurnia Putri', 'Bagas Prakasa Akbar', 'Siti Asih Rahmahaya'],
       },
       {
         sportName: 'Voli',
@@ -1035,11 +1035,11 @@ export const teams = [
     sports: [
       {
         sportName: 'Atletik',
-        players: ['TBA'],
+        players: ['Zisqow'],
       },
       {
         sportName: 'Badminton',
-        players: ['TBA'],
+        players: ['Mumtaz, Refina, Sultoni, Devan, Rona'],
       },
       {
         sportName: 'Basket',
@@ -1055,7 +1055,7 @@ export const teams = [
       },
       {
         sportName: 'Renang',
-        players: ['TBA'],
+        players: ['Marcelino'],
       },
       {
         sportName: 'Tenis Meja',
@@ -1081,7 +1081,7 @@ export const teams = [
     sports: [
       {
         sportName: 'Atletik',
-        players: ['Mazaya Shafa Alisha', 'Menur Anindya Hanan Tandyo', 'Jeihan Anwar', 'Muhammad Riezky Daffaa Aqila', 'Faris Ardhi Duineri', 'Player 6', 'Player 7'],
+        players: ['Mazaya Shafa Alisha', 'Menur Anindya Hanan Tandyo', 'Jeihan Anwar', 'Muhammad Riezky Daffaa Aqila', 'Faris Ardhi Duineri'],
       },
       {
         sportName: 'Badminton',
@@ -1173,7 +1173,7 @@ export const teams = [
     sports: [
       {
         sportName: 'Atletik',
-        players: ['Rizky Nimpar Perangin-Angin', 'Rizqi Nur Fadhilah', 'A`rifaturrohmah', 'Fryni Rana Ikrima', 'Derrel Ichsanuddin', 'Ammar Nabhan Eljaad', 'Player 7'],
+        players: ['Rizky Nimpar Perangin-Angin', 'Rizqi Nur Fadhilah', 'A`rifaturrohmah', 'Fryni Rana Ikrima', 'Derrel Ichsanuddin', 'Ammar Nabhan Eljaad'],
       },
       {
         sportName: 'Badminton',
@@ -1265,7 +1265,7 @@ export const teams = [
     sports: [
       {
         sportName: 'Atletik',
-        players: ['Luthfi Wavian', 'Ziham Hafidz Dwiseptano', 'Muhammad Aziz Zarkasya Ramdani ', 'Player 4'],
+        players: ['Luthfi Wavian', 'Ziham Hafidz Dwiseptano', 'Muhammad Aziz Zarkasya Ramdani '],
       },
       {
         sportName: 'Badminton',
@@ -1519,7 +1519,7 @@ export const teams = [
       },
       {
         sportName: 'Tenis Meja',
-        players: ['Muhammad Hilmy Hawari', 'Kevin Ariya Mudita Sumarto', 'Muhammad Fathan Juniarta', 'Hanna Humaira', 'Atikah Salsabila Azzahra', 'Player 6', 'Player 7','TBA'],
+        players: ['Muhammad Hilmy Hawari', 'Kevin Ariya Mudita Sumarto', 'Muhammad Fathan Juniarta', 'Hanna Humaira', 'Atikah Salsabila Azzahra'],
       },
       {
         sportName: 'Voli',
@@ -1679,7 +1679,7 @@ export const teams = [
     sports: [
       {
         sportName: 'Atletik',
-        players: ['Muhammad Rigel Alhuda', 'Theopillus M Christianto ', 'Annisa Putri', 'Joylina Metta', 'Rozan Maulana Amin', 'Abirizar Daud', 'Player 7'],
+        players: ['Muhammad Rigel Alhuda', 'Theopillus M Christianto ', 'Annisa Putri', 'Joylina Metta', 'Rozan Maulana Amin', 'Abirizar Daud'],
       },
       {
         sportName: 'Badminton',
@@ -1791,11 +1791,11 @@ export const teams = [
       },
       {
         sportName: 'Renang',
-        players: ['Qinthary Syifanabi’ilah Lovely Muakil', 'Christo Kinarta Purba', 'Caka Bagas Khairi', 'Player 4'],
+        players: ['Qinthary Syifanabi’ilah Lovely Muakil', 'Christo Kinarta Purba', 'Caka Bagas Khairi'],
       },
       {
         sportName: 'Tenis Meja',
-        players: ['Ahmad Dzakwaan Haniif Herefa', 'Rahmana Tri Lailafala', 'Hotman Jhonson Alexander Limbong', 'Adhifa Pramaswari', 'Ranisa Azmi Desnita', 'Player 6', 'Player 7','TBA'],
+        players: ['Ahmad Dzakwaan Haniif Herefa', 'Rahmana Tri Lailafala', 'Hotman Jhonson Alexander Limbong', 'Adhifa Pramaswari', 'Ranisa Azmi Desnita'],
       },
       {
         sportName: 'Voli',
