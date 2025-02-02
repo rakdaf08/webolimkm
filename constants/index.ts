@@ -68,16 +68,15 @@ export const teams = [
     sports: [
       {
         sportName: 'Atletik',
-        players: ['Razi Rachman Widyadhana'],
+        players: ['Razi Rachman Widyadhana', 'Daffa Athalla Rajasa', 'Nathaniel Jonathan Rusli', 'Ivan Wirawan'],
       },
       {
         sportName: 'Badminton',
-        players: ['TBA'],
+        players: ['Naufal Adnan', 'Lidya Marthadilla', 'Farel Winalda', 'Louis Ferdyo Gunawan', 'Angelica Aliwinata', 'Janetta Olivia Gunawan', 'Willhelmina Rachel Silalahi', 'Varel Tiara', 'Wilson Tansil'],
       },
       {
         sportName: 'Basket',
-        players: ['Aliya Husna Fayyaza', 'Angelica Aliwinata', 'Audy Alicia Renatha Tirayoh', 'Bevinda Vivian', 'Indah Novita Tangdililing', 'Lidya Marthadilla', 'Princessfa Azzahra Alvin', 'Egina Deva Carissa', 'Erdianti Wiga Putri Andini', 'Willhelmina Rachel Silalahi', 'Ariel Jovananda', 'Christian Justin Hendrawan', 'Daffa Athalla Rajasa', 'Juan Sohuturon Arauna Siagian', 'Kenneth Ezekiel', 'Kenny Benaya Nathan', 'Matthew Sebastian Kurniawan', 'Michael Dimas Sarono', 'Ricky Wijaya'
-        ],
+        players: ['Aliya Husna Fayyaza', 'Angelica Aliwinata', 'Audy Alicia Renatha Tirayoh', 'Bevinda Vivian', 'Indah Novita Tangdililing', 'Lidya Marthadilla', 'Princessfa Azzahra Alvin', 'Egina Deva Carissa', 'Erdianti Wiga Putri Andini', 'Willhelmina Rachel Silalahi', 'Ariel Jovananda', 'Christian Justin Hendrawan', 'Daffa Athalla Rajasa', 'Juan Sohuturon Arauna Siagian', 'Kenneth Ezekiel', 'Kenny Benaya Nathan', 'Matthew Sebastian Kurniawan', 'Michael Dimas Sarono', 'Ricky Wijaya', 'Ariel Jovananda', 'Christian Justin Hendrawan', 'Daffa Athalla Rajasa', 'Juan Sohuturon Arauna Siagian', 'Kenneth Ezekiel', 'Kenny Benaya Nathan', 'Matthew Sebastian Kurniawan', 'Michael Dimas Sarono', 'Ricky Wijaya', 'Fajar Maulana Herawan', 'Timotius Vivaldi Gunawan', 'Raka Admiharfan Fatihah', 'Muhammad Kevinza Faiz', 'Bob Kunanda', 'Samuel Fransiscus'],
       },
       {
         sportName: 'Catur',
@@ -85,11 +84,11 @@ export const teams = [
       },
       {
         sportName: 'Futsal',
-        players: ['Audy Alicia Renatha Tirayoh', 'Aliya harta Ary Utama', 'Aliya Husna Fayyaza', 'Princessfa Azzahra Alvin', 'Bevinda Vivian', 'Dita Maheswari', 'Indah Novita Tangdililing', 'Ni Made Sekar Jelita P', 'Lidya Marthadilla', 'Zheannetta Apple Haihando'],
+        players: ['Audy Alicia Renatha Tirayoh', 'Aliya harta Ary Utama', 'Aliya Husna Fayyaza', 'Princessfa Azzahra Alvin', 'Bevinda Vivian', 'Dita Maheswari', 'Indah Novita Tangdililing', 'Ni Made Sekar Jelita P', 'Lidya Marthadilla', 'Zheannetta Apple Haihando','Yusuf Ardian Sandi', 'Muhamad Rifki Virziadeili Harisman', 'Muhammad Yaafi Wasesa Putra', 'Natanael Steven S', 'Rahman Satya', 'Muhammad Zaki Amanullah', 'Imam Rusydi Ibrahim', 'Fadhlan Nazhif Azizy', 'Ananda Abdul Hafiz', 'Abraham Megantoro Samudra', 'Izhar Alif Akbar', 'Adam Joaquin', 'Razi Rachman Widyadhana', 'Fayyadh', 'William Glory Henderson'],
       },
       {
         sportName: 'Renang',
-        players: ['TBA'],
+        players: ['Mohammad Akmal Ramadan' ,'Nathaniel Liady', 'Khairunnisa Azizah'],
       },
       {
         sportName: 'Tenis Meja',
@@ -101,11 +100,23 @@ export const teams = [
       },
       {
         sportName: 'Mobile Legends',
-        players: ['TBA'],
+        players: [
+          'Alexander Jason', 'Farhan Nabil Suryono', 'Fakhri Muhammad Mahendra', 
+          'Imanuel Sebastian Girsang', 'Aloisius Adrian Stevan Gunawan', 
+          'Ahmad Rafi Maliki', 'Cathleen Lauretta', 'Muhammad Rafly Fauzan', 
+          'Razi Rachman Widyadhana', 'Mochammad Fariz Rifqi R', 
+          'Mahesa Satria Prayata', 'Luckman F Arvasirri', 
+          'Ferro Arka Berlian', 'Muhammad Daffa Al Ghifari'
+      ],
       },
       {
         sportName: 'Valorant',
-        players: ['TBA'],
+        players: [
+          'William Glory Henderson', 'Nicholas Zefanya Lamtyo N', 
+          'Devon Wiraditya Tanumihardja', 'Adril Putra Merin', 
+          'Shafiq Irvansyah', 'Nathaniel Jonathan Rusli', 
+          'Alvin Christopher Santausa'
+      ],
       }
     ],
   },
